@@ -3,7 +3,7 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Dial Lab"
+name:               "DIAL Lab"
 
 author:
   # facebook:         your-id
@@ -71,8 +71,8 @@ nav:
     url:            "/tags"
   #- name:           "Events"
   #  url:            "/events"
-  - name:           "Github"
-    url:            "https://github.com/diallab"
+  #- name:           "Github"
+  #  url:            "https://github.com/diallab"
 
 # Sass
 sass:
