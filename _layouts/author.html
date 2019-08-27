@@ -1,0 +1,129 @@
+---
+layout: default
+---
+<header>
+    <div class="header-small">
+        <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
+        <nav class="header-nav">
+            {% for nav in site.nav %}
+            {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+            <a href="{{ nav.url }}">{{ nav.name }}</a>
+            {% else %}
+            <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
+            {% endif %}
+            {% endfor %}
+        </nav>
+    </div>
+</header>
+
+<div id="author">
+    <!-- <div class="author-cover" {% if page.cover %}style="background-image: url({{ page.cover }});" {% endif %}>
+        <div>
+            <div id="cover-author-image" {% if page.image %}style="background-image:url({{ page.image }});" {% endif %}>
+                <span class="sr-only">{{ page.name }}'s profile image</span>
+            </div>
+            <h1>{{ page.title }}</h1>
+            <p>All Posts by <em>{{ page.name }}</em></p>
+        </div>
+    </div> -->
+    <div class="author-name">{{ page.name }}</div>
+    {{ content }}
+    <!-- <div class="author-post-title">posts</div> -->
+
+    <a name="post-position"></a>
+    <p align="center">
+        <a href="#post-research", style="color: black">Research</a> | 
+        <a href="#post-news", style="color: black">News</a> | 
+        <a href="#post-seminar", style="color: black">Seminar</a>
+    </p>
+
+    <h3>Research</h3>
+    <a name="post-research"></a>
+    {% for post in site.categories.research %}
+    {% if post.author == page.name %}
+    <div class="author-post">
+            <a name="post-position"></a>
+                <div class="author-post-content">
+                    {% if post.link %}
+                    <a href="{{ post.link }}">
+                        {% else %}
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            {% endif %}
+                            <span class="author-post-content-title">
+                                {{ post.title }}
+                            </span>
+                            <span class="author-post-content-date">
+                                posted on <time>{{ post.date | date_to_string }}</time>
+                            </span><br>
+                            {% if post.description %}
+                            <span class="author-post-content-description">
+                                {{ post.description }}
+                            </span>
+                            {% endif %}
+                        </a>
+                </div>
+            </div>
+    {% endif %}
+    {% endfor %}
+    <a href="#post-position", style="color:black"><p style="text-align:right">top ></p></a>
+
+    <h3>News</h3>
+    <a name="post-news"></a>
+    {% for post in site.categories.news %}
+    {% if post.author == page.name %}
+    <div class="author-post">
+            <a name="post-position"></a>
+                <div class="author-post-content">
+                    {% if post.link %}
+                    <a href="{{ post.link }}">
+                        {% else %}
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            {% endif %}
+                            <span class="author-post-content-title">
+                                {{ post.title }}
+                            </span>
+                            <span class="author-post-content-date">
+                                posted on <time>{{ post.date | date_to_string }}</time>
+                            </span><br>
+                            {% if post.description %}
+                            <span class="author-post-content-description">
+                                {{ post.description }}
+                            </span>
+                            {% endif %}
+                        </a>
+                </div>
+            </div>
+    {% endif %}
+    {% endfor %}
+    <a href="#post-position", style="color:black"><p style="text-align:right">top ></p></a>
+
+    <h3>Seminar</h3>
+    <a name="post-seminar"></a>
+    {% for post in site.categories.seminar %}
+    {% if post.author == page.name %}
+    <div class="author-post">
+            <a name="post-position"></a>
+                <div class="author-post-content">
+                    {% if post.link %}
+                    <a href="{{ post.link }}">
+                        {% else %}
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            {% endif %}
+                            <span class="author-post-content-title">
+                                {{ post.title }}
+                            </span>
+                            <span class="author-post-content-date">
+                                posted on <time>{{ post.date | date_to_string }}</time>
+                            </span><br>
+                            {% if post.description %}
+                            <span class="author-post-content-description">
+                                {{ post.description }}
+                            </span>
+                            {% endif %}
+                        </a>
+                </div>
+            </div>
+    {% endif %}
+    {% endfor %}
+    <a href="#post-position", style="color:black"><p style="text-align:right">top ></p></a>
+</div>

@@ -1,0 +1,79 @@
+---
+layout: page
+title: Publication
+permalink: /publication/publication_conferences.html
+---
+
+<a href="index.html", style="color: black">Journals</a> | 
+<a href="publication_conferences.html", style="color:cornflowerblue">Conferences</a>
+
+<div class="publication">
+        <div class="publication-list">
+            <h2>International Conferences</h2>
+            {% if site.categories.conference_international.size == 0 %}
+            <h2>No publication found</h2>
+            {% else %}
+                {% for post in site.categories.conference_international %}
+                <div class="publication-list-post">
+                    <div class="publication-list-post-content">
+                        <!-- 바로 paper link -->
+                        {% if post.link %}
+                        <a href="{{ post.link }}">
+                        {% else %}
+                        <!-- 관련 글이 있을 경우? -->
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            {% endif %}
+                            <span class="publication-list-post-content-title">
+                                {{ post.title }}
+                            </span><br>
+                            {% if post.description %}
+                            <span class="publication-list-post-content-description">
+                                {{ post.description }}
+                            </span>
+                            {% endif %}
+                        </a>
+                    </div>
+                    <!-- {% if post.paper %}
+                    <div class="publication-list-post-file">
+                        <a href="{{ post.paper }}">paper</a>
+                    </div>
+                    {% endif %} -->
+                </div>
+                {% endfor %}
+            {% endif %}
+    
+            <h2>Domestic Conferences</h2>
+            {% if site.categories.conference_domestic.size == 0 %}
+            <h2>No publication found</h2>
+            {% else %}
+                {% for post in site.categories.conference_domestic %}
+                <div class="publication-list-post">
+                    <div class="publication-list-post-content">
+                        <!-- 바로 paper link -->
+                        {% if post.link %}
+                        <a href="{{ post.link }}">
+                        {% else %}
+                        <!-- 관련 글이 있을 경우? -->
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            {% endif %}
+                            <span class="publication-list-post-content-title">
+                                {{ post.title }}
+                            </span><br>
+                            {% if post.description %}
+                            <span class="publication-list-post-content-description">
+                                {{ post.description }}
+                            </span>
+                            {% endif %}
+                        </a>
+                    </div>
+                    <!-- {% if post.paper %}
+                    <div class="publication-list-post-file">
+                        <a href="{{ post.paper }}">paper</a>
+                    </div>
+                    {% endif %} -->
+                </div>
+                {% endfor %}
+            {% endif %}
+            
+        </div>
+    </div>

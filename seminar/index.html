@@ -1,0 +1,46 @@
+---
+layout: page
+title: Seminar
+---
+
+<div class="seminar">
+    <div class="seminar-list">
+        {% if site.categories.seminar.size == 0 %}
+        <h2>No seminar found</h2>
+        {% else %}
+        {% for post in site.categories.seminar %}
+        <div class="seminar-list-post">
+            <div class="seminar-list-post-content">
+                {% if post.link %}
+                <a href="{{ post.link }}">
+                    {% else %}
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                        {% endif %}
+                        <span class="seminar-list-post-content-title">
+                            {{ post.title }}
+                        </span>
+                        <span class="seminar-list-post-content-date">
+                            by {{ post.author }}, <time>{{ post.date | date_to_string }}</time>
+                        </span><br>
+                        {% if post.description %}
+                        <span class="seminar-list-post-content-description">
+                            {{ post.description }}
+                        </span>
+                        {% endif %}
+                    </a>
+            </div>
+            <!-- {% if post.pdf or post.ppt %}
+            <div class="seminar-list-post-file">
+                {% if post.pdf %}
+                <a href="{{ post.pdf }}">pdf</a>
+                {% endif %}
+                {% if post.ppt %}
+                <a href="{{ post.ppt }}">ppt</a>
+                {% endif %}
+            </div>
+            {% endif %} -->
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+</div>

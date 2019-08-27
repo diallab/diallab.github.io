@@ -1,0 +1,99 @@
+---
+layout: page
+title: Research
+permalink: /research/index.html
+---
+
+<a href="index.html", style="color:cornflowerblue">Projects</a> | 
+<a href="research_areas_index.html", style="color:black">Research Areas</a>
+
+
+<div class="research">
+    <div class="research-list">
+        <h2>Ongoing Projects</h2>
+        {% if site.categories.research_ongoing.size == 0 %}
+        <h3>No ongoing research project found</h3>
+        {% else %}
+            {% for post in site.categories.research_ongoing %}
+            <div class="research-post">
+                <div class="research-list-post-content">
+                    {% if post.link %}
+                    <a href="{{ post.link }}">
+                        {% else %}
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            {% endif %}
+                            <span class="research-list-post-content-title">
+                                {{ post.title }}
+                            </span>
+                            <span class="research-list-post-content-date">
+                                by {{ post.author }}, <time>{{ post.date | date_to_string }}</time>
+                            </span><br>
+                            {% if post.description %}
+                            <span class="research-list-post-content-description">
+                                {{ post.description }}
+                            </span>
+                            {% endif %}
+                        </a>
+                </div>
+            </div>
+            {% endfor %}
+        {% endif %}
+
+        <h2>Former Projects</h2>
+        {% if site.categories.research_former.size == 0 %}
+        <h3> No former research project found </h3>
+        {% else %}
+        {% for post in site.categories.research_former %}
+            <div class="research-list-post">
+                <div class="research-list-post-content">
+                    {% if post.link %}
+                    <a href="{{ post.link }}">
+                        {% else %}
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            {% endif %}
+                            <span class="research-list-post-content-title">
+                                {{ post.title }}
+                            </span>
+                            <span class="research-list-post-content-date">
+                                by {{ post.author }}, <time>{{ post.date | date_to_string }}</time>
+                            </span><br>
+                            {% if post.description %}
+                            <span class="research-list-post-content-description">
+                                {{ post.description }}
+                            </span>
+                            {% endif %}
+                        </a>
+                </div>
+            </div>
+            {% endfor %}
+        {% endif %}
+
+        <!-- {% if site.categories.research.size == 0 %}
+        <h2>No research found</h2>
+        {% else %}
+        {% for post in site.categories.research %}
+        <div class="research-list-post">
+            <div class="research-list-post-content">
+                {% if post.link %}
+                <a href="{{ post.link }}">
+                    {% else %}
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                        {% endif %}
+                        <span class="research-list-post-content-title">
+                            {{ post.title }}
+                        </span>
+                        <span class="research-list-post-content-date">
+                            by {{ post.author }}, <time>{{ post.date | date_to_string }}</time>
+                        </span><br>
+                        {% if post.description %}
+                        <span class="research-list-post-content-description">
+                            {{ post.description }}
+                        </span>
+                        {% endif %}
+                    </a>
+            </div>
+        </div>
+        {% endfor %}
+        {% endif %} -->
+    </div>
+</div>

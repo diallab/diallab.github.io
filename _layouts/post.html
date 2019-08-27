@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<header>
+  <div class="header-small">
+    <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
+    <nav class="header-nav">
+        {% for nav in site.nav %}
+        {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+        <a href="{{ nav.url }}">{{ nav.name }}</a>
+        {% else %}
+        <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
+        {% endif %}
+        {% endfor %}
+    </nav>
+  </div>
+</header>
+<div class="post">
+  <div class="post-title">{{ page.title }}</div>
+  <span class="post-date">
+    <time>{{ page.date | date_to_string }}</time>
+  </span>
+  <div class="post-tag">
+    <ul>
+      {% for tag in page.tags %}
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+          <span>{{ tag }}</span>
+        </a>
+      </li>
+      {% unless forloop.last %}{% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+  
+
+  {{ content }}
+
+  {% if page.author or page.pdf or page.ppt %}
+  <div class="post-footer">
+    {% if page.author %}
+    <div class="post-footer-author">
+        Posted by <a href="/authors/{{page.author}}">{{ page.author }}</a>
+    </div>
+    {% endif %}
+    {% if page.pdf or page.ppt %}
+    <div class="post-footer-file">
+        {% if page.pdf %}
+        <!-- <img src="/images/pdf_icon.svg"/> -->
+        <a href="{{ page.pdf }}">download pdf</a>
+        {% endif %}
+        {% if page.ppt %}
+        <!-- <img src="/images/ppt_icon.svg" />z -->
+        <a href="{{ page.ppt }}">download slide</a>
+        {% endif %}
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <!-- Disqus -->
+  {% if page.comments != false and site.disqus.id %}
+  <div class="post-disqus">
+      <section id="disqus_thread"></section>
+      {% include disqus.html %}
+  </div>
+  {% endif %}
+
+</div>

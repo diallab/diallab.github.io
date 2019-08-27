@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<header class="header">
+    <div class="header-title">
+        <a href="{{ site.url }}{{ site.baseurl }}">
+            <img src="/images/scg_logo.png">{{ site.name }}
+        </a>
+    </div>
+    <nav class="header-nav">
+        {% for nav in site.nav %}
+        {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+        <a href="{{ nav.url }}">{{ nav.name }}</a>
+        {% else %}
+        <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
+        {% endif %}
+        {% endfor %}
+    </nav>
+</header>
+
+<hr />
+
+<h2>Research Areas</h2>
+<table>
+    <tr align="center">
+        <td>
+            <h3>1. A</h3>
+            A is one of the research areas.
+        </td>
+        <td>
+            <h3>2. B</h3>
+            B is one of the research areas.
+        </td>
+    </tr>
+    <tr align="center" bgcolor=#f1f3f5>
+        <td>
+            <h3>3. C</h3>
+            C is one the the research areas.
+        </td>
+        <td>
+            <h3>4. D</h3>
+            D is one the the research areas.
+        </td>
+    </tr>
+</table>
+<a href="research/research_areas_index.html", style="color:black"><p style="text-align:right">more ></p></a>
+
+<hr>
+<div class="list">
+    <h2>Recent News</h2>
+    {% if site.categories.news.size == 0 %}
+    <h2>No news found</h2>
+    {% else %}
+    <!-- This loops through the paginated posts -->
+    {% for post in site.categories.news limit:2 %}
+    <div class="list-post">
+        {% if post.link %}
+        <a href="{{ post.link }}">
+            {% else %}
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                {% endif %}
+                <div class="list-post-date">
+                    <time>{{ post.date | date_to_string }}</time>
+                </div>
+                <div class="list-post-title">
+                    {{ post.title }}
+                </div>
+                {% if post.description %}
+                <div class="list-post-desc">
+                    {{ post.description }}
+                </div>
+                {% endif %}
+            </a>
+        </a>
+    </div>
+    {% endfor %}
+    <a href="news/index.html", style="color:black"><p style="text-align:right">more ></p></a>
+    {% endif %}
+</div>
