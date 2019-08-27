@@ -7,7 +7,7 @@ description: Computer Science / Machine Learning
 <hr>
 
 ![Photo](http://cheb-room.ru/uploads/cheb/2016/11/w9RC4W-QqXw-200x200.jpg)
-Undergraduate Student<br>Sungkyunkwan University<br>Computer Science, Machine Learning
+Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Computer Science, Machine Learning
 
 <hr>
 
@@ -19,6 +19,6 @@ My name is Jiwoo Kim :)
 **Location**: 85453
 
 ## More Information
-[Personal Website](https://www.naver.com)
+[Personal Website]()
 
 ## Posts
