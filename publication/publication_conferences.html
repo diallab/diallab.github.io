@@ -6,6 +6,8 @@ permalink: /publication/publication_conferences.html
 
 <a href="index.html", style="color: black">Journals</a> | 
 <a href="publication_conferences.html", style="color:cornflowerblue">Conferences</a>
+<a style="color:white">{% increment conference_international_number %}</a>
+<a style="color:white">{% increment conference_domestic_number %}</a>
 
 <div class="publication">
         <div class="publication-list">
@@ -16,28 +18,17 @@ permalink: /publication/publication_conferences.html
                 {% for post in site.categories.conference_international %}
                 <div class="publication-list-post">
                     <div class="publication-list-post-content">
-                        <!-- 바로 paper link -->
-                        {% if post.link %}
-                        <a href="{{ post.link }}">
-                        {% else %}
-                        <!-- 관련 글이 있을 경우? -->
-                        <a href="{{ post.url | prepend: site.baseurl }}">
-                            {% endif %}
-                            <span class="publication-list-post-content-title">
-                                {{ post.title }}
-                            </span><br>
-                            {% if post.description %}
-                            <span class="publication-list-post-content-description">
-                                {{ post.description }}
-                            </span>
-                            {% endif %}
-                        </a>
+                        <span class="publication-list-post-content-title">
+                            {% increment conference_international_number %}
+                            .
+                            {{ post.title }}
+                        </span><br>
+                        {% if post.description %}
+                        <span class="publication-list-post-content-description">
+                            {{ post.description }}
+                        </span>
+                        {% endif %}
                     </div>
-                    <!-- {% if post.paper %}
-                    <div class="publication-list-post-file">
-                        <a href="{{ post.paper }}">paper</a>
-                    </div>
-                    {% endif %} -->
                 </div>
                 {% endfor %}
             {% endif %}
@@ -49,28 +40,17 @@ permalink: /publication/publication_conferences.html
                 {% for post in site.categories.conference_domestic %}
                 <div class="publication-list-post">
                     <div class="publication-list-post-content">
-                        <!-- 바로 paper link -->
-                        {% if post.link %}
-                        <a href="{{ post.link }}">
-                        {% else %}
-                        <!-- 관련 글이 있을 경우? -->
-                        <a href="{{ post.url | prepend: site.baseurl }}">
-                            {% endif %}
-                            <span class="publication-list-post-content-title">
-                                {{ post.title }}
-                            </span><br>
-                            {% if post.description %}
-                            <span class="publication-list-post-content-description">
-                                {{ post.description }}
-                            </span>
-                            {% endif %}
-                        </a>
+                        <span class="publication-list-post-content-title">
+                            {% increment conference_domestic_number %}
+                            .
+                            {{ post.title }}
+                        </span><br>
+                        {% if post.description %}
+                        <span class="publication-list-post-content-description">
+                            {{ post.description }}
+                        </span>
+                        {% endif %}
                     </div>
-                    <!-- {% if post.paper %}
-                    <div class="publication-list-post-file">
-                        <a href="{{ post.paper }}">paper</a>
-                    </div>
-                    {% endif %} -->
                 </div>
                 {% endfor %}
             {% endif %}

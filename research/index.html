@@ -17,24 +17,17 @@ permalink: /research/index.html
             {% for post in site.categories.research_ongoing %}
             <div class="research-post">
                 <div class="research-list-post-content">
-                    {% if post.link %}
-                    <a href="{{ post.link }}">
-                        {% else %}
-                        <a href="{{ post.url | prepend: site.baseurl }}">
-                            {% endif %}
-                            <span class="research-list-post-content-title">
-                                {{ post.title }}
-                            </span>
-                            <span class="research-list-post-content-date">
-                                by {{ post.author }}, <time>{{ post.date | date_to_string }}</time>
-                            </span><br>
-                            {% if post.description %}
-                            <span class="research-list-post-content-description">
-                                {{ post.description }}
-                            </span>
-                            {% endif %}
-                        </a>
+                    <span class="research-list-post-content-title">
+                        {{ post.title }}
+                    </span>
+                    <br>
+                    {% if post.description %}
+                    <span class="research-list-post-content-description">
+                        {{ post.description }}                        
+                    </span>
+                    {% endif %}
                 </div>
+                <br>
             </div>
             {% endfor %}
         {% endif %}
@@ -46,23 +39,15 @@ permalink: /research/index.html
         {% for post in site.categories.research_former %}
             <div class="research-list-post">
                 <div class="research-list-post-content">
-                    {% if post.link %}
-                    <a href="{{ post.link }}">
-                        {% else %}
-                        <a href="{{ post.url | prepend: site.baseurl }}">
-                            {% endif %}
-                            <span class="research-list-post-content-title">
-                                {{ post.title }}
-                            </span>
-                            <span class="research-list-post-content-date">
-                                by {{ post.author }}, <time>{{ post.date | date_to_string }}</time>
-                            </span><br>
-                            {% if post.description %}
-                            <span class="research-list-post-content-description">
-                                {{ post.description }}
-                            </span>
-                            {% endif %}
-                        </a>
+                    <span class="research-list-post-content-title">
+                        {{ post.title }}
+                    </span>
+                    <br>
+                    {% if post.description %}
+                    <span class="research-list-post-content-description">
+                        {{ post.description }}
+                    </span>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
