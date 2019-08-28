@@ -12,7 +12,7 @@ ppt: "--Fill(not necessary)--"
 ---
 
 <!-- Post name should be this form: today-title.md
-        For example, 2019-09-01-post-name-example.md -->
+        For example, 2019-08-02-hyperparameter-optimization.md -->
 
 <!-- Fill the contents where --Fill-- exists -->
 <!-- If you don't want to fill the --Fill--(not necessary) part, then remove them all.
@@ -33,3 +33,5 @@ ppt: "--Fill(not necessary)--"
 
 ## Index
 --Fill--
+
+<!-- You can add more information below -->

@@ -18,10 +18,12 @@ description: "--Fill--"
 
 <hr>
 
-![Photo](--Fill--)
-<br><br>
+![Photo](--Fill--){: width="200" height="200"}
+--Fill--<br>--Fill--<br>--Fill--
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->
+<!-- Fill the position, institution/department, interests
+        For example, Graduate Student<br>Department of Software, Sungkyunkwan University<br>Recommender Systems, Natural Language Processing, Neuroimaging Analysis and Understanding -->
 
 <hr>
 

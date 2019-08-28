@@ -12,7 +12,7 @@ ppt: "--Fill(not necessary)--"
 ---
 
 <!-- Post name should be this form: today-title.md
-        For example, 2019-09-01-post-name-example.md -->
+        For example, 2019-07-13-news2.md -->
 
 <!-- Fill the contents where --Fill-- exists -->
 <!-- If you don't want to fill the --Fill--(not necessary) part, then remove them all.
@@ -27,6 +27,9 @@ ppt: "--Fill(not necessary)--"
         'tags' can be more than one. Follow the format: ["CV", "ML"] -->
 <!-- For 'author' fron matter, write down your name in this format: Gildong Hong -->
 <!-- For 'pdf' and 'ppt' front matter, if you have the attachment files, write down the url -->
+
+<!-- Write the contents whatever you want Below is just an example -->
+<!-- You also can use the image in your news article -->
 
 ## Title1
 ### Subheading1
