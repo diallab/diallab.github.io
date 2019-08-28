@@ -6,7 +6,7 @@ description: I am an assistant professor at Department of Software, Sungkyunkwan
 
 <hr>
 
-![Photo](https://cs.skku.edu/rest/professor/file/photo/156)
+![Photo](https://cs.skku.edu/rest/professor/file/photo/156){: width="200", height="200"}
 Assistant professor<br>Department of Software, Sungkyunkwan University<br>Recommender Systems, Natural Language Processing, Neuroimaging Analysis and Understanding, Broadly the Field of data mining, machine learning, and their related applications
 
 <hr>
