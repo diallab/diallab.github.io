@@ -8,7 +8,7 @@ description: "--Fill--"
         For example, Gildong Hong.md -->
 
 <!-- Fill the contents where --Fill-- exists -->
-<!-- The example is in '_authors/Jiwoo Kim.md'>
+<!-- The example is in '_authors/Jongwuk Lee.md' or '_authors/Jiwoo Kim.md'>
 
 <!-- For 'name' front matter, follow this format: Gildong Hong -->
 <!-- For 'job' front matter, choose the one of these: professor / graduate / undergraduate / alumni -->
