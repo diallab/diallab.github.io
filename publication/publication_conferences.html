@@ -4,8 +4,10 @@ title: Publication
 permalink: /publication/publication_conferences.html
 ---
 
-<a href="index.html", style="color: black">Journals</a> | 
-<a href="publication_conferences.html", style="color:cornflowerblue">Conferences</a>
+{% include publication_nav.html %}
+
+<div id="conference" style="display:none"></div>
+
 <a style="color:white">{% increment conference_international_number %}</a>
 <a style="color:white">{% increment conference_domestic_number %}</a>
 
@@ -32,7 +34,7 @@ permalink: /publication/publication_conferences.html
                 </div>
                 {% endfor %}
             {% endif %}
-    
+
             <h2>Domestic Conferences</h2>
             {% if site.categories.conference_domestic.size == 0 %}
             <h2>No publication found</h2>
@@ -54,6 +56,6 @@ permalink: /publication/publication_conferences.html
                 </div>
                 {% endfor %}
             {% endif %}
-            
+
         </div>
     </div>

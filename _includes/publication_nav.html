@@ -1,0 +1,27 @@
+<a id="nav_journal" href="index.html", style="color: black">Journals</a> |
+<a id="nav_conference" href="publication_conferences.html", style="color:black">Conferences</a>
+<!-- <a id="nav_workshop" href="publication_workshops.html", style="color:black">Workshops</a> -->
+
+<script>
+function check_elem(id) {
+  return !!document.getElementById(id);
+}
+
+window.onload = function() {
+  var ids = {
+    'journal': 'nav_journal',
+    'conference': 'nav_conference',
+    'workshop': 'nav_workshop',
+  };
+
+  var elem = null;
+
+  for ([id, nav_id] of Object.entries(ids)) {
+    if (check_elem(id)) {
+      elem = document.getElementById(nav_id);
+      break;
+    }
+  }
+  elem.style.color = 'cornflowerblue';
+}
+</script>
