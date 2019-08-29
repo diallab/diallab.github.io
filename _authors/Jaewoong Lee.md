@@ -1,5 +1,5 @@
 ---
-name: Jae-woong Lee
+name: Jaewoong Lee
 job: graduate
 description:
 ---
