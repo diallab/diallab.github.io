@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AutoML and Neural Architecture Search"
-description: "Paper review of EfficientNet from GoogleBrain and RandWire from Facebook AI Research (FAIR)"
+description: "This is the paper review of EfficientNet from GoogleBrain and RandWire from Facebook AI Research (FAIR)"
 date: 2019-07-04
 categories: ["seminar"]
 tags: ["automl", "neural architecture"]
@@ -12,6 +12,15 @@ ppt:
 ---
 
 <!-- <iframe src="https://www.slideshare.net/DaeJinKim22/slideshelf" width="760px" height="570px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe> -->
+
+## Abstract
+This is the paper review of EfficientNet from GoogleBrain and RandWire from Facebook AI Research (FAIR)
+
+## Index
+1. AutoML
+2. NAS (A brief introduction)
+3. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
+4. Exploring Randomly Wired Neural Networks for Image Recognition
 
 # EfficientNet
 
