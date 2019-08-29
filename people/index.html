@@ -74,16 +74,14 @@ title: People
         {% if member.job == 'alumni' %}
         <li>
             <div class="members-info">
-                <a href="/authors/{{ member.name }}">
-                    <span class="members-info-name">
-                        {{member.name}}
-                    </span><br>
-                    {% if member.description %}
-                    <span class="members-info-desc">
-                        {{member.description}}
-                    </span>
-                    {% endif %}
-                </a>
+                <span class="members-info-name">
+                    {{ member.name }}
+                </span><br>
+                {% if member.description %}
+                <span class="members-info-desc">
+                    {{ member.description }}
+                </span>
+                {% endif %}
             </div>
         </li>
         {% endif %}
