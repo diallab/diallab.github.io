@@ -4,7 +4,7 @@ title: "Session-based Recommendation with Deep-learning Method"
 description: "This is the review of Session-based Recommendation with Deep-learning Method with two papers"
 date: 2019-08-09
 categories: ["seminar"]
-tags: ["RS"]
+tags: ["rs"]
 comments: true
 author: "Jaewan Moon"
 pdf:

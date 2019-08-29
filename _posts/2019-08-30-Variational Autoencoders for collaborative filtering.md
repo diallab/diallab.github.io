@@ -4,7 +4,7 @@ title: "Variational Autoencoders for collaborative filtering"
 description: "This is the paper review of Variational Autoencoders for collaborative filtering."
 date: 2019-08-16
 categories: ["seminar"]
-tags: ["VAE", "CF", "RS"]
+tags: ["vae", "cf", "rs"]
 comments: true
 author: "Jinhong Kim"
 pdf:

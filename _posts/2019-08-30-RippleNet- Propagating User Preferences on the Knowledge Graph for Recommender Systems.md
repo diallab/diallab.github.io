@@ -4,7 +4,7 @@ title: "RippleNet: Propagating User Preferences on the Knowledge Graph for Recom
 description: "This is the paper review of RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems (CIKM 2018)."
 date: 2019-07-26
 categories: ["seminar"]
-tags: ["RS", "KG"]
+tags: ["rs", "kg"]
 comments: true
 author: "Seunghyeon Kim "
 pdf:
