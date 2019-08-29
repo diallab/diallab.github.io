@@ -1,6 +1,6 @@
 ---
 name: "Kyeongjin Mun"
-job: "Undergraduate" 
+job: "undergraduate" 
 description: "kyeongjin.mun@gmail.com"
 ---
 
