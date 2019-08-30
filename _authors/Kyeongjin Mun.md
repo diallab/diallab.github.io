@@ -1,6 +1,6 @@
 ---
 name: "Kyeongjin Mun"
-job: "undergraduate" 
+job: "Undergraduate" 
 description: "kyeongjin.mun@gmail.com"
 ---
 
@@ -18,7 +18,7 @@ description: "kyeongjin.mun@gmail.com"
 
 <hr>
 
-![Photo](--Fill--){: width="200" height="200"}
+![Photo](https://avatars3.githubusercontent.com/u/28817812?s=400&v=4){: width="200" height="200"}
 Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Recommender Systems, Natural Language Processing
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->

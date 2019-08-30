@@ -1,7 +1,7 @@
 ---
-name: "Jaewan Moon"
+name: "HaeBin Seo"
 job: "undergraduate" 
-description: "jaewan7599@skku.edu / Software"
+description: "shb0107@skku.edu / Computer Science"
 ---
 
 <!-- Post name should be this form: name.md
@@ -18,8 +18,8 @@ description: "jaewan7599@skku.edu / Software"
 
 <hr>
 
-![Photo](https://avatars3.githubusercontent.com/u/49435952?s=400&u=54375f630b087b043d34ef265478f975dfceb4df&v=4){: width="200" height="200"}
-Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Recommender Systems
+![Photo](https://avatars3.githubusercontent.com/u/14949385?s=400&v=4){: width="200" height="200"}
+Undergraduate Student<br>Department of Computer Science, Sungkyunkwan University<br>Recommender Systems
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->
 <!-- Fill the position, institution/department, interests
@@ -28,14 +28,18 @@ Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Reco
 <hr>
 
 ## Biography
---Fill-- <!-- Write your own biography contents. -->
+Hi, I'm Haebin, undergraduate student in computer science. I'v been into ML and recommender systems since Prof. Lee's ML class, then thankfully I had a chance to join the DIAL lab in this summer. <!-- Write your own biography contents. -->
 
 ## Contact
-**Mail**: jaewan7599@skku.edu <!-- Write your own email address -->
+**Mail**: shb0107@gmail.com <!-- Write your own email address -->
 <br>
-**Location**: Cooperate building 85453 <!-- 85453 or your location address -->
+**Location**: 85453 <!-- 85453 or your location address -->
 
 ## More Information
+
+<!-- If you have some personal websites, then write the url here. -->
+<!-- If you don't have them, then remove a line '[Persoal Website](--Fill--)' -->
+
 ## Posts
 
 <!-- Nothing to do in Posts section -->
