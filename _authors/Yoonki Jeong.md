@@ -1,5 +1,5 @@
 ---
-name: Yoonki Jeong"
+name: "Yoonki Jeong"
 job: "graduate" 
 description: "yoongi0428@skku.edu / Recommender System"
 ---
