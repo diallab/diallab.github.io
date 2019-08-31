@@ -6,7 +6,7 @@ description: Computer Science / Machine Learning
 
 <hr>
 
-![Photo](https://drive.google.com/open?id=10Fwf0EqVRSec8cYvs4BJ51-zp-Ca9p-t)
+![Photo](https://avatars1.githubusercontent.com/u/38307790?s=400&v=4)
 Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Computer Science, Machine Learning
 
 <hr>
@@ -19,6 +19,5 @@ I am undergraduate student in the department of computer science.
 **Location**: 85453
 
 ## More Information
-[Personal Website]()
 
 ## Posts
