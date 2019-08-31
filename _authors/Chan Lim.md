@@ -1,7 +1,7 @@
 ---
-name: "Kyeongjin Mun"
-job: "undergraduate" 
-description: "kyeongjin.mun@gmail.com"
+name: "Chan Lim"
+job: "Undergraduate" 
+description: "chan9538@g.skku.edu"
 ---
 
 <!-- Post name should be this form: name.md
@@ -18,8 +18,8 @@ description: "kyeongjin.mun@gmail.com"
 
 <hr>
 
-![Photo](https://avatars3.githubusercontent.com/u/28817812?s=400&v=4){: width="200" height="200"}
-Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Recommender Systems, Natural Language Processing
+![Photo](https://avatars1.githubusercontent.com/u/35093461?s=400&u=710dfb5167f9c1f2f08473623d1313a198a866b8&v=4){: width="200" height="200"}
+Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Natural Language Processing, Recommender System
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->
 <!-- Fill the position, institution/department, interests
@@ -28,13 +28,12 @@ Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Reco
 <hr>
 
 ## Biography
-I'm a undergraduate student at Department of Software, Sungkyunkwan University (SKKU), Korea. I'm currently working on a project implementing playing bot of the well-known game, StarCraft2, using a multi-agent reinforcement learning. Also, I am interested in contextual bandit problem and RL-based language generation.
-<!-- Write your own biography contents. -->
+Hello, my name is Chan Lim.<!-- Write your own biography contents. -->
 
 ## Contact
-**Mail**: kyeongjin.mun@gmail.com <!-- Write your own email address -->
+**Mail**: chan1085@naver.com <!-- Write your own email address -->
 <br>
-**Location**: Room 85453, Corporate Collaboration Center <!-- 85453 or your location address -->
+**Location**: 85453 <!-- 85453 or your location address -->
 
 ## More Information
 

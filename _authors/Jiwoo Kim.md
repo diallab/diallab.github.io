@@ -6,13 +6,13 @@ description: Computer Science / Machine Learning
 
 <hr>
 
-![Photo](http://cheb-room.ru/uploads/cheb/2016/11/w9RC4W-QqXw-200x200.jpg)
+![Photo](https://drive.google.com/open?id=10Fwf0EqVRSec8cYvs4BJ51-zp-Ca9p-t)
 Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Computer Science, Machine Learning
 
 <hr>
 
 ## Biography
-My name is Jiwoo Kim :)
+I am undergraduate student in the department of computer science.
 
 ## Contact
 **Mail**:   jindog1210@g.skku.edu<br>
