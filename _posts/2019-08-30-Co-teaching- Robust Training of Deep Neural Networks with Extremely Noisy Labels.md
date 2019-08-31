@@ -6,7 +6,7 @@ date: 2019-08-23
 categories: ["seminar"]
 tags: []
 comments: true
-author: "Chan Im"
+author: "Chan Lim"
 pdf:
 ppt: "https://drive.google.com/open?id=1cDi9dR7L6zgsJdpsH8Yi2XyGmSeG9eTr"
 ---
