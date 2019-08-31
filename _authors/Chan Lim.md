@@ -1,6 +1,6 @@
 ---
 name: "Chan Lim"
-job: "Undergraduate" 
+job: "undergraduate" 
 description: "chan9538@g.skku.edu"
 ---
 
