@@ -136,7 +136,7 @@ body {
 
   &-footer {
       margin-top: 3em;
-      
+
       &-file {
         a {
             font-size: .8rem;
@@ -225,7 +225,7 @@ body {
 .list {
   &-post {
     padding: 4% 2%;
-    
+
     &:hover {
       background-color: $background-over-color;
       border-color: transparent;
@@ -374,7 +374,7 @@ body {
     margin-bottom: .5rem;
     font-size : 1.4rem;
     font-weight: 600;
-    text-transform: lowercase;
+    // text-transform: lowercase;
   }
 
   &-info {
@@ -481,7 +481,7 @@ body {
   &-list {
     &-post {
       margin-bottom: .5rem;
-      
+
       &-content {
         padding: 0.1rem;
 
@@ -577,7 +577,7 @@ body {
   &-list {
     &-post {
       margin-bottom: .5rem;
-      
+
       &-content {
         padding: 0.1rem;
 
@@ -625,7 +625,7 @@ body {
   &-list {
     &-post {
       margin-bottom: .5rem;
-      
+
       &-content {
         padding: 0.1rem;
 

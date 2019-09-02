@@ -1,7 +1,8 @@
 ---
 name: "Junhyuk Lee"
-job: "undergraduate" 
+job: "undergraduate"
 description: "ljhjoon00@g.skku.edu"
+photo: /images/user.svg
 ---
 
 <!-- Post name should be this form: name.md
@@ -18,7 +19,7 @@ description: "ljhjoon00@g.skku.edu"
 
 <hr>
 
-![Photo](--Fill--){: width="200" height="200"}
+![Photo](/images/user.svg){: width="200" height="200"}
 Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Natural Language Processing
 
 

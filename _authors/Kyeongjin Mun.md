@@ -1,7 +1,8 @@
 ---
 name: "Kyeongjin Mun"
-job: "undergraduate" 
+job: "undergraduate"
 description: "kyeongjin.mun@gmail.com"
+photo: https://avatars3.githubusercontent.com/u/28817812?s=400&v=4
 ---
 
 <!-- Post name should be this form: name.md

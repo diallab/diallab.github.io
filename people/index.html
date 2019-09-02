@@ -4,87 +4,84 @@ title: People
 ---
 
 <div clsas="members">
-    <div class="members-job">Professor</div>
-    <ul>
+  <div class="members-job">Professor</div>
+  <ul class="people-list">
     {% for member in site.authors %}
     {% if member.job == 'professor' %}
-    <li>
-        <div class="members-info">
-            <a href="/authors/{{ member.name }}">
-            <span class="members-info-name">
-                {{member.name}}
-            </span><br>
-            {% if member.description %}
-            <span class="members-info-desc">
-                {{member.description}}
-            </span>
-            {% endif %}
-            </a>
-        </div>
-    </li>
+    <div class="members-info">
+      <a href="/authors/{{ member.name }}">
+        <img src="{{ member.photo }}" width="150" height="200" alt="photo" />
+        <span class="members-info-name">
+          {{ member.name }}
+        </span><br>
+        {% if member.description %}
+        <span class="members-info-desc">
+          {{ member.description }}
+        </span>
+        {% endif %}
+      </a>
+    </div>
     {% endif %}
     {% endfor %}
-    </ul>
-    <div class="members-job">Graduate</div>
-    <ul>
+  </ul>
+  <div class="members-job">Graduate students</div>
+  <ul class="people-list">
     {% for member in site.authors %}
     {% if member.job == 'graduate' %}
-    <li>
-        <div class="members-info">
-            <a href="/authors/{{ member.name }}">
-                <span class="members-info-name">
-                    {{member.name}}
-                </span><br>
-                {% if member.description %}
-                <span class="members-info-desc">
-                    {{member.description}}
-                </span>
-                {% endif %}
-            </a>
-        </div>
-    </li>
+    <div class="members-info">
+      <a href="/authors/{{ member.name }}">
+        <img class="people-img" src="{{ member.photo }}" alt="photo" />
+        <span class="members-info-name">
+          {{ member.name }}
+        </span><br>
+        {% if member.description %}
+        <span class="members-info-desc">
+          {{ member.description }}
+        </span>
+        {% endif %}
+      </a>
+    </div>
     {% endif %}
     {% endfor %}
-    </ul>
-    <div class="members-job">Undergraduate</div>
-    <ul>
+  </ul>
+  <div class="members-job">Undergraduate students</div>
+  <ul class="people-list">
     {% for member in site.authors %}
     {% if member.job == 'undergraduate' %}
+    <div class="members-info">
+      <a href="/authors/{{ member.name }}">
+        <img class="people-img" src="{{ member.photo }}" alt="photo" />
+        <span class="members-info-name">
+          {{ member.name }}
+        </span><br>
+        {% if member.description %}
+        <span class="members-info-desc">
+          {{ member.description }}
+        </span>
+        {% endif %}
+      </a>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  </ul>
+  <div class="members-job">Alumni</div>
+  <ul>
+    {% for member in site.authors %}
+    {% if member.job == 'alumni' %}
     <li>
-        <div class="members-info">
-            <a href="/authors/{{ member.name }}">
-                <span class="members-info-name">
-                    {{member.name}}
-                </span><br>
-                {% if member.description %}
-                <span class="members-info-desc">
-                    {{member.description}}
-                </span>
-                {% endif %}
-            </a>
-        </div>
+      <div class="members-info">
+        <span class="members-info-name">
+          {{ member.name }}
+        </span><br>
+        {% if member.description %}
+        <span class="members-info-desc">
+          {{ member.description }}
+        </span>
+        {% endif %}
+      </div>
     </li>
     {% endif %}
     {% endfor %}
-    </ul>
-    </ul>
-    <div class="members-job">Alumni</div>
-    <ul>
-        {% for member in site.authors %}
-        {% if member.job == 'alumni' %}
-        <li>
-            <div class="members-info">
-                <span class="members-info-name">
-                    {{ member.name }}
-                </span><br>
-                {% if member.description %}
-                <span class="members-info-desc">
-                    {{ member.description }}
-                </span>
-                {% endif %}
-            </div>
-        </li>
-        {% endif %}
-        {% endfor %}
-    </ul>
+  </ul>
 </div>

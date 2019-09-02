@@ -2,6 +2,7 @@
 name: Daejin Kim
 job: undergraduate
 description: Hello my name is Daejin Kim
+photo: /images/user.svg
 ---
 
 ## Biography

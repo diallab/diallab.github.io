@@ -1,7 +1,8 @@
 ---
 name: "Yoonki Jeong"
-job: "graduate" 
+job: "graduate"
 description: "yoongi0428@skku.edu / Recommender System"
+photo: https://avatars0.githubusercontent.com/u/25289309?s=400&u=d601c0ceaae072c664d6abcff3383f435de51c97&v=4
 ---
 
 <!-- Post name should be this form: name.md
@@ -30,7 +31,7 @@ Graduate Student<br>Department of Electrical and Computer Engineering, Sungkyunk
 <hr>
 
 ## Biography
-I am a Master's student at Department of Electrical and Computer Engineering, Sungkyunkwan University (SKKU), Korea. 
+I am a Master's student at Department of Electrical and Computer Engineering, Sungkyunkwan University (SKKU), Korea.
 I received my B.S. degree in department of global economics and computer science at SKKU, Korea, in 2019.
 
 

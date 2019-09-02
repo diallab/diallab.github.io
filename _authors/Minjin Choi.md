@@ -1,7 +1,8 @@
 ---
 name: "Minjin Choi"
-job: "graduate" 
+job: "graduate"
 description: "zxcvxd@skku.edu / Department of Computer Science & Engineering"
+photo: https://avatars1.githubusercontent.com/u/35443268?s=400&u=cae382bd104118fcf828d83be1e288927cc052d4&v=4
 ---
 
 <!-- Post name should be this form: name.md

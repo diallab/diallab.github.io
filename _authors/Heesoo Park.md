@@ -1,7 +1,8 @@
 ---
 name: "Heesoo Park"
-job: "graduate" 
+job: "graduate"
 description: "righ120@skku.edu"
+photo: /images/user.svg
 ---
 
 <!-- Post name should be this form: name.md
@@ -18,7 +19,7 @@ description: "righ120@skku.edu"
 
 <hr>
 
-![Photo](--Fill--){: width="200" height="200"}
+![Photo](/images/user.svg){: width="200" height="200"}
 Graduate Student<br>Department of Software, Sungkyunkwan University<br>Natural Language Processing
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->

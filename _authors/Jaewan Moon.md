@@ -1,7 +1,8 @@
 ---
 name: "Jaewan Moon"
-job: "undergraduate" 
+job: "undergraduate"
 description: "jaewan7599@skku.edu / Software"
+photo: https://avatars3.githubusercontent.com/u/49435952?s=400&u=54375f630b087b043d34ef265478f975dfceb4df&v=4
 ---
 
 <!-- Post name should be this form: name.md

@@ -2,6 +2,7 @@
 name: "Jinhong Kim"
 job: "graduate"
 description: "legend7811@skku.edu / Department of Electronic, Electrical and Computer Engineering"
+photo: https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-0/p370x247/23380411_1330518133737281_7899970766361075662_n.jpg?_nc_cat=109&_nc_oc=AQm7mJ1FHXfd3eUK_utJk0ZjA3jqodgQP0W6ZYWGrShfMwSLxWLBmKjTmnvduBIiVhg&_nc_ht=scontent-icn1-1.xx&oh=4761048343882dd84b1707cdbf3aad49&oe=5DD2FD99
 ---
 
 <!-- Post name should be this form: name.md

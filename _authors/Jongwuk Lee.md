@@ -2,6 +2,7 @@
 name: Jongwuk Lee
 job: professor
 description: I am an assistant professor at Department of Software, Sungkyunkwan University (SKKU), Korea.
+photo: https://cs.skku.edu/rest/professor/file/photo/156
 ---
 
 <hr>

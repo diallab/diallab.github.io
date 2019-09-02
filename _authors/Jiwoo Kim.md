@@ -2,6 +2,7 @@
 name: Jiwoo Kim
 job: undergraduate
 description: Computer Science / Machine Learning
+photo: https://avatars1.githubusercontent.com/u/38307790?s=400&v=4
 ---
 
 <hr>
