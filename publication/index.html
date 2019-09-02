@@ -19,6 +19,7 @@ permalink: /publication/index.html
       | reverse | group_by_exp: "p", "p.date | date: '%Y'" %}
     {% assign before = false %}
     {% for year in grouped %}
+    <!-- convert string to integer -->
     {% assign this_year = year.name | plus: 0 %}
     {% if this_year >= 2016 %}
     <h3>{{ year.name }}</h3>

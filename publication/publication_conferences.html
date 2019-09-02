@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publication
+title: Publications
 permalink: /publication/publication_conferences.html
 ---
 
@@ -12,50 +12,62 @@ permalink: /publication/publication_conferences.html
 <a style="color:white">{% increment conference_domestic_number %}</a>
 
 <div class="publication">
-        <div class="publication-list">
-            <h2>International Conferences</h2>
-            {% if site.categories.conference_international.size == 0 %}
-            <h2>No publication found</h2>
-            {% else %}
-                {% for post in site.categories.conference_international %}
-                <div class="publication-list-post">
-                    <div class="publication-list-post-content">
-                        <span class="publication-list-post-content-title">
-                            {% increment conference_international_number %}
-                            .
-                            {{ post.title }}
-                        </span><br>
-                        {% if post.description %}
-                        <span class="publication-list-post-content-description">
-                            {{ post.description }}
-                        </span>
-                        {% endif %}
-                    </div>
-                </div>
-                {% endfor %}
-            {% endif %}
+  <div class="publication-list">
+    <h2>International Conferences</h2>
+    {% if site.categories.conference_international %}
+    {% assign grouped = site.categories.conference_international | sort: "date"
+      | reverse | group_by_exp: "p", "p.date | date: '%Y'" %}
+    {% assign before = false %}
+    {% for year in grouped %}
+    <!-- convert string to integer -->
+    {% assign this_year = year.name | plus: 0 %}
+    {% if this_year >= 2016 %}
+    <h3>{{ year.name }}</h3>
+    {% else %}
+    {% unless before %}
+    <h3>Before 2016</h3>
+    {% assign before = true %}
+    {% endunless %}
+    {% endif %}
+      {% for post in year.items %}
+      <ul class="publication-list-post">
+        <li class="publication-list-post-content">
+          <span class="publication-list-post-content-title">
+            {{ post.title }}
+          </span><br>
+          {% if post.description %}
+          <span class="publication-list-post-content-description">
+            {{ post.description }}
+          </span>
+          {% endif %}
+        </li>
+      </ul>
+      {% endfor %}
+    {% endfor %}
+    {% else %}
+    <h2>No publication found</h2>
+    {% endif %}
 
-            <h2>Domestic Conferences</h2>
-            {% if site.categories.conference_domestic.size == 0 %}
-            <h2>No publication found</h2>
-            {% else %}
-                {% for post in site.categories.conference_domestic %}
-                <div class="publication-list-post">
-                    <div class="publication-list-post-content">
-                        <span class="publication-list-post-content-title">
-                            {% increment conference_domestic_number %}
-                            .
-                            {{ post.title }}
-                        </span><br>
-                        {% if post.description %}
-                        <span class="publication-list-post-content-description">
-                            {{ post.description }}
-                        </span>
-                        {% endif %}
-                    </div>
-                </div>
-                {% endfor %}
-            {% endif %}
-
-        </div>
+    <h2>Domestic Conferences</h2>
+    {% if site.categories.conference_domestic %}
+    {% for post in site.categories.conference_domestic %}
+    <div class="publication-list-post">
+      <div class="publication-list-post-content">
+        <span class="publication-list-post-content-title">
+          {% increment conference_domestic_number %}
+          .
+          {{ post.title }}
+        </span><br>
+        {% if post.description %}
+        <span class="publication-list-post-content-description">
+          {{ post.description }}
+        </span>
+        {% endif %}
+      </div>
     </div>
+    {% endfor %}
+    {% else %}
+    <h3>No publication found</h3>
+    {% endif %}
+  </div>
+</div>
