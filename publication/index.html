@@ -12,50 +12,61 @@ permalink: /publication/index.html
 <a style="color:white">{% increment journal_domestic_number %}</a>
 
 <div class="publication">
-    <div class="publication-list">
-        <h2>International Journals</h2>
-        {% if site.categories.journal_international.size == 0 %}
-        <h2>No publication found</h2>
-        {% else %}
-            {% for post in site.categories.journal_international %}
-            <div class="publication-list-post">
-                <div class="publication-list-post-content">
-                    <span class="publication-list-post-content-title">
-                        {% increment journal_international_number %}
-                        .
-                        {{ post.title }}
-                    </span><br>
-                    {% if post.description %}
-                    <span class="publication-list-post-content-description">
-                        {{ post.description }}
-                    </span>
-                    {% endif %}
-                </div>
-            </div>
-            {% endfor %}
-        {% endif %}
+  <div class="publication-list">
+    <h2>International Journals</h2>
+    {% if site.categories.journal_international %}
+    {% assign grouped = site.categories.journal_international | sort: "date"
+      | reverse | group_by_exp: "p", "p.date | date: '%Y'" %}
+    {% assign before = false %}
+    {% for year in grouped %}
+    {% assign this_year = year.name | plus: 0 %}
+    {% if this_year >= 2016 %}
+    <h3>{{ year.name }}</h3>
+    {% else %}
+    {% unless before %}
+    <h3>Before 2016</h3>
+    {% assign before = true %}
+    {% endunless %}
+    {% endif %}
+      {% for post in year.items %}
+      <ul class="publication-list-post">
+        <li class="publication-list-post-content">
+          <span class="publication-list-post-content-title">
+            {{ post.title }}
+          </span><br>
+          {% if post.description %}
+          <span class="publication-list-post-content-description">
+            {{ post.description }}
+          </span>
+          {% endif %}
+        </li>
+      </ul>
+      {% endfor %}
+    {% endfor %}
+    {% else %}
+    <h2>No publication found</h2>
+    {% endif %}
 
-        <h2>Domestic Journals</h2>
-        {% if site.categories.journal_domestic.size == 0 %}
-        <h2>No publication found</h2>
-        {% else %}
-            {% for post in site.categories.journal_domestic %}
-            <div class="publication-list-post">
-                <div class="publication-list-post-content">
-                    <span class="publication-list-post-content-title">
-                        {% increment journal_domestic_number %}
-                        .
-                        {{ post.title }}
-                    </span><br>
-                    {% if post.description %}
-                    <span class="publication-list-post-content-description">
-                        {{ post.description }}
-                    </span>
-                    {% endif %}
-                </div>
-            </div>
-            {% endfor %}
+    <h2>Domestic Journals</h2>
+    {% if site.categories.journal_domestic %}
+    {% for post in site.categories.journal_domestic %}
+    <div class="publication-list-post">
+      <div class="publication-list-post-content">
+        <span class="publication-list-post-content-title">
+          {% increment journal_domestic_number %}
+          .
+          {{ post.title }}
+        </span><br>
+        {% if post.description %}
+        <span class="publication-list-post-content-description">
+          {{ post.description }}
+        </span>
         {% endif %}
-
+      </div>
     </div>
+    {% endfor %}
+    {% else %}
+    <h3>No publication found</h3>
+    {% endif %}
+  </div>
 </div>
