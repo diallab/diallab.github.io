@@ -61,7 +61,7 @@ nav:
     url:            "/people"
   - name:           "Research"
     url:            "/research"
-  - name:           "Publication"
+  - name:           "Publications"
     url:            "/publication"
   - name:           "News"
     url:            "/news"
