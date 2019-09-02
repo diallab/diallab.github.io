@@ -1,0 +1,56 @@
+---
+layout: page
+title: Research
+permalink: /research/projects.html
+---
+
+{% include research_nav.html %}
+
+<div id="projects" style="display: none"></div>
+
+<div class="research">
+  <div class="research-list">
+    <h2>Ongoing Projects</h2>
+    {% if site.categories.research_ongoing.size == 0 %}
+    <h3>No ongoing research project found</h3>
+    {% else %}
+    {% for post in site.categories.research_ongoing %}
+    <div class="research-post">
+      <div class="research-list-post-content">
+        <span class="research-list-post-content-title">
+          {{ post.title }}
+        </span>
+        <br>
+        {% if post.description %}
+        <span class="research-list-post-content-description">
+          {{ post.description }}
+        </span>
+        {% endif %}
+      </div>
+      <br>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    <h2>Former Projects</h2>
+    {% if site.categories.research_former.size == 0 %}
+    <h3> No former research project found </h3>
+    {% else %}
+    {% for post in site.categories.research_former %}
+    <div class="research-list-post">
+      <div class="research-list-post-content">
+        <span class="research-list-post-content-title">
+          {{ post.title }}
+        </span>
+        <br>
+        {% if post.description %}
+        <span class="research-list-post-content-description">
+          {{ post.description }}
+        </span>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+    {% endif %}
+  </div>
+</div>

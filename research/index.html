@@ -4,81 +4,29 @@ title: Research
 permalink: /research/index.html
 ---
 
-<a href="index.html", style="color:cornflowerblue">Projects</a> | 
-<a href="research_areas_index.html", style="color:black">Research Areas</a>
+{% include research_nav.html %}
 
+<div id="research_areas" style="display:none"></div>
 
 <div class="research">
-    <div class="research-list">
-        <h2>Ongoing Projects</h2>
-        {% if site.categories.research_ongoing.size == 0 %}
-        <h3>No ongoing research project found</h3>
-        {% else %}
-            {% for post in site.categories.research_ongoing %}
-            <div class="research-post">
-                <div class="research-list-post-content">
-                    <span class="research-list-post-content-title">
-                        {{ post.title }}
-                    </span>
-                    <br>
-                    {% if post.description %}
-                    <span class="research-list-post-content-description">
-                        {{ post.description }}                        
-                    </span>
-                    {% endif %}
-                </div>
-                <br>
-            </div>
-            {% endfor %}
-        {% endif %}
-
-        <h2>Former Projects</h2>
-        {% if site.categories.research_former.size == 0 %}
-        <h3> No former research project found </h3>
-        {% else %}
-        {% for post in site.categories.research_former %}
-            <div class="research-list-post">
-                <div class="research-list-post-content">
-                    <span class="research-list-post-content-title">
-                        {{ post.title }}
-                    </span>
-                    <br>
-                    {% if post.description %}
-                    <span class="research-list-post-content-description">
-                        {{ post.description }}
-                    </span>
-                    {% endif %}
-                </div>
-            </div>
-            {% endfor %}
-        {% endif %}
-
-        <!-- {% if site.categories.research.size == 0 %}
-        <h2>No research found</h2>
-        {% else %}
-        {% for post in site.categories.research %}
-        <div class="research-list-post">
-            <div class="research-list-post-content">
-                {% if post.link %}
-                <a href="{{ post.link }}">
-                    {% else %}
-                    <a href="{{ post.url | prepend: site.baseurl }}">
-                        {% endif %}
-                        <span class="research-list-post-content-title">
-                            {{ post.title }}
-                        </span>
-                        <span class="research-list-post-content-date">
-                            by {{ post.author }}, <time>{{ post.date | date_to_string }}</time>
-                        </span><br>
-                        {% if post.description %}
-                        <span class="research-list-post-content-description">
-                            {{ post.description }}
-                        </span>
-                        {% endif %}
-                    </a>
-            </div>
-        </div>
-        {% endfor %}
-        {% endif %} -->
-    </div>
+  <div class="research-list">
+    <h2>Recommender systems</h2>
+    Nowadays, recommender systems have been widely used in various real-world
+    services like Amazon, Netflix, YouTube, Spotify, and so on. The recommender system is
+    a subtask of information retrieval to predict the “rating” or “preference” of an item
+    for a target user. Our research project focuses on designing and developing novel
+    recommender models that consider several factors such as accuracy,
+    scalability, time-awareness, interpretability, and diversity.
+    <h2>Natural language processing (NLP)</h2>
+    NLP is a branch of artificial intelligence that deals with the interaction between
+    computers and humans using natural language. The ultimate goal of NLP is to let
+    computers read, understand, and generate human-level languages. Our research goal is
+    to develop the model for natural language understanding (NLU) as well as
+    natural language generation (NLG).
+    <h2>Machine/Deep learning algorithm</h2>
+    Machine learning (ML) is the study of algorithms and models to provide systems the ability
+    to learn and improve from experience without being explicitly programmed. Our research goal
+    is to design more accurate and reliable models for supervised/unsupervised learning as well
+    as reinforcement learning.
+  </div>
 </div>

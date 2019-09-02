@@ -1,0 +1,25 @@
+<a id="nav_research_areas" href="index.html", style="color:black">Research Areas</a> |
+<a id="nav_projects" href="projects.html", style="color:black">Projects</a>
+
+<script>
+function check_elem(id) {
+  return !!document.getElementById(id);
+}
+
+window.onload = function() {
+  var ids = {
+    'research_areas': 'nav_research_areas',
+    'projects': 'nav_projects',
+  };
+
+  var elem = null;
+
+  for ([id, nav_id] of Object.entries(ids)) {
+    if (check_elem(id)) {
+      elem = document.getElementById(nav_id);
+      break;
+    }
+  }
+  elem.style.color = 'cornflowerblue';
+}
+</script>
