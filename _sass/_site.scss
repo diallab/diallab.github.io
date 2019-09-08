@@ -224,7 +224,7 @@ body {
 
 .list {
   &-post {
-    padding: 4% 2%;
+    padding: 8px 0;
 
     &:hover {
       background-color: $background-over-color;
@@ -243,7 +243,7 @@ body {
 
     &-title {
       margin-bottom: .3rem;
-      font-size : 1.8rem;
+      font-size : 1.2rem;
       font-weight: 600;
     }
 
