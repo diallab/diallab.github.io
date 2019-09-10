@@ -1,21 +1,6 @@
 ---
 layout: default
 ---
-<header>
-    <div class="header-small">
-        <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
-        <nav class="header-nav">
-            {% for nav in site.nav %}
-            {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-            <a href="{{ nav.url }}">{{ nav.name }}</a>
-            {% else %}
-            <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
-            {% endif %}
-            {% endfor %}
-        </nav>
-    </div>
-</header>
-
 <div id="author">
     <!-- <div class="author-cover" {% if page.cover %}style="background-image: url({{ page.cover }});" {% endif %}>
         <div>
@@ -32,8 +17,8 @@ layout: default
 
     <a name="post-position"></a>
     <p align="center">
-        <a href="#post-research", style="color: black">Research</a> | 
-        <a href="#post-news", style="color: black">News</a> | 
+        <a href="#post-research", style="color: black">Research</a> |
+        <a href="#post-news", style="color: black">News</a> |
         <a href="#post-seminar", style="color: black">Seminar</a>
     </p>
 

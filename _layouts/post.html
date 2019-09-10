@@ -1,20 +1,6 @@
 ---
 layout: default
 ---
-<header>
-  <div class="header-small">
-    <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
-    <nav class="header-nav">
-        {% for nav in site.nav %}
-        {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-        <a href="{{ nav.url }}">{{ nav.name }}</a>
-        {% else %}
-        <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
-        {% endif %}
-        {% endfor %}
-    </nav>
-  </div>
-</header>
 <div class="post">
   <div class="post-title">{{ page.title }}</div>
   <span class="post-date">
@@ -32,7 +18,7 @@ layout: default
       {% endfor %}
     </ul>
   </div>
-  
+
 
   {{ content }}
 
