@@ -55,22 +55,22 @@ h2 {
   border-bottom: 1px solid #eee;
 }
 
-h3 { 
-  font-size: 1.5em; 
+h3 {
+  font-size: 1.5em;
   line-height: 1.43em;
 }
 
-h4 { 
+h4 {
   font-size: 1.25em;
 }
 
-h5 { 
-  font-size: 1em; 
+h5 {
+  font-size: 1em;
 }
 
-h6 { 
+h6 {
   font-size: 1em;
-  color: $oc-gray-6; 
+  color: $oc-gray-6;
 }
 
 /*--------------
@@ -88,7 +88,7 @@ p {
   -------------- */
 
 //  Reset list
-ol, 
+ol,
 ul,
 dl {
   margin: 0 0 1em;
@@ -98,7 +98,7 @@ dl {
 }
 
 //  Positioning Bullets
-ol, 
+ol,
 ul {
   > li {
     &:before {
@@ -114,13 +114,13 @@ ul {
 
 // Restyle <ul>
 ul {
-  > li:before {
-    content: "\2022";
-    padding-right: $ul-bullets-right-space;
-    font-family: $ul-bullets-font;
-    font-size: $ul-bullets-font-size;
-    line-height: $ul-bullets-font-line-height;
-  }
+  // > li:before {
+  //   content: "\2022";
+  //   padding-right: $ul-bullets-right-space;
+  //   font-family: $ul-bullets-font;
+  //   font-size: $ul-bullets-font-size;
+  //   line-height: $ul-bullets-font-line-height;
+  // }
 }
 
 // Restyle <ol>
@@ -138,12 +138,12 @@ ol {
 }
 
 //  Refine Spacing
-ol, 
+ol,
 ul {
   > li {
     margin: 0 auto $li-bottom-space $li-bullets-width;
     line-height: $li-line-height;
-    
+
     > ol,
     > ul {
       margin-top: $li-bottom-space;
@@ -186,7 +186,7 @@ dd {
 }
 
 /*--------------
-  
+
   -------------- */
 
 hr {
