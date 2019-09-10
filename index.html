@@ -2,50 +2,32 @@
 layout: default
 ---
 
-<hr class="small" />
+<div class="header-title">
+  <img src="/images/scg_logo.png" desc="logo" />{{ site.name }}
+</div>
+<div class="header-title-desc">
+  <span><b>D</b>ata <b>I</b>ntelligence and <b>A</b>rtificial & Machine <b>L</b>earning Laboratory</span>
+</div>
 
-<h2>Research Areas</h2>
+<h2 class="section">Welcome to DIAL Lab@SKKU</h2>
 
-<h5>
+<div class="section-desc">
   Our research group is primarily interested in (1) Recommender Systems,
   (2) Natural Language Processing, and (3) Machine/Deep Learning algorithms.
   In addition to these topics, we broadly lie in the field of data mining, machine learning, deep learning,
   and related applications. For more information on research topics, please visit our project page.
-</h5>
+</div>
 
-<!-- <table>
-    <tr align="center">
-        <td>
-            <h3>1. A</h3>
-            A is one of the research areas.
-        </td>
-        <td>
-            <h3>2. B</h3>
-            B is one of the research areas.
-        </td>
-    </tr>
-    <tr align="center" bgcolor=#f1f3f5>
-        <td>
-            <h3>3. C</h3>
-            C is one the the research areas.
-        </td>
-        <td>
-            <h3>4. D</h3>
-            D is one the the research areas.
-        </td>
-    </tr>
-</table> -->
-<a href="research/research_areas_index.html" , style="color:black">
+<a href="/research" , style="color:black">
   <p style="text-align:right">Details ></p>
 </a>
 
-<hr>
+<h2 class="section">Recent News</h2>
 <div class="list">
-  <h2>Recent News</h2>
   {% if site.categories.news %}
   {% assign sorted = site.categories.news | sort: "date" | reverse %}
   <!-- This loops through the paginated posts -->
-  {% for post in sorted limit:3 %}
+  {% for post in sorted limit:5 %}
   <div class="list-post">
     {% if post.link %}
     <a href="{{ post.link }}">

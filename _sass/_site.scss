@@ -257,8 +257,7 @@ body {
 
     &-title {
       margin-bottom: .3rem;
-      font-size : 1.2rem;
-      font-weight: 600;
+      font-weight: 500;
     }
 
     &-date {
@@ -268,9 +267,9 @@ body {
     }
 
     &-desc {
-      color: $base-color;
+      color: $oc-gray-7;
       margin-bottom: .25rem;
-      font-size :1rem;
+      font-size: .7rem;
     }
   }
 
