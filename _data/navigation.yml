@@ -1,0 +1,20 @@
+- title: People
+  url: /people
+- title: Research
+  url: /research
+  sublinks:
+    - title: Research Areas
+      url: /research
+    - title: Projects
+      url: /research/projects.html
+- title: Publications
+  url: /publication
+  sublinks:
+    - title: Journals
+      url: /publication
+    - title: Conferences
+      url: /publication/publication_conferences.html
+- title: Seminar
+  url: /seminar
+- title: tags
+  url: /tags
