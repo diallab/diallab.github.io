@@ -1,16 +1,36 @@
 <header class="header">
-  <div class="header-title">
-    <a href="{{ site.url }}{{ site.baseurl }}">
-      <img src="/images/scg_logo.png">{{ site.name }}
-    </a>
-  </div>
-  <nav class="header-nav">
-    {% for nav in site.nav %}
-    {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-    <a href="{{ nav.url }}">{{ nav.name }}</a>
-    {% else %}
-    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
-    {% endif %}
-    {% endfor %}
+  <nav class="navbar-custom navbar navbar-expand-lg navbar-light bg-light position-fixed">
+    <a class="navbar-brand navbar-brand-custom" href="/">DIAL Lab @ SKKU</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        {% for link in site.data.navigation %}
+        {% assign class = nil %}
+        {% if page.url contains link.url %}
+        {% assign class = 'active' %}
+        {% endif %}
+        {% if link.sublinks %}
+        <li class="nav-item dropdown {{ class }}">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            {{ link.title }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for sublink in link.sublinks %}
+            <a class="dropdown-item" href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+            {% endfor %}
+          </div>
+        </li>
+        {% else %}
+        <li class="nav-item {{ class }}">
+          <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </nav>
 </header>
