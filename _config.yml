@@ -63,8 +63,8 @@ nav:
     url:            "/research"
   - name:           "Publications"
     url:            "/publication"
-  - name:           "News"
-    url:            "/news"
+  # - name:           "News"
+  #   url:            "/news"
   - name:           "Seminar"
     url:            "/seminar"
   - name:           "Tags"
@@ -76,7 +76,9 @@ nav:
 
 # Sass
 sass:
-  sass_dir:         _sass
+  load_paths:
+    - _sass
+    - node_modules/bootstrap/scss
   style:            :compressed
 
 # Scopes
@@ -106,7 +108,7 @@ plugins:
   - jekyll-paginate
   - jekyll-admin
 
-exclude:            [vendor, Form]
+exclude:            [vendor, Form, node_modules]
 
 future: true
 
