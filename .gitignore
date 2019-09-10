@@ -4,3 +4,4 @@ _drafts
 .jsbeautifyrc
 .jekyll-cache
 .ruby-version
+node_modules/
