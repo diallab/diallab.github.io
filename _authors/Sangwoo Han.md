@@ -1,6 +1,9 @@
 ---
 name: Sangwoo Han
 job: graduate
+program: ms
+email: uoo723@g.skku.edu
+interests: NLP
 description: uoo723@g.skku.edu / NLP
 photo: /images/user.svg
 ---

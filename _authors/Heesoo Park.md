@@ -1,6 +1,9 @@
 ---
 name: "Heesoo Park"
 job: "graduate"
+program: ms
+email: righ120@skku.edu
+interests:
 description: "righ120@skku.edu"
 photo: /images/user.svg
 ---

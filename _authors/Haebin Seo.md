@@ -1,7 +1,9 @@
 ---
 name: "Haebin Seo"
 job: "undergraduate"
-description: "shb0107@skku.edu / Computer Science"
+program: bs
+email: shb0107@skku.edu
+interests:
 photo: https://avatars3.githubusercontent.com/u/14949385?s=400&v=4
 ---
 

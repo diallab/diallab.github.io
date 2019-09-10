@@ -1,6 +1,9 @@
 ---
 name: Daejin Kim
 job: undergraduate
+program: bs
+email: daejin@skku.edu
+interests:
 description: Hello my name is Daejin Kim
 photo: /images/user.svg
 ---

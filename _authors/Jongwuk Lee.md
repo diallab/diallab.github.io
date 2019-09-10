@@ -1,6 +1,10 @@
 ---
 name: Jongwuk Lee
 job: professor
+position: Assistant Professor
+email: jongwuklee@skku.edu
+office: "#85464, Corporate Collaboration Center"
+phone: "+82-31-299-4329"
 description: I am an assistant professor at Department of Software, Sungkyunkwan University (SKKU), Korea.
 photo: https://cs.skku.edu/rest/professor/file/photo/156
 ---

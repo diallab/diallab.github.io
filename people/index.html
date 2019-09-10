@@ -4,84 +4,76 @@ title: People
 ---
 
 <div clsas="members">
-  <div class="members-job">Professor</div>
-  <ul class="people-list">
-    {% for member in site.authors %}
-    {% if member.job == 'professor' %}
-    <div class="members-info">
-      <a href="/authors/{{ member.name }}">
-        <img src="{{ member.photo }}" width="150" height="200" alt="photo" />
-        <span class="members-info-name">
-          {{ member.name }}
-        </span><br>
-        {% if member.description %}
-        <span class="members-info-desc">
-          {{ member.description }}
-        </span>
-        {% endif %}
-      </a>
-    </div>
+  {% for job in site.data.job %}
+  {% assign members = site.authors | where: 'job', job %}
+  <h2 class="members-job">
+    {{ job | capitalize }}
+    {% if job != 'professor' and job != 'alumni' %}
+    students
     {% endif %}
-    {% endfor %}
-  </ul>
-  <div class="members-job">Graduate students</div>
-  <ul class="people-list">
-    {% for member in site.authors %}
-    {% if member.job == 'graduate' %}
-    <div class="members-info">
-      <a href="/authors/{{ member.name }}">
-        <img class="people-img" src="{{ member.photo }}" alt="photo" />
-        <span class="members-info-name">
-          {{ member.name }}
-        </span><br>
-        {% if member.description %}
-        <span class="members-info-desc">
-          {{ member.description }}
-        </span>
-        {% endif %}
-      </a>
-    </div>
+  </h2>
+
+  {% assign grouped = members | group_by: 'program' | sort: 'name' | reverse %}
+  {% assign img_class = 'members-img' %}
+  {% assign ul_class = 'members-list' %}
+
+  {% if job == 'professor' %}
+  {% assign img_class = 'members-img-professor' %}
+  {% endif %}
+
+  {% if job == 'alumni' %}
+  {% assign ul_class = 'members-list-alumni' %}
+  {% endif %}
+
+  <ul class="{{ ul_class }}">
+    {% for program in grouped %}
+
+    {% assign program_name = nil %}
+    {% if program.name == 'phd' %}
+    {% assign program_name = 'PhD student' %}
+    {% elsif program.name == 'ms/phd' %}
+    {% assign program_name = 'MS/PhD student' %}
+    {% elsif program.name == 'ms' %}
+    {% assign program_name = 'MS student' %}
+    {% elsif program.name == 'bs/ms' %}
+    {% assign program_name = 'BS/MS student' %}
+    {% elsif program.name == 'bs' %}
+    {% assign program_name = 'BS student' %}
     {% endif %}
-    {% endfor %}
-  </ul>
-  <div class="members-job">Undergraduate students</div>
-  <ul class="people-list">
-    {% for member in site.authors %}
-    {% if member.job == 'undergraduate' %}
-    <div class="members-info">
-      <a href="/authors/{{ member.name }}">
-        <img class="people-img" src="{{ member.photo }}" alt="photo" />
-        <span class="members-info-name">
-          {{ member.name }}
-        </span><br>
-        {% if member.description %}
-        <span class="members-info-desc">
-          {{ member.description }}
-        </span>
-        {% endif %}
+
+    {% for member in program.items %}
+    {% if job != 'alumni' %}
+    <li class="members-info">
+      <a class="flex" href="/authors/{{ member.name }}">
+        <img class="flex {{ img_class }}" src="{{ member.photo }}" alt="photo" />
+        <div class="flex flex-direction-column members-info-right">
+          <div class="flex members-info-name">
+            {{ member.name }}
+          </div>
+          <div class="flex members-info-pos">
+            {{ member.position }}
+          </div>
+          <div class="flex members-info-desc">
+            {{ member.email }}
+          </div>
+          <div class="flex members-info-desc">
+            {{ member.office }}
+          </div>
+          <div class="flex members-info-desc">
+              {{ member.phone }}
+            </div>
+          <div class="flex members-info-desc">
+            {{ program_name }}
+          </div>
+        </div>
       </a>
-    </div>
-    {% endif %}
-    {% endfor %}
-  </ul>
-  </ul>
-  <div class="members-job">Alumni</div>
-  <ul>
-    {% for member in site.authors %}
-    {% if member.job == 'alumni' %}
-    <li>
-      <div class="members-info">
-        <span class="members-info-name">
-          {{ member.name }}
-        </span><br>
-        {% if member.description %}
-        <span class="members-info-desc">
-          {{ member.description }}
-        </span>
-        {% endif %}
-      </div>
+    </li>
+    {% else %}
+    <li class="members-info-alumni">
+      {{ member.name }}
     </li>
     {% endif %}
     {% endfor %}
+    {% endfor %}
   </ul>
-</div>
+  {% endfor %}

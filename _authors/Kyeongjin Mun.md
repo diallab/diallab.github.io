@@ -1,6 +1,9 @@
 ---
 name: "Kyeongjin Mun"
 job: "undergraduate"
+program: bs
+email: kyeongjin.mun@gmail.com
+interests:
 description: "kyeongjin.mun@gmail.com"
 photo: https://avatars3.githubusercontent.com/u/28817812?s=400&v=4
 ---

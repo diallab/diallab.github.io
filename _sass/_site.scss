@@ -1,7 +1,7 @@
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -16,18 +16,29 @@ body {
   padding: 0;
 }
 
+.page {
+  padding-top: 0.9rem;
+}
+
 .content-container {
   max-width: 70%;
   margin-top: 5rem;
   margin-bottom: 8px;
-  margin-left:  auto;
+  margin-left: auto;
   margin-right: auto;
 
-  @media (max-width: 48rem){
+  @media (max-width: 48rem) {
     padding: 2rem 1.3rem;
   }
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
 
 /*--------------
   Header
@@ -45,9 +56,9 @@ body {
     display: inline-block;
 
     img {
-        height: 1.2em;
-        float: left;
-        margin-right: 0.3em;
+      height: 1.2em;
+      float: left;
+      margin-right: 0.3em;
     }
 
     a {
@@ -61,17 +72,16 @@ body {
     span {
       color: $oc-gray-5;
     }
-
   }
 
   &-nav {
     a {
       color: $oc-gray-7;
       text-transform: lowercase;
-      -webkit-transition: all .2s ease;
-         -moz-transition: all .2s ease;
-              transition: all .2s ease;
-      margin-right: .3rem;
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+      margin-right: 0.3rem;
       font-weight: 400;
 
       &:hover,
@@ -85,8 +95,8 @@ body {
 
 .header-small {
   text-align: left;
-  margin-bottom: .75rem;
-  font-size: .75rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
 
@@ -128,12 +138,10 @@ body {
   }
 }
 
-
 /*--------------
   Post
   -------------- */
 .post {
-
   &-title {
     margin-top: 0rem;
     margin-bottom: 0.3rem;
@@ -143,39 +151,38 @@ body {
   }
 
   &-date {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     color: $oc-gray-8;
-    font-size: .75rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
   }
 
   &-footer {
-      margin-top: 3em;
+    margin-top: 3em;
 
-      &-file {
-        a {
-            font-size: .8rem;
-            text-decoration: underline;
-            margin-right: .5em;
-        }
+    &-file {
+      a {
+        font-size: 0.8rem;
+        text-decoration: underline;
+        margin-right: 0.5em;
       }
+    }
 
-      &-author {
-        font-style: italic;
-        font-size: .8em;
-      }
+    &-author {
+      font-style: italic;
+      font-size: 0.8em;
+    }
   }
 
-   &-tag {
-
+  &-tag {
     ul {
       li:before {
-        content: ""
+        content: "";
       }
 
       li {
         margin: 0;
-        font-size: .75rem;
+        font-size: 0.75rem;
         font-weight: 300;
         display: inline;
         list-style-type: none;
@@ -192,7 +199,7 @@ body {
 
           span {
             float: left;
-            padding: .5px 5px;
+            padding: 0.5px 5px;
           }
         }
 
@@ -211,26 +218,26 @@ body {
     }
   }
 
-//   &-file {
-//     margin-bottom: 1.5rem;
-//     line-height: 1.2em;
+  //   &-file {
+  //     margin-bottom: 1.5rem;
+  //     line-height: 1.2em;
 
-//     img {
-//         height: 1.2em;
-//         float: left;
-//         margin-right: .2em;
-//     }
+  //     img {
+  //         height: 1.2em;
+  //         float: left;
+  //         margin-right: .2em;
+  //     }
 
-//     a {
-//         font-size: .8rem;
-//         text-decoration: underline;
-//         margin-right: .5em;
-//     }
-//   }
+  //     a {
+  //         font-size: .8rem;
+  //         text-decoration: underline;
+  //         margin-right: .5em;
+  //     }
+  //   }
 
-//   &-disqus {
-//     margin-top: 4rem;
-//   }
+  //   &-disqus {
+  //     margin-top: 4rem;
+  //   }
 }
 
 /*--------------
@@ -257,20 +264,20 @@ body {
     }
 
     &-title {
-      margin-bottom: .3rem;
+      margin-bottom: 0.3rem;
       font-weight: 500;
     }
 
     &-date {
       color: $base-lighten-color;
-      font-size: .8rem;
+      font-size: 0.8rem;
       text-transform: uppercase;
     }
 
     &-desc {
       color: $oc-gray-7;
-      margin-bottom: .25rem;
-      font-size: .7rem;
+      margin-bottom: 0.25rem;
+      font-size: 0.7rem;
     }
   }
 
@@ -309,7 +316,6 @@ body {
   }
 }
 
-
 /*--------------
   Tags
   -------------- */
@@ -317,7 +323,7 @@ body {
   &-index {
     ul {
       li:before {
-        content: ""
+        content: "";
       }
 
       li {
@@ -338,7 +344,7 @@ body {
 
           span {
             float: left;
-            padding: .5px 5px;
+            padding: 0.5px 5px;
           }
 
           .count {
@@ -376,7 +382,7 @@ body {
       text-decoration: none;
       background-color: $background-over-color;
       border-color: transparent;
-      }
+    }
   }
 }
 
@@ -384,45 +390,72 @@ body {
   Members
   -------------- */
 .members {
+  &-list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    &-alumni {
+      display: block;
+      list-style: inside;
+    }
+  }
+
   &-job {
-    margin-bottom: .5rem;
-    font-size : 1.4rem;
-    font-weight: 600;
-    // text-transform: lowercase;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  &-img {
+    width: 30%;
+    object-fit: cover;
+  }
+
+  &-img-professor {
+    width: 30%;
   }
 
   &-info {
-    margin-bottom: 0.5rem;
-    padding: 0.1rem;
+    margin: 8px 8px;
 
     &:hover {
-        background-color: $background-over-color;
-        border-color: transparent;
-        border-radius: 4px;
+      background-color: $background-over-color;
+      border-color: transparent;
+      border-radius: 4px;
     }
 
     a {
-        color: $base-color;
-        &:hover,
-        &:focus {
+      color: $base-color;
+      height: 100%;
+      &:hover,
+      &:focus {
         text-decoration: none;
-        }
+      }
     }
 
     &-name {
       color: $base-color;
-      margin-bottom: .3rem;
-      font-size : 1rem;
-    //   font-weight: 600;
+      margin-bottom: 0.3rem;
+      font-size: 1rem;
+      font-weight: 500;
     }
 
-    &-desc{
-    //   color: $base-color;
-    //   margin-bottom: .25rem;
-    //   font-size :1rem;
-        color: $base-lighten-color;
-        font-size: .8rem;
-        // text-transform: uppercase;
+    &-desc {
+      color: $base-lighten-color;
+      font-size: 0.8rem;
+    }
+
+    &-pos {
+      margin-bottom: .3rem;
+    }
+
+    &-right {
+      margin-left: 1.1rem;
+    }
+
+    &-alumni {
+      margin: 0;
+      font-size: .9rem;
     }
   }
 }
@@ -431,7 +464,6 @@ body {
   Authors
   -------------- */
 .author {
-
   &-name {
     margin-top: 0;
     margin-bottom: 2rem;
@@ -441,51 +473,51 @@ body {
   }
 
   &-post {
-      margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
+
+    &-title {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    &-content {
+      padding: 0.1rem;
+
+      &:hover {
+        background-color: $background-over-color;
+        border-color: transparent;
+        border-radius: 4px;
+      }
+
+      a {
+        color: $base-color;
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+        }
+      }
 
       &-title {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 600;
-        margin-bottom: .5rem;
       }
 
-      &-content {
-        padding: 0.1rem;
+      &-description {
+        // color: $base-lighten-color;
+        color: $base-color;
+        font-size: 1rem;
+      }
 
-        &:hover {
-            background-color: $background-over-color;
-            border-color: transparent;
-            border-radius: 4px;
-        }
-
-        a {
-            color: $base-color;
-
-            &:hover,
-            &:focus {
-            text-decoration: none;
-            }
-        }
-
-        &-title {
-            font-size : 1.2rem;
-            font-weight: 600;
-        }
-
-        &-description {
-            // color: $base-lighten-color;
-            color: $base-color;
-            font-size: 1rem;
-        }
-
-        &-date {
-            color: $base-lighten-color;
-            font-size: .75rem;
-            // text-transform: uppercase;
-            margin-left: .2rem;
-        }
+      &-date {
+        color: $base-lighten-color;
+        font-size: 0.75rem;
+        // text-transform: uppercase;
+        margin-left: 0.2rem;
       }
     }
+  }
 }
 
 /*--------------
@@ -494,48 +526,47 @@ body {
 .news {
   &-list {
     &-post {
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
 
       &-content {
         padding: 0.1rem;
 
         &:hover {
-            background-color: $background-over-color;
-            border-color: transparent;
-            border-radius: 4px;
+          background-color: $background-over-color;
+          border-color: transparent;
+          border-radius: 4px;
         }
 
         a {
-            color: $base-color;
+          color: $base-color;
 
-            &:hover,
-            &:focus {
+          &:hover,
+          &:focus {
             text-decoration: none;
-            }
+          }
         }
 
         &-title {
-            font-size : 1.2rem;
-            font-weight: 600;
+          font-size: 1.2rem;
+          font-weight: 600;
         }
 
         &-description {
-            // color: $base-lighten-color;
-            color: $base-color;
-            font-size: 1rem;
+          // color: $base-lighten-color;
+          color: $base-color;
+          font-size: 1rem;
         }
 
         &-date {
-            color: $base-lighten-color;
-            font-size: .75rem;
-            // text-transform: uppercase;
-            margin-left: .2rem;
+          color: $base-lighten-color;
+          font-size: 0.75rem;
+          // text-transform: uppercase;
+          margin-left: 0.2rem;
         }
       }
     }
   }
 }
-
 
 /*--------------
   Publication
@@ -543,41 +574,41 @@ body {
 .publication {
   &-list {
     &-post {
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
 
       &-content {
         padding: 0.1rem;
 
         &:hover {
-            background-color: $background-over-color;
-            border-color: transparent;
-            border-radius: 4px;
+          background-color: $background-over-color;
+          border-color: transparent;
+          border-radius: 4px;
         }
 
         a {
-            color: $base-color;
+          color: $base-color;
 
-            &:hover,
-            &:focus {
+          &:hover,
+          &:focus {
             text-decoration: none;
-            }
+          }
         }
 
         &-title {
-            font-size : 1.2rem;
-            font-weight: 600;
+          font-size: 1.2rem;
+          font-weight: 600;
         }
 
         &-description {
-            // color: $base-lighten-color;
-            color: $base-color;
-            font-size: 1rem;
+          // color: $base-lighten-color;
+          color: $base-color;
+          font-size: 1rem;
         }
 
         &-date {
-            color: $base-lighten-color;
-            font-size: .75rem;
-            text-transform: uppercase;
+          color: $base-lighten-color;
+          font-size: 0.75rem;
+          text-transform: uppercase;
         }
       }
     }
@@ -590,42 +621,42 @@ body {
 .seminar {
   &-list {
     &-post {
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
 
       &-content {
         padding: 0.1rem;
 
         &:hover {
-            background-color: $background-over-color;
-            border-color: transparent;
-            border-radius: 4px;
+          background-color: $background-over-color;
+          border-color: transparent;
+          border-radius: 4px;
         }
 
         a {
-            color: $base-color;
+          color: $base-color;
 
-            &:hover,
-            &:focus {
+          &:hover,
+          &:focus {
             text-decoration: none;
-            }
+          }
         }
 
         &-title {
-            font-size : 1.2rem;
-            font-weight: 600;
+          font-size: 1.2rem;
+          font-weight: 600;
         }
 
         &-description {
-            // color: $base-lighten-color;
-            color: $base-color;
-            font-size: 1rem;
+          // color: $base-lighten-color;
+          color: $base-color;
+          font-size: 1rem;
         }
 
         &-date {
-            color: $base-lighten-color;
-            font-size: .75rem;
-            // text-transform: uppercase;
-            margin-left: .2rem;
+          color: $base-lighten-color;
+          font-size: 0.75rem;
+          // text-transform: uppercase;
+          margin-left: 0.2rem;
         }
       }
     }
@@ -638,42 +669,42 @@ body {
 .research {
   &-list {
     &-post {
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
 
       &-content {
         padding: 0.1rem;
 
         &:hover {
-            background-color: $background-over-color;
-            border-color: transparent;
-            border-radius: 4px;
+          background-color: $background-over-color;
+          border-color: transparent;
+          border-radius: 4px;
         }
 
         a {
-            color: $base-color;
+          color: $base-color;
 
-            &:hover,
-            &:focus {
+          &:hover,
+          &:focus {
             text-decoration: none;
-            }
+          }
         }
 
         &-title {
-            font-size : 1.2rem;
-            font-weight: 600;
+          font-size: 1.2rem;
+          font-weight: 600;
         }
 
         &-description {
-            // color: $base-lighten-color;
-            color: $base-color;
-            font-size: 1rem;
+          // color: $base-lighten-color;
+          color: $base-color;
+          font-size: 1rem;
         }
 
         &-date {
-            color: $base-lighten-color;
-            font-size: .75rem;
-            // text-transform: uppercase;
-            margin-left: .2rem;
+          color: $base-lighten-color;
+          font-size: 0.75rem;
+          // text-transform: uppercase;
+          margin-left: 0.2rem;
         }
       }
     }
@@ -685,10 +716,10 @@ body {
   -------------- */
 .footer {
   text-align: center;
-  font-size: .75rem;
+  font-size: 0.75rem;
 
   &-link {
-    margin: .2rem;
+    margin: 0.2rem;
 
     a {
       color: $base-color;

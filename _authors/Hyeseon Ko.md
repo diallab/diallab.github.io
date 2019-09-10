@@ -1,6 +1,9 @@
 ---
 name: "Hyeseon Ko"
 job: "graduate"
+program: ms
+email: hyeseonko@skku.edu
+interests:
 description: "hyeseonko@skku.edu / Department of Electronic, Electrical and Computer Engineering"
 photo: https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/1558405_419189701548127_1121662306_n.jpg?_nc_cat=101&_nc_oc=AQkNrmUCPJDmE8FYRq1pzzmrAR2CSqn7aP5kEj1gw82pK4x8fjvwc-rJ0xDaLMstZ7c&_nc_ht=scontent-icn1-1.xx&oh=d1abbd5818bb7a067d7cb29db111eb48&oe=5E0AFB47
 ---
