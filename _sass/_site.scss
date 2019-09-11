@@ -746,6 +746,16 @@ body {
   &-section {
     margin-top: 1.3rem;
   }
+
+  &-img {
+    margin: 0;
+    min-width: 40%;
+    width: 0;
+    &-container {
+      margin: 1rem 0;
+      // justify-content: center;
+    }
+  }
 }
 
 /*--------------
