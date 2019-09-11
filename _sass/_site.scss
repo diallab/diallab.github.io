@@ -453,6 +453,7 @@ body {
       height: 100%;
       &:hover,
       &:focus {
+        color: unset !important;
         text-decoration: none;
       }
     }
