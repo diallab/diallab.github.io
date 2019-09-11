@@ -10,47 +10,48 @@ permalink: /research/projects.html
 
 <div class="research">
   <div class="research-list">
-    <h2>Ongoing Projects</h2>
-    {% if site.categories.research_ongoing.size == 0 %}
-    <h3>No ongoing research project found</h3>
-    {% else %}
-    {% for post in site.categories.research_ongoing %}
-    <div class="research-post">
-      <div class="research-list-post-content">
-        <span class="research-list-post-content-title">
-          {{ post.title }}
-        </span>
-        <br>
-        {% if post.description %}
-        <span class="research-list-post-content-description">
-          {{ post.description }}
-        </span>
-        {% endif %}
+    <div class="research-section">
+      <h2 class="section">Ongoing Projects</h2>
+      {% if site.categories.research_ongoing %}
+      {% for post in site.categories.research_ongoing %}
+      <div class="research-list-post">
+        <div class="research-list-post-content">
+          <div class="research-list-post-content-title">
+            {{ post.title }}
+          </div>
+          {% if post.description %}
+          <div class="research-list-post-content-description">
+            {{ post.description }}
+          </div>
+          {% endif %}
+        </div>
       </div>
-      <br>
+      {% endfor %}
+      {% else %}
+      <h3>No ongoing research project found</h3>
+      {% endif %}
     </div>
-    {% endfor %}
-    {% endif %}
 
-    <h2>Former Projects</h2>
-    {% if site.categories.research_former.size == 0 %}
-    <h3> No former research project found </h3>
-    {% else %}
-    {% for post in site.categories.research_former %}
-    <div class="research-list-post">
-      <div class="research-list-post-content">
-        <span class="research-list-post-content-title">
-          {{ post.title }}
-        </span>
-        <br>
-        {% if post.description %}
-        <span class="research-list-post-content-description">
-          {{ post.description }}
-        </span>
-        {% endif %}
+    <div class="research-section">
+      <h2 class="section">Former Projects</h2>
+      {% if site.categories.research_former %}
+      {% for post in site.categories.research_former %}
+      <div class="research-list-post">
+        <div class="research-list-post-content">
+          <div class="research-list-post-content-title">
+            {{ post.title }}
+          </div>
+          {% if post.description %}
+          <div class="research-list-post-content-description">
+            {{ post.description }}
+          </div>
+          {% endif %}
+        </div>
       </div>
+      {% endfor %}
+      {% else %}
+      <h3> No former research project found </h3>
+      {% endif %}
     </div>
-    {% endfor %}
-    {% endif %}
   </div>
 </div>

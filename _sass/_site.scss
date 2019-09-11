@@ -715,14 +715,12 @@ body {
         }
 
         &-title {
-          font-size: 1.2rem;
-          font-weight: 600;
+          font-weight: 500;
         }
 
         &-description {
-          // color: $base-lighten-color;
-          color: $base-color;
-          font-size: 1rem;
+          color: $base-lighten-color;
+          font-size: .8rem;
         }
 
         &-date {
