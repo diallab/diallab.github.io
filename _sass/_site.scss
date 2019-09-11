@@ -699,12 +699,6 @@ body {
       &-content {
         padding: 0.1rem;
 
-        &:hover {
-          background-color: $background-over-color;
-          border-color: transparent;
-          border-radius: 4px;
-        }
-
         a {
           color: $base-color;
 
@@ -720,7 +714,7 @@ body {
 
         &-description {
           color: $base-lighten-color;
-          font-size: .8rem;
+          font-size: 0.8rem;
         }
 
         &-date {
