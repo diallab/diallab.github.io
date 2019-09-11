@@ -34,12 +34,44 @@ body {
   }
 }
 
+/* ----------
+    flex
+  ----------- */
 .flex {
   display: flex;
 }
 
 .flex-direction-column {
   flex-direction: column;
+}
+
+/* ----------
+  Contact
+  ----------- */
+.contact {
+  &-container {
+    width: 100%;
+    min-height: 250px;
+    margin-top: 1.1rem;
+  }
+
+  &-item {
+    margin: 0 .5rem;
+  }
+
+  &-map {
+    width: 50%;
+  }
+
+  &-section {
+    font-size: 1rem !important;
+    margin: 0;
+  }
+
+  &-col {
+    font-size: .9rem;
+    margin-bottom: .8rem;
+  }
 }
 
 /*--------------
