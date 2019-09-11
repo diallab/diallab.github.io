@@ -1,14 +1,16 @@
 ---
+title: 'XLNet: Generalized Autoregressive Pretraining for Language Understanding'
 layout: post
-title: "XLNet: Generalized Autoregressive Pretraining for Language Understanding"
-description: "This is the paper review of XLNet: Generalized Autoregressive Pretraining for Language Understanding."
-date: 2019-07-26
-categories: ["seminar"]
-tags: []
+description: 'This is the paper review of XLNet: Generalized Autoregressive Pretraining
+  for Language Understanding.'
+date: '2019-07-26'
+categories:
+- seminar
 comments: true
-author: "Daejin Kim"
-pdf:
-ppt: "https://drive.google.com/open?id=1pU9YBIDgJ14pb21vy47G-h0rs1eLkJoB"
+author: Daejin Kim
+pdf: null
+ppt: https://drive.google.com/open?id=1pU9YBIDgJ14pb21vy47G-h0rs1eLkJoB
+semester: Spring 2019
 ---
 
 <!-- Post name should be this form: today-title.md

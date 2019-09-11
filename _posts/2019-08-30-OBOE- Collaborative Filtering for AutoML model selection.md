@@ -1,14 +1,19 @@
 ---
+title: 'OBOE: Collaborative Filtering for AutoML model selection'
 layout: post
-title: "OBOE: Collaborative Filtering for AutoML model selection"
-description: "This is the paper review of OBOE: Collaborative Filtering for AutoML model selection."
-date: 2019-07-12
-categories: ["seminar"]
-tags: ["CF", "AutoML"]
+description: 'This is the paper review of OBOE: Collaborative Filtering for AutoML
+  model selection.'
+date: '2019-07-12'
+categories:
+- seminar
+tags:
+- CF
+- AutoML
 comments: true
-author: "Jinhong Kim"
-pdf:
-ppt: "https://drive.google.com/open?id=14Lp_yn0q0mD4wZgnexWHMe9T_MPNCrhl"
+author: Jinhong Kim
+pdf: null
+ppt: https://drive.google.com/open?id=14Lp_yn0q0mD4wZgnexWHMe9T_MPNCrhl
+semester: Spring 2019
 ---
 
 <!-- Post name should be this form: today-title.md

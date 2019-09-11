@@ -1,14 +1,18 @@
 ---
+title: Session-based Recommendation with Deep-learning Method
 layout: post
-title: "Session-based Recommendation with Deep-learning Method"
-description: "This is the review of Session-based Recommendation with Deep-learning Method with two papers"
-date: 2019-08-09
-categories: ["seminar"]
-tags: ["rs"]
+description: This is the review of Session-based Recommendation with Deep-learning
+  Method with two papers
+date: '2019-08-09'
+categories:
+- seminar
+tags:
+- rs
 comments: true
-author: "Jaewan Moon"
-pdf:
-ppt: "https://drive.google.com/open?id=1mAF_Z-oGtrVofN0_ET9MS9wuse3sNcJy"
+author: Jaewan Moon
+pdf: null
+ppt: https://drive.google.com/open?id=1mAF_Z-oGtrVofN0_ET9MS9wuse3sNcJy
+semester: Spring 2019
 ---
 
 <!-- Post name should be this form: today-title.md

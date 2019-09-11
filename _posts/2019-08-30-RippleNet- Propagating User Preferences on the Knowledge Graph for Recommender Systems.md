@@ -1,14 +1,20 @@
 ---
+title: 'RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender
+  Systems'
 layout: post
-title: "RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems"
-description: "This is the paper review of RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems (CIKM 2018)."
-date: 2019-07-26
-categories: ["seminar"]
-tags: ["rs", "kg"]
+description: 'This is the paper review of RippleNet: Propagating User Preferences
+  on the Knowledge Graph for Recommender Systems (CIKM 2018).'
+date: '2019-07-26'
+categories:
+- seminar
+tags:
+- rs
+- kg
 comments: true
-author: "Seunghyeon Kim "
-pdf:
-ppt: "https://drive.google.com/open?id=1CU2i0aryDhdFejG-9e_342TG901kwFL3"
+author: Seunghyeon Kim
+pdf: null
+ppt: https://drive.google.com/open?id=1CU2i0aryDhdFejG-9e_342TG901kwFL3
+semester: Spring 2019
 ---
 
 <!-- Post name should be this form: today-title.md

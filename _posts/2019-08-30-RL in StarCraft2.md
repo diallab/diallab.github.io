@@ -1,14 +1,18 @@
 ---
+title: RL in StarCraft2
 layout: post
-title: "RL in StarCraft2"
-description: "This is the introduction of reinforcement learning on StartCraft2 and the NC Fellowship."
-date: 2019-08-16
-categories: ["seminar"]
-tags: ["RL"]
+description: This is the introduction of reinforcement learning on StartCraft2 and
+  the NC Fellowship.
+date: '2019-08-16'
+categories:
+- seminar
+tags:
+- RL
 comments: true
-author: "Kyeongjin Mun"
-pdf:
-ppt: "https://drive.google.com/open?id=13SfbcepCfyYS4Tj2gssPC6ZlhQGCbX5S"
+author: Kyeongjin Mun
+pdf: null
+ppt: https://drive.google.com/open?id=13SfbcepCfyYS4Tj2gssPC6ZlhQGCbX5S
+semester: Spring 2019
 ---
 
 <!-- Post name should be this form: today-title.md

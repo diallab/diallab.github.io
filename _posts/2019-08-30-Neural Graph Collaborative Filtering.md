@@ -1,14 +1,18 @@
 ---
+title: Neural Graph Collaborative Filtering
 layout: post
-title: "Neural Graph Collaborative Filtering"
-description: "This is the paper review of Neural Graph Collaborative Filtering (SIGIR 2019)."
-date: 2019-07-12
-categories: ["seminar"]
-tags: ["RS, CF"]
+description: This is the paper review of Neural Graph Collaborative Filtering (SIGIR
+  2019).
+date: '2019-07-12'
+categories:
+- seminar
+tags:
+- RS, CF
 comments: true
-author: "Minjin Choi"
-pdf:
-ppt: "https://drive.google.com/open?id=13mfTpSK3x833WkZ0WT1n5sVmX5ajFNiU"
+author: Minjin Choi
+pdf: null
+ppt: https://drive.google.com/open?id=13mfTpSK3x833WkZ0WT1n5sVmX5ajFNiU
+semester: Spring 2019
 ---
 
 <!-- Post name should be this form: today-title.md

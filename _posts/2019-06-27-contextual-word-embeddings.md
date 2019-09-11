@@ -1,14 +1,19 @@
 ---
+title: Contextual Word Embeddings
 layout: post
-title: "Contextual Word Embeddings"
-description: "This is the introduction of Contextualized Word Embedding with transfer learning wit various models."
-date: 2019-06-27
-categories: ["seminar"]
-tags: ["embeddings", "tutorial"]
+description: This is the introduction of Contextualized Word Embedding with transfer
+  learning wit various models.
+date: '2019-06-27'
+categories:
+- seminar
+tags:
+- embeddings
+- tutorial
 comments: true
 author: Heesoo Park
-pdf:
-ppt: "https://drive.google.com/open?id=1KSruyi-GtqWxC7xhM2HygDd4CxCYUwxD"
+pdf: null
+ppt: https://drive.google.com/open?id=1KSruyi-GtqWxC7xhM2HygDd4CxCYUwxD
+semester: Spring 2019
 ---
 
 ## Abstract

@@ -1,14 +1,19 @@
 ---
+title: AutoML and Neural Architecture Search
 layout: post
-title: "AutoML and Neural Architecture Search"
-description: "This is the paper review of EfficientNet from GoogleBrain and RandWire from Facebook AI Research (FAIR)"
-date: 2019-07-04
-categories: ["seminar"]
-tags: ["automl", "neural architecture"]
+description: This is the paper review of EfficientNet from GoogleBrain and RandWire
+  from Facebook AI Research (FAIR)
+date: '2019-07-04'
+categories:
+- seminar
+tags:
+- automl
+- neural architecture
 comments: true
-author: "Daejin Kim"
-pdf: "https://drive.google.com/open?id=1MWJsKDb_zVfjrdo-U4rAZti6Zvy9Bd1S"
-ppt:
+author: Daejin Kim
+pdf: https://drive.google.com/open?id=1MWJsKDb_zVfjrdo-U4rAZti6Zvy9Bd1S
+ppt: null
+semester: Spring 2019
 ---
 
 <!-- <iframe src="https://www.slideshare.net/DaeJinKim22/slideshelf" width="760px" height="570px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe> -->

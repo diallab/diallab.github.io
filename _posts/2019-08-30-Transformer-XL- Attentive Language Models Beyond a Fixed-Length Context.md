@@ -1,14 +1,16 @@
 ---
+title: 'Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context'
 layout: post
-title: "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context"
-description: "This is the paper review of Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context."
-date: 2019-08-01
-categories: ["seminar"]
-tags: []
+description: 'This is the paper review of Transformer-XL: Attentive Language Models
+  Beyond a Fixed-Length Context.'
+date: '2019-08-01'
+categories:
+- seminar
 comments: true
-author: "Heesoo Park"
-pdf:
-ppt: "https://drive.google.com/open?id=1MUTxy-tXchfOqV04pBGt3JK-Q8qxuPgG"
+author: Heesoo Park
+pdf: null
+ppt: https://drive.google.com/open?id=1MUTxy-tXchfOqV04pBGt3JK-Q8qxuPgG
+semester: Spring 2019
 ---
 
 <!-- Post name should be this form: today-title.md

@@ -1,14 +1,17 @@
 ---
+title: Texar Tutorial
 layout: post
-title: "Texar Tutorial"
-description: "This is the tutorial of Texar."
-date: 2019-08-09
-categories: ["seminar"]
-tags: ["tutorial"]
+description: This is the tutorial of Texar.
+date: '2019-08-09'
+categories:
+- seminar
+tags:
+- tutorial
 comments: true
-author: "Junhyuk Lee"
-pdf:
-ppt: "https://drive.google.com/open?id=12RPFxBYGG_YF8wgyjOIrEpPTqpPDuMSu"
+author: Junhyuk Lee
+pdf: null
+ppt: https://drive.google.com/open?id=12RPFxBYGG_YF8wgyjOIrEpPTqpPDuMSu
+semester: Spring 2019
 ---
 
 <!-- Post name should be this form: today-title.md

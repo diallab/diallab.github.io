@@ -1,14 +1,16 @@
 ---
+title: Disentangled Representation Learning for Non-Parallel Text Style Transfer
 layout: post
-title: "Disentangled Representation Learning for Non-Parallel Text Style Transfer"
-description: "This is the paper review of Disentangled Representation Learning for Non-Parallel Text Style Transfer (AAAI 2019)."
-date: 2019-07-29
-categories: ["seminar"]
-tags: []
+description: This is the paper review of Disentangled Representation Learning for
+  Non-Parallel Text Style Transfer (AAAI 2019).
+date: '2019-07-29'
+categories:
+- seminar
 comments: true
-author: "Hyeseon Ko"
-pdf:
-ppt: "https://drive.google.com/open?id=1fncqrmnDsSxo4VIODnXGUWBTWEsU6l_k"
+author: Hyeseon Ko
+pdf: null
+ppt: https://drive.google.com/open?id=1fncqrmnDsSxo4VIODnXGUWBTWEsU6l_k
+semester: Spring 2019
 ---
 
 <!-- Post name should be this form: today-title.md

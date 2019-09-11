@@ -1,14 +1,17 @@
 ---
+title: 'Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy
+  Labels'
 layout: post
-title: "Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels"
-description: "This is the paper review of Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels (NIPS 2018)."
-date: 2019-08-23
-categories: ["seminar"]
-tags: []
+description: 'This is the paper review of Co-teaching: Robust Training of Deep Neural
+  Networks with Extremely Noisy Labels (NIPS 2018).'
+date: '2019-08-23'
+categories:
+- seminar
 comments: true
-author: "Chan Lim"
-pdf:
-ppt: "https://drive.google.com/open?id=1cDi9dR7L6zgsJdpsH8Yi2XyGmSeG9eTr"
+author: Chan Lim
+pdf: null
+ppt: https://drive.google.com/open?id=1cDi9dR7L6zgsJdpsH8Yi2XyGmSeG9eTr
+semester: Spring 2019
 ---
 
 <!-- Post name should be this form: today-title.md

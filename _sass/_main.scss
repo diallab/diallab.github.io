@@ -17,3 +17,20 @@ div.section-container {
 div.second-section-container {
   margin-bottom: 1.3rem;
 }
+
+.table-custom {
+  font-size: 0.8rem;
+  // table-layout: fixed;
+
+  .td-custom {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  a {
+    color: $base-color;
+    &:hover {
+      color: cornflowerblue;
+    }
+  }
+}

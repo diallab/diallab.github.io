@@ -1,14 +1,20 @@
 ---
+title: Variational Autoencoders for collaborative filtering
 layout: post
-title: "Variational Autoencoders for collaborative filtering"
-description: "This is the paper review of Variational Autoencoders for collaborative filtering."
-date: 2019-08-16
-categories: ["seminar"]
-tags: ["vae", "cf", "rs"]
+description: This is the paper review of Variational Autoencoders for collaborative
+  filtering.
+date: '2019-08-16'
+categories:
+- seminar
+tags:
+- vae
+- cf
+- rs
 comments: true
-author: "Jinhong Kim"
-pdf:
-ppt: "https://drive.google.com/open?id=15T5Wz3iv_dTONUzNtrwPz9lOP1y24Q86"
+author: Jinhong Kim
+pdf: null
+ppt: https://drive.google.com/open?id=15T5Wz3iv_dTONUzNtrwPz9lOP1y24Q86
+semester: Spring 2019
 ---
 
 <!-- Post name should be this form: today-title.md

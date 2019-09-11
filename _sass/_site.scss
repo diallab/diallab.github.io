@@ -652,43 +652,36 @@ body {
 .seminar {
   &-list {
     &-post {
-      margin-bottom: 0.5rem;
+      padding: .5rem;
 
-      &-content {
-        padding: 0.1rem;
+      &:hover {
+        background-color: $background-over-color;
+        border-color: transparent;
+        border-radius: 4px;
+      }
 
-        &:hover {
-          background-color: $background-over-color;
-          border-color: transparent;
-          border-radius: 4px;
+      a {
+        color: $base-color;
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
         }
+      }
 
-        a {
-          color: $base-color;
+      &-title {
+        font-weight: 500;
+      }
 
-          &:hover,
-          &:focus {
-            text-decoration: none;
-          }
-        }
+      &-date {
+        color: $base-lighten-color;
+        font-size: .7rem;
+        margin-left: 0.2rem;
+      }
 
-        &-title {
-          font-size: 1.2rem;
-          font-weight: 600;
-        }
-
-        &-description {
-          // color: $base-lighten-color;
-          color: $base-color;
-          font-size: 1rem;
-        }
-
-        &-date {
-          color: $base-lighten-color;
-          font-size: 0.75rem;
-          // text-transform: uppercase;
-          margin-left: 0.2rem;
-        }
+      &-description {
+        color: $base-lighten-color;
+        font-size: .8rem;
       }
     }
   }

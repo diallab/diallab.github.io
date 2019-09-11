@@ -4,43 +4,40 @@ title: Seminar
 ---
 
 <div class="seminar">
-    <div class="seminar-list">
-        {% if site.categories.seminar.size == 0 %}
-        <h2>No seminar found</h2>
-        {% else %}
-        {% for post in site.categories.seminar %}
-        <div class="seminar-list-post">
-            <div class="seminar-list-post-content">
-                {% if post.link %}
-                <a href="{{ post.link }}">
-                    {% else %}
-                    <a href="{{ post.url | prepend: site.baseurl }}">
-                        {% endif %}
-                        <span class="seminar-list-post-content-title">
-                            {{ post.title }}
-                        </span>
-                        <span class="seminar-list-post-content-date">
-                            by {{ post.author }}, <time>{{ post.date | date_to_string }}</time>
-                        </span><br>
-                        {% if post.description %}
-                        <span class="seminar-list-post-content-description">
-                            {{ post.description }}
-                        </span>
-                        {% endif %}
-                    </a>
-            </div>
-            <!-- {% if post.pdf or post.ppt %}
-            <div class="seminar-list-post-file">
-                {% if post.pdf %}
-                <a href="{{ post.pdf }}">pdf</a>
-                {% endif %}
-                {% if post.ppt %}
-                <a href="{{ post.ppt }}">ppt</a>
-                {% endif %}
-            </div>
-            {% endif %} -->
-        </div>
-        {% endfor %}
-        {% endif %}
-    </div>
+  {% for semester in site.data.semesters %}
+  {% assign sorted = site.categories.seminar | where: 'semester', semester
+    | sort: "date" | reverse %}
+
+  {% if sorted.size > 0 %}
+  <h2 class="section">{{ semester }}</h2>
+  <table class="table table-custom">
+    <thead>
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Title</th>
+        <th scope="col">Speaker</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for post in sorted %}
+      <tr>
+        <td class="td-custom">
+          <nobr>{{ post.date | date_to_string }}</nobr>
+        </td>
+        <td class="td-custom">
+          <nobr>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </nobr>
+        </td>
+        <td class="td-custom">
+          <nobr>
+            <a href="/authors/{{ post.author }}">{{ post.author }}</a>
+          </nobr>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+  {% endfor %}
 </div>

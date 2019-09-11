@@ -1,14 +1,15 @@
 ---
+title: Self-Attention Graph Pooling
 layout: post
-title: "Self-Attention Graph Pooling"
-description: "This is the paper review of Self-Attention Graph Pooling."
-date: 2019-07-19
-categories: ["seminar"]
-tags: []
+description: This is the paper review of Self-Attention Graph Pooling.
+date: '2019-07-19'
+categories:
+- seminar
 comments: true
-author: "Yoonki Jeong"
-pdf:
-ppt: "https://drive.google.com/open?id=1RcqJh6BR7cag0f_vJEXEKenlFRZTuCgo"
+author: Yoonki Jeong
+pdf: null
+ppt: https://drive.google.com/open?id=1RcqJh6BR7cag0f_vJEXEKenlFRZTuCgo
+semester: Spring 2019
 ---
 
 <!-- Post name should be this form: today-title.md

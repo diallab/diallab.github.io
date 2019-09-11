@@ -1,14 +1,17 @@
 ---
+title: Hyperparameter Optimization
 layout: post
-title: "Hyperparameter Optimization"
-description: "The review of black-box function HPO methods"
-date: 2019-08-02
-categories: ["seminar"]
-tags: ["HPO"]
+description: The review of black-box function HPO methods
+date: '2019-08-02'
+categories:
+- seminar
+tags:
+- HPO
 comments: true
-author: "Jiwoo Kim"
-pdf: 
-ppt: "https://drive.google.com/open?id=1Xpn-lQinFOJeZz4u5UN1DdZyhn_MBohz"
+author: Jiwoo Kim
+pdf: null
+ppt: https://drive.google.com/open?id=1Xpn-lQinFOJeZz4u5UN1DdZyhn_MBohz
+semester: Spring 2019
 ---
 
 ## Abstract
