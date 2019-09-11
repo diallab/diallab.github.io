@@ -8,47 +8,52 @@ permalink: /publication/publication_conferences.html
 
 <div id="conference" style="display:none"></div>
 
-<a style="color:white">{% increment conference_international_number %}</a>
-<a style="color:white">{% increment conference_domestic_number %}</a>
-
 <div class="publication">
   <div class="publication-list">
-    <h2>International Conferences</h2>
-    {% if site.categories.conference_international %}
-    {% assign grouped = site.categories.conference_international | sort: "date"
-      | reverse | group_by_exp: "p", "p.date | date: '%Y'" %}
-    {% assign before = false %}
-    {% for year in grouped %}
-    <!-- convert string to integer -->
-    {% assign this_year = year.name | plus: 0 %}
-    {% if this_year >= 2016 %}
-    <h3>{{ year.name }}</h3>
-    {% else %}
-    {% unless before %}
-    <h3>Before 2016</h3>
-    {% assign before = true %}
-    {% endunless %}
-    {% endif %}
-      {% for post in year.items %}
-      <ul class="publication-list-post">
-        <li class="publication-list-post-content">
-          <span class="publication-list-post-content-title">
-            {{ post.title }}
-          </span><br>
-          {% if post.description %}
-          <span class="publication-list-post-content-description">
-            {{ post.description }}
-          </span>
-          {% endif %}
-        </li>
-      </ul>
+    <div class="section-container">
+      <h2 class="section">International Conferences</h2>
+      {% if site.categories.conference_international %}
+      {% assign grouped = site.categories.conference_international | sort: "date"
+      | reverse | group_by_exp: "p", "p.date | date: '%Y' | to_integer" %}
+      {% assign before = false %}
+      {% assign class = 'second-section-container' %}
+      {% for year in grouped %}
+      <!-- convert string to integer -->
+      {% assign this_year = year.name %}
+      {% if this_year < 2016 %}
+      {% assign class = nil %}
+      {% endif %}
+      <div class="{{ class }}">
+        {% if this_year >= 2016 %}
+        <h3 class="section">{{ year.name }}</h3>
+        {% else %}
+        {% unless before %}
+        <h3 class="section">Before 2016</h3>
+        {% assign before = true %}
+        {% endunless %}
+        {% endif %}
+        <ul class="publication-list-post">
+          {% for post in year.items %}
+          <li class="publication-list-post-content">
+            <div class="publication-list-post-content-title">
+              {{ post.title }}
+            </div>
+            {% if post.description %}
+            <div class="publication-list-post-content-description">
+              {{ post.description }}
+            </div>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
       {% endfor %}
-    {% endfor %}
-    {% else %}
-    <h2>No publication found</h2>
-    {% endif %}
+      {% else %}
+      <div>No publication found</div>
+      {% endif %}
+    </div>
 
-    <h2>Domestic Conferences</h2>
+    <h2 class="section">Domestic Conferences</h2>
     {% if site.categories.conference_domestic %}
     {% for post in site.categories.conference_domestic %}
     <div class="publication-list-post">
@@ -67,7 +72,7 @@ permalink: /publication/publication_conferences.html
     </div>
     {% endfor %}
     {% else %}
-    <h3>No publication found</h3>
+    <div>No publication found</div>
     {% endif %}
   </div>
 </div>
