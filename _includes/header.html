@@ -5,8 +5,8 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     </div>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+    <div class="collapse navbar-collapse navbar-collapse-custom" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto navbar-nav-custom">
         {% for link in site.data.navigation %}
         {% assign class = nil %}
         {% if page.url contains link.url %}
