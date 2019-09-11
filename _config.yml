@@ -78,7 +78,7 @@ nav:
 sass:
   load_paths:
     - _sass
-    - node_modules/bootstrap/scss
+    - _sass/bootstrap/scss
   style:            :compressed
 
 # Scopes
