@@ -1,27 +1,11 @@
-<a id="nav_journal" href="index.html", style="color: black">Journals</a> |
-<a id="nav_conference" href="publication_conferences.html", style="color:black">Conferences</a>
-<!-- <a id="nav_workshop" href="publication_workshops.html", style="color:black">Workshops</a> -->
+{% assign active_journal = nil %}
+{% assign active_conference = nil %}
 
-<script>
-function check_elem(id) {
-  return !!document.getElementById(id);
-}
+{% if page.url == '/publication/index.html' %}
+{% assign active_journal = 'second-nav-active' %}
+{% elsif page.url == '/publication/publication_conferences.html' %}
+{% assign active_conference = 'second-nav-active' %}
+{% endif %}
 
-window.onload = function() {
-  var ids = {
-    'journal': 'nav_journal',
-    'conference': 'nav_conference',
-    'workshop': 'nav_workshop',
-  };
-
-  var elem = null;
-
-  for ([id, nav_id] of Object.entries(ids)) {
-    if (check_elem(id)) {
-      elem = document.getElementById(nav_id);
-      break;
-    }
-  }
-  elem.style.color = 'cornflowerblue';
-}
-</script>
+<a class="second-nav {{ active_journal }}" href="index.html">Journals</a> |
+<a class="second-nav {{ active_conference }}" href="publication_conferences.html">Conferences</a>

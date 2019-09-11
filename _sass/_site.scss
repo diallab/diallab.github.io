@@ -148,6 +148,18 @@ body {
   }
 }
 
+/* --------------
+  second-nav
+  --------------- */
+
+.second-nav {
+  color: black;
+
+  &-active {
+    color: cornflowerblue;
+  }
+}
+
 /*--------------
   Page
   -------------- */
@@ -724,14 +736,6 @@ body {
           margin-left: 0.2rem;
         }
       }
-    }
-  }
-
-  &-nav {
-    color: black;
-
-    &-active {
-      color: cornflowerblue;
     }
   }
 
