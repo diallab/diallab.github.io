@@ -7,8 +7,8 @@ date: '2019-07-12'
 categories:
 - seminar
 tags:
-- CF
-- AutoML
+- cf
+- automl
 comments: true
 author: Jinhong Kim
 pdf: null

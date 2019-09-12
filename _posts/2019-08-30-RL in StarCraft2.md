@@ -7,7 +7,7 @@ date: '2019-08-16'
 categories:
 - seminar
 tags:
-- RL
+- rl
 comments: true
 author: Kyeongjin Mun
 pdf: null

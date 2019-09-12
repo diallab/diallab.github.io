@@ -7,7 +7,8 @@ date: '2019-07-12'
 categories:
 - seminar
 tags:
-- RS, CF
+- rs
+- cf
 comments: true
 author: Minjin Choi
 pdf: null

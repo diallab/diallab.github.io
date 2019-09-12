@@ -6,7 +6,7 @@ date: '2019-08-02'
 categories:
 - seminar
 tags:
-- HPO
+- hpo
 comments: true
 author: Jiwoo Kim
 pdf: null
