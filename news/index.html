@@ -7,46 +7,40 @@ title: News
   <div class="news-list">
     {% if site.categories.news %}
     {% assign grouped = site.categories.news | sort: "date" | reverse
-      | group_by_exp: "p", "p.date | date: '%Y'" %}
+      | group_by_exp: "p", "p.date | date: '%Y' | to_integer" %}
     {% assign before = false %}
     {% for year in grouped %}
-    <!-- convert string to integer -->
-    {% assign this_year = year.name | plus: 0 %}
+    {% assign this_year = year.name %}
     {% if this_year >= 2016 %}
-    <h3>{{ year.name }}</h3>
+    <h2 class="section">{{ year.name }}</h2>
     {% else %}
     {% unless before %}
-    <h3>Before 2016</h3>
+    <h2 class="section">Before 2016</h2>
     {% assign before = true %}
     {% endunless %}
     {% endif %}
     {% for post in year.items %}
     <div class="news-list-post">
       <div class="news-list-post-content">
-        {% if post.link %}
-        <a href="{{ post.link }}">
-          {% else %}
-          <a href="{{ post.url | prepend: site.baseurl }}">
-            {% endif %}
-            <span class="news-list-post-content-title">
-              {{ post.title }}
-            </span>
-            <span class="news-list-post-content-date">
-              <time>{{ post.date | date_to_string }}</time>
-            </span>
-            <br>
-            {% if post.description %}
-            <span class="news-list-post-content-description">
-              {{ post.description }}
-            </span>
-            {% endif %}
-          </a>
+        <a href="{{ post.url }}">
+          <div class="news-list-post-content-date">
+            <time>{{ post.date | date_to_string }}</time>
+          </div>
+          <div class="news-list-post-content-title">
+            {{ post.title }}
+          </div>
+          {% if post.description %}
+          <div class="news-list-post-content-description">
+            {{ post.description }}
+          </div>
+          {% endif %}
+        </a>
       </div>
     </div>
     {% endfor %}
     {% endfor %}
     {% else %}
-    <h2>No news found</h2>
+    <div>No news found</div>
     {% endif %}
   </div>
 </div>
