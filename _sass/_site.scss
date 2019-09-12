@@ -153,6 +153,7 @@ body {
     width: 100%;
     padding-left: 0 !important;
     background-color: $oc-gray-1;
+    z-index: 500;
     ul > li {
       margin: 0;
       line-height: unset;
