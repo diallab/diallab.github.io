@@ -56,7 +56,7 @@ body {
   }
 
   &-item {
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
   }
 
   &-map {
@@ -69,8 +69,8 @@ body {
   }
 
   &-col {
-    font-size: .9rem;
-    margin-bottom: .8rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
   }
 }
 
@@ -211,18 +211,30 @@ body {
   -------------- */
 .post {
   &-title {
-    margin-top: 0rem;
-    margin-bottom: 0.3rem;
-    font-size: 2.25em;
-    line-height: 1.2em;
-    font-weight: 600;
+    font-size: 1.15rem;
+    font-weight: 500;
   }
 
   &-date {
+    margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    color: $oc-gray-8;
+    color: $base-lighten-color;
     font-size: 0.75rem;
-    text-transform: uppercase;
+  }
+
+  &-content {
+    p {
+      font-size: 0.9rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      border: none;
+    }
+
+    ol {
+      font-size: 0.9rem;
+    }
   }
 
   &-footer {
@@ -620,7 +632,7 @@ body {
         }
 
         &-description {
-          font-size: .7rem;
+          font-size: 0.7rem;
         }
 
         &-date {
@@ -642,8 +654,8 @@ body {
       margin-bottom: 0.5rem;
 
       &-content {
-        margin-left: .5rem;
-        margin-bottom: .5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.5rem;
 
         a {
           color: $base-color;
@@ -661,7 +673,7 @@ body {
 
         &-description {
           color: $base-lighten-color;
-          font-size: .7rem;
+          font-size: 0.7rem;
         }
 
         &-date {
@@ -680,7 +692,7 @@ body {
 .seminar {
   &-list {
     &-post {
-      padding: .5rem;
+      padding: 0.5rem;
 
       &:hover {
         background-color: $background-over-color;
@@ -703,13 +715,13 @@ body {
 
       &-date {
         color: $base-lighten-color;
-        font-size: .7rem;
+        font-size: 0.7rem;
         margin-left: 0.2rem;
       }
 
       &-description {
         color: $base-lighten-color;
-        font-size: .8rem;
+        font-size: 0.8rem;
       }
     }
   }

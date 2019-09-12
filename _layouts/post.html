@@ -2,10 +2,12 @@
 layout: default
 ---
 <div class="post">
-  <div class="post-title">{{ page.title }}</div>
-  <span class="post-date">
-    <time>{{ page.date | date_to_string }}</time>
-  </span>
+  <h2 class="section">
+    <div class="post-title">{{ page.title }}</div>
+    <div class="post-date">
+      <time>{{ page.date | date_to_string }}</time>
+    </div>
+  </h2>
   <div class="post-tag">
     <ul>
       {% for tag in page.tags %}
@@ -14,31 +16,31 @@ layout: default
           <span>{{ tag }}</span>
         </a>
       </li>
-      {% unless forloop.last %}{% endunless %}
       {% endfor %}
     </ul>
   </div>
 
-
-  {{ content }}
+  <div class="post-content">
+    {{ content }}
+  </div>
 
   {% if page.author or page.pdf or page.ppt %}
   <div class="post-footer">
     {% if page.author %}
     <div class="post-footer-author">
-        Posted by <a href="/authors/{{page.author}}">{{ page.author }}</a>
+      Posted by <a href="/authors/{{page.author}}">{{ page.author }}</a>
     </div>
     {% endif %}
     {% if page.pdf or page.ppt %}
     <div class="post-footer-file">
-        {% if page.pdf %}
-        <!-- <img src="/images/pdf_icon.svg"/> -->
-        <a href="{{ page.pdf }}">download pdf</a>
-        {% endif %}
-        {% if page.ppt %}
-        <!-- <img src="/images/ppt_icon.svg" />z -->
-        <a href="{{ page.ppt }}">download slide</a>
-        {% endif %}
+      {% if page.pdf %}
+      <!-- <img src="/images/pdf_icon.svg"/> -->
+      <a href="{{ page.pdf }}">download pdf</a>
+      {% endif %}
+      {% if page.ppt %}
+      <!-- <img src="/images/ppt_icon.svg" />z -->
+      <a href="{{ page.ppt }}">download slide</a>
+      {% endif %}
     </div>
     {% endif %}
   </div>
@@ -47,8 +49,8 @@ layout: default
   <!-- Disqus -->
   {% if page.comments != false and site.disqus.id %}
   <div class="post-disqus">
-      <section id="disqus_thread"></section>
-      {% include disqus.html %}
+    <section id="disqus_thread"></section>
+    {% include disqus.html %}
   </div>
   {% endif %}
 
