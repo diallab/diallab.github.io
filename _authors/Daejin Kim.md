@@ -8,5 +8,15 @@ description: Hello my name is Daejin Kim
 photo: /images/user.svg
 ---
 
+![Photo](/images/user.svg){: width="200" height="200"}
+Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Natural Language Processing
+
+<hr />
+
 ## Biography
-I am an assistant professor at Department of Software, Sungkyunkwan University (SKKU), Korea.<br>In Sep 2014~Aug 2016, I was an assistant professor at Hankuk University of Foreign Studies (HUFS), Korea. In Dec 2013~Aug 2014, I was an postdoctoral researcher at College of Information Sciences and Technology (IST), Pennsylvania State University, USA. In Feb 2012, I received my PhD in dept of computer science and engineering at Pohang University of Science and Technology (POSTECH), Korea. I was fortunate to work as a research intern at Microsoft Research Asia and Microsoft Research.
+데이터 마이닝 연구실 김대진 입니다. <!-- Write your own biography contents. -->
+
+## Contact
+**Mail**: daejin@skku.edu <!-- Write your own email address -->
+<br>
+**Location**: 85453 <!-- 85453 or your location address -->

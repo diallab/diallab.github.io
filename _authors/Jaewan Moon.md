@@ -20,8 +20,6 @@ photo: https://avatars3.githubusercontent.com/u/49435952?s=400&u=54375f630b087b0
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
 
-<hr>
-
 ![Photo](https://avatars3.githubusercontent.com/u/49435952?s=400&u=54375f630b087b043d34ef265478f975dfceb4df&v=4){: width="200" height="200"}
 Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Recommender Systems
 
@@ -32,14 +30,9 @@ Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Reco
 <hr>
 
 ## Biography
---Fill-- <!-- Write your own biography contents. -->
+Hello, my name is Jaewan Moon.<!-- Write your own biography contents. -->
 
 ## Contact
 **Mail**: jaewan7599@skku.edu <!-- Write your own email address -->
 <br>
 **Location**: Cooperate building 85453 <!-- 85453 or your location address -->
-
-## More Information
-## Posts
-
-<!-- Nothing to do in Posts section -->

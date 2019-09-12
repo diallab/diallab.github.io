@@ -20,8 +20,6 @@ photo: https://avatars0.githubusercontent.com/u/25289309?s=400&u=d601c0ceaae072c
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
 
-<hr>
-
 ![Photo](https://avatars0.githubusercontent.com/u/25289309?s=400&u=d601c0ceaae072c664d6abcff3383f435de51c97&v=4){: width="200" height="200"}
 <!-- <img src="https://avatars0.githubusercontent.com/u/25289309?s=400&u=d601c0ceaae072c664d6abcff3383f435de51c97&v=4" width="200" height="200"> -->
 
@@ -52,7 +50,3 @@ I received my B.S. degree in department of global economics and computer science
 
 <!-- If you have some personal websites, then write the url here. -->
 <!-- If you don't have them, then remove a line '[Persoal Website](--Fill--)' -->
-
-## Posts
-
-<!-- Nothing to do in Posts section -->

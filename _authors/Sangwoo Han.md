@@ -20,8 +20,6 @@ photo: /images/user.svg
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
 
-<hr>
-
 ![Photo](/images/user.svg){: width="200" height="200"}
 Graduate Student<br />
 Department of Artificial Intelligence, Sungkyunkwan University<br />
@@ -47,7 +45,3 @@ I received my B.S. degree in Division of Software from Hanyang University ERICA,
 
 <!-- If you have some personal websites, then write the url here. -->
 <!-- If you don't have them, then remove a line '[Persoal Website](--Fill--)' -->
-
-## Posts
-
-<!-- Nothing to do in Posts section -->

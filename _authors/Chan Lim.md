@@ -19,8 +19,6 @@ photo: https://avatars1.githubusercontent.com/u/35093461?s=400&u=710dfb5167f9c1f
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
 
-<hr>
-
 ![Photo](https://avatars1.githubusercontent.com/u/35093461?s=400&u=710dfb5167f9c1f2f08473623d1313a198a866b8&v=4){: width="200" height="200"}
 Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Natural Language Processing, Recommender System
 
@@ -37,12 +35,3 @@ Hello, my name is Chan Lim.<!-- Write your own biography contents. -->
 **Mail**: chan1085@naver.com <!-- Write your own email address -->
 <br>
 **Location**: 85453 <!-- 85453 or your location address -->
-
-## More Information
-
-<!-- If you have some personal websites, then write the url here. -->
-<!-- If you don't have them, then remove a line '[Persoal Website](--Fill--)' -->
-
-## Posts
-
-<!-- Nothing to do in Posts section -->

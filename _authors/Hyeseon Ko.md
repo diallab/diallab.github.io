@@ -8,20 +8,6 @@ description: "hyeseonko@skku.edu / Department of Electronic, Electrical and Comp
 photo: https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/1558405_419189701548127_1121662306_n.jpg?_nc_cat=101&_nc_oc=AQkNrmUCPJDmE8FYRq1pzzmrAR2CSqn7aP5kEj1gw82pK4x8fjvwc-rJ0xDaLMstZ7c&_nc_ht=scontent-icn1-1.xx&oh=d1abbd5818bb7a067d7cb29db111eb48&oe=5E0AFB47
 ---
 
-<!-- Post name should be this form: name.md
-        For example, Gildong Hong.md -->
-
-<!-- Fill the contents where --Fill-- exists -->
-<!-- The example is in '_authors/Jongwuk Lee.md' or '_authors/Jiwoo Kim.md'>
-
-<!-- For 'name' front matter, follow this format: Gildong Hong -->
-<!-- For 'job' front matter, choose the one of these: professor / graduate / undergraduate / alumni -->
-<!-- For 'description' front matter, write down your email address and areas of interests.
-        Email address is nessecary for graduate students.
-        Follow this format: example@skku.edu / Computer Science -->
-
-<hr>
-
 ![Photo](https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/1558405_419189701548127_1121662306_n.jpg?_nc_cat=101&_nc_oc=AQkNrmUCPJDmE8FYRq1pzzmrAR2CSqn7aP5kEj1gw82pK4x8fjvwc-rJ0xDaLMstZ7c&_nc_ht=scontent-icn1-1.xx&oh=d1abbd5818bb7a067d7cb29db111eb48&oe=5E0AFB47){: width="200" height="200"}
 Graduate Student<br>Department of Computer Science & Engineering, Sungkyunkwan University<br>Natural Language Processing & Neuroimaging Analysis and Understanding
 
@@ -44,7 +30,3 @@ I am a master student at Department of Electronic, Electrical and Computer Engin
 
 <!-- If you have some personal websites, then write the url here. -->
 <!-- If you don't have them, then remove a line '[Persoal Website](--Fill--)' -->
-
-## Posts
-
-<!-- Nothing to do in Posts section -->

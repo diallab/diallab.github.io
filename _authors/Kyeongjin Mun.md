@@ -20,8 +20,6 @@ photo: https://avatars3.githubusercontent.com/u/28817812?s=400&v=4
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
 
-<hr>
-
 ![Photo](https://avatars3.githubusercontent.com/u/28817812?s=400&v=4){: width="200" height="200"}
 Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Recommender Systems, Natural Language Processing
 
@@ -39,12 +37,3 @@ I'm a undergraduate student at Department of Software, Sungkyunkwan University (
 **Mail**: kyeongjin.mun@gmail.com <!-- Write your own email address -->
 <br>
 **Location**: Room 85453, Corporate Collaboration Center <!-- 85453 or your location address -->
-
-## More Information
-
-<!-- If you have some personal websites, then write the url here. -->
-<!-- If you don't have them, then remove a line '[Persoal Website](--Fill--)' -->
-
-## Posts
-
-<!-- Nothing to do in Posts section -->

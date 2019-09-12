@@ -20,8 +20,6 @@ photo: /images/user.svg
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
 
-<hr>
-
 ![Photo](/images/user.svg){: width="200" height="200"}
 Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Natural Language Processing
 
@@ -45,7 +43,3 @@ My name is junhyuk Lee<!-- Write your own biography contents. -->
 
 <!-- If you have some personal websites, then write the url here. -->
 <!-- If you don't have them, then remove a line '[Persoal Website](--Fill--)' -->
-
-## Posts
-
-<!-- Nothing to do in Posts section -->
