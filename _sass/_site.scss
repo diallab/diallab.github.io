@@ -414,13 +414,14 @@ body {
 .tag {
   &-index {
     ul {
+      margin: 0;
       li:before {
         content: "";
       }
 
       li {
         margin: 0;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         display: inline;
         list-style-type: none;
         text-transform: lowercase;
