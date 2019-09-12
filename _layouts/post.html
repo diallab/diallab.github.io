@@ -7,19 +7,18 @@ layout: default
     <div class="post-date">
       <time>{{ page.date | date_to_string }}</time>
     </div>
+    <div class="post-tag">
+      <ul>
+        {% for tag in page.tags %}
+        <li>
+          <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+            <span>{{ tag }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
   </h2>
-  <div class="post-tag">
-    <ul>
-      {% for tag in page.tags %}
-      <li>
-        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
-          <span>{{ tag }}</span>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-
   <div class="post-content">
     {{ content }}
   </div>

@@ -265,7 +265,10 @@ body {
   }
 
   &-tag {
+    margin-top: 0.8rem;
+
     ul {
+      margin: 0;
       li:before {
         content: "";
       }
