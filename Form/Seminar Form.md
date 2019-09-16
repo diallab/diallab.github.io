@@ -9,6 +9,7 @@ comments: true
 author: "--Fill--"
 pdf: "--Fill(not necessary)--"
 ppt: "--Fill(not necessary)--"
+semester: "--Fill-- (Spring/Fall year) e.g. Spring 2019"
 ---
 
 <!-- Post name should be this form: today-title.md
