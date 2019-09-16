@@ -99,9 +99,9 @@ body {
     display: inline-block;
 
     img {
-      height: 1.2em;
+      height: 2.5rem;
       float: left;
-      margin-right: 0.3rem;
+      margin: 0;
     }
 
     a {
@@ -166,6 +166,13 @@ body {
     ul > li {
       margin: 0;
       line-height: unset;
+    }
+    img {
+      float: left;
+      height: 1rem;
+      margin-top: 0.45rem;
+      margin-right: 0.3rem;
+      margin-bottom: 0;
     }
   }
 
