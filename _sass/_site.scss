@@ -546,6 +546,7 @@ body {
 
   &-img-professor {
     width: 30%;
+    height: 100%;
   }
 
   &-info {
@@ -830,7 +831,7 @@ body {
     margin: 0;
     min-width: 40%;
     width: 0;
-
+    height: 100%;
     @include media-breakpoint-down(sm) {
       width: 100%;
     }

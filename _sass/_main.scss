@@ -1,3 +1,5 @@
+@import "bootstrap";
+
 .header-title-desc {
   margin-bottom: 2rem;
 }
@@ -43,6 +45,10 @@ div.second-section-container {
 .swiper-container {
   height: 30vw;
   margin-bottom: 2rem;
+
+  @include media-breakpoint-down(sm) {
+    height: 50vw;
+  }
 
   .swiper-img {
     width: 100%;
