@@ -10,10 +10,10 @@
 - title: Publications
   url: /publication
   sublinks:
-    - title: Journals
-      url: /publication
     - title: Conferences
       url: /publication/publication_conferences.html
+    - title: Journals
+      url: /publication
 - title: Seminar
   url: /seminar
 - title: Tags
