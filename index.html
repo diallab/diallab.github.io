@@ -9,6 +9,24 @@ layout: default
   <span><b>D</b>ata <b>I</b>ntelligence <b>A</b>nd <b>L</b>earning Lab</span>
 </div>
 
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img class="swiper-img" src="/post_images/news2_image.png" />
+      <div class="swiper-tint">이종욱 교수 연구실, 김승현 석사과정 WWW 국제 학술대회 논문 게재</div>
+    </div>
+    <!-- <div class="swiper-slide">
+      <div class="swiper-tint">Slide2</div>
+    </div>
+    <div class="swiper-slide">
+      <div class="swiper-tint">Slide3</div>
+    </div> -->
+  </div>
+  <div class="swiper-pagination swiper-pagination-white"></div>
+  <div class="swiper-button-prev swiper-button-white"></div>
+  <div class="swiper-button-next swiper-button-white"></div>
+</div>
+
 <h2 class="section">Welcome!</h2>
 
 <div class="section-desc">
@@ -76,3 +94,29 @@ layout: default
     </div>
   </div>
 </div>
+
+<script>
+  window.onload = function () {
+    var mySwiper = new Swiper('.swiper-container', {
+      loop: true,
+
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: true,
+      },
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    })
+  }
+</script>
