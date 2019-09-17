@@ -29,10 +29,21 @@ div.second-section-container {
 .table-custom {
   font-size: 0.8rem;
 
+  @include media-breakpoint-down(sm) {
+    table-layout: fixed;
+    width: 500px;
+  }
+
   .td-custom {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+  }
+
+  .td-custom-date {
+    @include media-breakpoint-down(sm) {
+      width: 10%;
+    }
   }
 
   a {
