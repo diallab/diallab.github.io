@@ -6,6 +6,6 @@ date: 2016-09-20
 tags: []
 categories: ["publication", "publication_international", "journal", "journal_international"]
 comments: true
-link: 
+link: https://www.sciencedirect.com/science/article/pii/S0020025516303012#!
 paper:
 ---

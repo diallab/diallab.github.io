@@ -7,4 +7,5 @@ description: |-
   37th International Conference on Very Large Data Bases (VLDB), 185-196, 2011
 categories: ["publication", "conference", "publication_international", "conference_international"]
 comments: true
+link: https://dl.acm.org/citation.cfm?doid=1929861.1929865
 ---

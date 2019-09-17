@@ -7,4 +7,5 @@ description: |-
   28th IEEE International Conference on Data Engineering (ICDE), 1084-1095, 2012
 categories: ["publication", "conference", "publication_international", "conference_international"]
 comments: true
+link: https://ieeexplore.ieee.org/abstract/document/6228158
 ---

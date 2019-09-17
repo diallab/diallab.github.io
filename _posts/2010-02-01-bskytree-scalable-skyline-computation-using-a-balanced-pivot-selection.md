@@ -7,4 +7,5 @@ description: |-
   13th ACM International Conference on Extending Database Technology (EDBT), 195-206, 2010
 categories: ["publication", "conference", "publication_international", "conference_international"]
 comments: true
+link: https://dl.acm.org/citation.cfm?id=1739067
 ---

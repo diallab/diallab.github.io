@@ -7,4 +7,5 @@ description: |-
   19th International Conference on Database and Expert Systems Applications (DEXA), 610-624, 2008
 categories: ["publication", "conference", "publication_international", "conference_international"]
 comments: true
+link: https://link.springer.com/chapter/10.1007/978-3-540-85654-2_51
 ---

@@ -7,4 +7,5 @@ description: |-
   26th IEEE International Conference on Data Engineering (ICDE), pp. 1113-1116, 2010
 categories: ["publication", "conference", "publication_international", "conference_international"]
 comments: true
+link: https://ieeexplore.ieee.org/document/5447780
 ---

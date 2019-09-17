@@ -7,4 +7,5 @@ description: |-
   31st ACM/SIGAPP Symposium on Applied Computing (SAC), Web Technology (WT) Track, 2016
 categories: ["publication", "conference", "publication_international", "conference_international"]
 comments: true
+link: https://dl.acm.org/citation.cfm?id=2852005
 ---

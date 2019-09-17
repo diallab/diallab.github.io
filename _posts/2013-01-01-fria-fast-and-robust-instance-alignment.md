@@ -7,4 +7,5 @@ description: |-
   22nd International World Wide Web Conference (WWW, Companion Volume), 175-176, 2013
 categories: ["publication", "conference", "publication_international", "conference_international"]
 comments: true
+link: https://dl.acm.org/citation.cfm?id=2487875
 ---

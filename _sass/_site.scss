@@ -707,6 +707,13 @@ body {
           text-transform: uppercase;
         }
       }
+
+      &-link {
+        font-size: 0.8rem;
+        a {
+          color: cornflowerblue;
+        }
+      }
     }
   }
 }
