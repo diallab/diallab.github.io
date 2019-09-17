@@ -38,8 +38,8 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  @media (max-width: 48rem) {
-    padding: 2rem 1.3rem;
+  @include media-breakpoint-down(md) {
+    max-width: 80%;
   }
 }
 
@@ -59,17 +59,31 @@ body {
   ----------- */
 .contact {
   &-container {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    min-height: 250px;
     margin-top: 1.1rem;
-  }
-
-  &-item {
-    margin: 0 0.5rem;
+    @include media-breakpoint-up(md) {
+      flex-direction: row;
+    }
   }
 
   &-map {
-    width: 50%;
+    width: 100%;
+    min-height: 250px;
+    @include media-breakpoint-up(md) {
+      width: 60%;
+      min-height: 300px;
+    }
+  }
+
+  &-item {
+    margin: 0.5rem 0;
+    width: 100%;
+    @include media-breakpoint-up(md) {
+      margin: 0 0.5rem;
+      width: 40%;
+    }
   }
 
   &-section {
@@ -496,8 +510,10 @@ body {
   -------------- */
 .members {
   &-list {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    @include media-breakpoint-up(sm) {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
 
     &-alumni {
       display: block;
@@ -511,8 +527,20 @@ body {
     font-weight: 500;
   }
 
-  &-img {
+  &-img-container {
+    position: relative;
     width: 30%;
+    padding-top: 30%;
+  }
+
+  &-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
 
@@ -521,7 +549,7 @@ body {
   }
 
   &-info {
-    margin: 8px 8px;
+    margin: 16px 8px;
 
     &:hover {
       background-color: $background-over-color;
@@ -802,6 +830,11 @@ body {
     margin: 0;
     min-width: 40%;
     width: 0;
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+
     &-container {
       margin: 1rem 0;
       // justify-content: center;

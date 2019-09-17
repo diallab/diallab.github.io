@@ -10,34 +10,32 @@ title: Seminar
 
   {% if sorted.size > 0 %}
   <h2 class="section">{{ semester }}</h2>
-  <table class="table table-custom">
-    <thead>
-      <tr>
-        <th scope="col">Date</th>
-        <th scope="col">Title</th>
-        <th scope="col">Speaker</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for post in sorted %}
-      <tr>
-        <td class="td-custom">
-          <nobr>{{ post.date | date_to_string }}</nobr>
-        </td>
-        <td class="td-custom">
-          <nobr>
+  <div class="table-container">
+    <table class="table table-custom">
+      <thead>
+        <tr>
+          <th scope="col">Date</th>
+          <th scope="col">Title</th>
+          <th scope="col">Speaker</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for post in sorted %}
+        <tr>
+          <td class="td-custom">
+            {{ post.date | date_to_string }}
+          </td>
+          <td class="td-custom">
             <a href="{{ post.url }}">{{ post.title }}</a>
-          </nobr>
-        </td>
-        <td class="td-custom">
-          <nobr>
+          </td>
+          <td class="td-custom">
             <a href="/authors/{{ post.author }}">{{ post.author }}</a>
-          </nobr>
-        </td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
   {% endif %}
   {% endfor %}
 </div>

@@ -45,7 +45,13 @@ title: People
     {% if job != 'alumni' %}
     <li class="members-info">
       <a class="flex" href="/authors/{{ member.name }}">
-        <img class="flex {{ img_class }}" src="{{ member.photo }}" alt="photo" />
+        {% if img_class == 'members-img' %}
+        <div class="members-img-container">
+          {% endif %}
+          <img class="flex {{ img_class }}" src="{{ member.photo }}" alt="photo" />
+          {% if img_class == 'members-img' %}
+        </div>
+        {% endif %}
         <div class="flex flex-direction-column members-info-right">
           <div class="flex members-info-name">
             {{ member.name }}
@@ -60,8 +66,8 @@ title: People
             {{ member.office }}
           </div>
           <div class="flex members-info-desc">
-              {{ member.phone }}
-            </div>
+            {{ member.phone }}
+          </div>
           <div class="flex members-info-desc">
             {{ program_name }}
           </div>
