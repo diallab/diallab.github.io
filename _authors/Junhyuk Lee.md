@@ -1,6 +1,6 @@
 ---
 name: "Junhyuk Lee"
-job: "undergraduate"
+job: "graduate"
 program: bs/ms
 email: ljhjoon00@g.skku.edu
 interests:
