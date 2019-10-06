@@ -5,7 +5,7 @@ program: ms
 email: uoo723@g.skku.edu
 interests: NLP
 description: uoo723@g.skku.edu / NLP
-photo: /images/user.svg
+photo: https://scontent-gmp1-1.xx.fbcdn.net/v/t1.0-9/72435140_2501552029939860_8597078685981343744_n.jpg?_nc_cat=109&_nc_oc=AQmjIOxhC7mXlPAwLK_k6GCwV_IPfvbugtfOss2bNS1Xy-kMKnivPm7nCtlFH5mu_Y8&_nc_ht=scontent-gmp1-1.xx&oh=b46986c231324c15278c1948b19575ea&oe=5E284EB6
 ---
 
 <!-- Post name should be this form: name.md
@@ -20,7 +20,7 @@ photo: /images/user.svg
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
 
-![Photo](/images/user.svg){: width="200" height="200"}
+![Photo](https://scontent-gmp1-1.xx.fbcdn.net/v/t1.0-9/72435140_2501552029939860_8597078685981343744_n.jpg?_nc_cat=109&_nc_oc=AQmjIOxhC7mXlPAwLK_k6GCwV_IPfvbugtfOss2bNS1Xy-kMKnivPm7nCtlFH5mu_Y8&_nc_ht=scontent-gmp1-1.xx&oh=b46986c231324c15278c1948b19575ea&oe=5E284EB6){: width="200" height="250"}
 Graduate Student<br />
 Department of Artificial Intelligence, Sungkyunkwan University<br />
 Natural Language Processing & Understanding
