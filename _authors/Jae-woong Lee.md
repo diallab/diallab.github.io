@@ -5,10 +5,10 @@ program: phd
 email: jwlee.icc@skku.edu
 interests: Recommendation systems, Machine Learning, Learning to rank
 description:
-photo: https://drive.google.com/file/d/11lh5XV-H8Pv0_SQLaFPIDPwfiajWI5Tt/view
+photo: http://drive.google.com/uc?export=view&id=11lh5XV-H8Pv0_SQLaFPIDPwfiajWI5Tt
 ---
 
-![Photo](https://drive.google.com/file/d/11lh5XV-H8Pv0_SQLaFPIDPwfiajWI5Tt/view){: width="200" height="200"}
+![Photo](http://drive.google.com/uc?export=view&id=11lh5XV-H8Pv0_SQLaFPIDPwfiajWI5Tt){: width="200" height="200"}
 Graduate Student<br>Department of Software, Sungkyunkwan University<br>Natural Language Processing
 
 <hr />
