@@ -2,13 +2,13 @@
 name: Jae-woong Lee
 job: graduate
 program: phd
-email: jaewoong@skku.edu
-interests:
+email: jwlee.icc@skku.edu
+interests: Recommendation systems, Machine Learning, Learning to rank
 description:
-photo: /images/user.svg
+photo: https://drive.google.com/file/d/11lh5XV-H8Pv0_SQLaFPIDPwfiajWI5Tt/view
 ---
 
-![Photo](/images/user.svg){: width="200" height="200"}
+![Photo](https://drive.google.com/file/d/11lh5XV-H8Pv0_SQLaFPIDPwfiajWI5Tt/view){: width="200" height="200"}
 Graduate Student<br>Department of Software, Sungkyunkwan University<br>Natural Language Processing
 
 <hr />
@@ -17,7 +17,7 @@ Graduate Student<br>Department of Software, Sungkyunkwan University<br>Natural L
 데이터 마이닝 연구실 이재웅 입니다. <!-- Write your own biography contents. -->
 
 ## Contact
-**Mail**: jaewoong@skku.edu <!-- Write your own email address -->
+**Mail**: jwlee.icc@skku.edu <!-- Write your own email address -->
 <br />
 **Location**: 85453 <!-- 85453 or your location address -->
 
