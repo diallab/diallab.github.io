@@ -38,7 +38,7 @@ I received my B.S. degree in Division of Software from Hanyang University ERICA,
 ## Contact
 **Mail**: uoo723@g.skku.edu
 <br>
-**Location**: Room 85464, Corporate Collaboration Center
+**Location**: Room 85453, Corporate Collaboration Center
 
 ## More Information
 [Personal Website](https://github.com/uoo723)
