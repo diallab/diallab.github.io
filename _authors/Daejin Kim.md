@@ -5,7 +5,7 @@ program: bs
 email: daejin@skku.edu
 interests:
 description: "kiddj.daejin@gmail.com / Department of Computer Science"
-photo: /images/user.svg
+photo: https://avatars2.githubusercontent.com/u/8369639?s=460&v=4
 ---
 
 <!-- Post name should be this form: name.md
