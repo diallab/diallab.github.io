@@ -4,19 +4,42 @@ job: undergraduate
 program: bs
 email: daejin@skku.edu
 interests:
-description: Hello my name is Daejin Kim
+description: "kiddj.daejin@gmail.com / Department of Computer Science"
 photo: /images/user.svg
 ---
 
-![Photo](/images/user.svg){: width="200" height="200"}
-Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Natural Language Processing
+<!-- Post name should be this form: name.md
+        For example, Gildong Hong.md -->
 
-<hr />
+<!-- Fill the contents where --Fill-- exists -->
+<!-- The example is in '_authors/Jongwuk Lee.md' or '_authors/Jiwoo Kim.md'>
+
+<!-- For 'name' front matter, follow this format: Gildong Hong -->
+<!-- For 'job' front matter, choose the one of these: professor / graduate / undergraduate / alumni -->
+<!-- For 'description' front matter, write down your email address and areas of interests.
+        Email address is nessecary for graduate students.
+        Follow this format: example@skku.edu / Computer Science -->
+
+![Photo](https://avatars2.githubusercontent.com/u/8369639?s=460&v=4){: width="200" height="200"}
+Undergraduate<br>Department of Computer Science, Sungkyunkwan University<br>Natural Language Processing
+
+<!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->
+<!-- Fill the position, institution/department, interests
+        For example, Graduate Student<br>Department of Software, Sungkyunkwan University<br>Recommender Systems, Natural Language Processing, Neuroimaging Analysis and Understanding -->
+
+<hr>
 
 ## Biography
-데이터 마이닝 연구실 김대진 입니다. <!-- Write your own biography contents. -->
+I am a undergraduate at Department of Computer Science, Sungkyunkwan University (SKKU), Korea.
+<!-- Write your own biography contents. -->
 
 ## Contact
-**Mail**: daejin@skku.edu <!-- Write your own email address -->
+**Mail**: kiddj.daejin@gmail.com <!-- Write your own email address -->
 <br>
-**Location**: 85453 <!-- 85453 or your location address -->
+**Location**: Cooperate builiding 85453 <!-- 85453 or your location address -->
+
+## More Information
+[Github](https://github.com/kiddj)
+
+<!-- If you have some personal websites, then write the url here. -->
+<!-- If you don't have them, then remove a line '[Persoal Website](--Fill--)' -->
