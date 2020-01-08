@@ -1,9 +1,11 @@
 ---
-name: "Haebin Seo"
-job: "undergraduate"
+title: Haebin seo
+layout: author
+name: Haebin Seo
+job: alumni
 program: bs
 email: shb0107@gmail.com
-interests:
+interests: null
 photo: https://avatars3.githubusercontent.com/u/14949385?s=400&v=4
 ---
 
