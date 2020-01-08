@@ -23,7 +23,7 @@ photo: https://avatars2.githubusercontent.com/u/37571779?s=460&v=4
 ![Photo](https://avatars2.githubusercontent.com/u/37571779?s=460&v=4){: width="200" height="200"}
 <!-- <img src="https://avatars0.githubusercontent.com/u/25289309?s=400&u=d601c0ceaae072c664d6abcff3383f435de51c97&v=4" width="200" height="200"> -->
 
-Graduate Student<br>Department of Electrical and Computer Engineering, Sungkyunkwan University<br>Information Retrieval
+Graduate Student<br>Department of Artificial Intelligence, Sungkyunkwan University<br>Information Retrieval
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->
 <!-- Fill the position, institution/department, interests
@@ -33,7 +33,8 @@ Graduate Student<br>Department of Electrical and Computer Engineering, Sungkyunk
 
 ## Biography
 
-I am a MS/PhD integrated student at Department of Artificial Intelligence, Sungkyunkwan University (SKKU), Korea. For now, I am working on KeyPhrase Extraction(KEP) to capture the main topic of the document, and thus can expand the document to get high quality I-index. I'm expecting to receive my B.S degree in department of architecture and Samsung Convergence Software Course(SCSC) as a second major, Sungkyunkwan University (SKKU), Korea.
+I am a MS/PhD integrated student at Department of Artificial Intelligence, Sungkyunkwan University (SKKU), Korea. For now, I am working on KeyPhrase Extraction(KEP).
+I'm expecting to receive my B.S degree in department of architecture and Samsung Convergence Software Course(SCSC) as a second major, Sungkyunkwan University (SKKU), Korea.
 
  <!-- Write your own biography contents. -->
 
