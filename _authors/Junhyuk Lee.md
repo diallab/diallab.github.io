@@ -1,7 +1,7 @@
 ---
 name: "Junhyuk Lee"
 job: "graduate"
-program: bs/ms
+program: ms
 email: ljhjoon00@g.skku.edu
 interests:
 description: "ljhjoon00@g.skku.edu"

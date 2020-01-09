@@ -1,7 +1,7 @@
 ---
 name: "Eunseong Choi"
 job: "graduate"
-program: MS/PhD integrated
+program: ms/phd
 email: dmstjddkd@g.skku.edu
 interests: Information Retrieval
 description: "dmstjddkd@g.skku.edu / Information Retrieval"

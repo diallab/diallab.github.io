@@ -1,7 +1,7 @@
 ---
 name: "Chan Lim"
 job: "graduate"
-program: bs/ms
+program: ms
 email: chan9538@g.skku.edu
 interests:
 photo: https://avatars1.githubusercontent.com/u/35093461?s=400&u=710dfb5167f9c1f2f08473623d1313a198a866b8&v=4
