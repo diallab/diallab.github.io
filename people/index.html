@@ -13,7 +13,7 @@ title: People
     {% endif %}
   </h2>
 
-  {% assign grouped = members | group_by: 'program' | sort: 'name' | reverse %}
+  {% assign sorted = members | sort: 'order' %}
   {% assign img_class = 'members-img' %}
   {% assign ul_class = 'members-list' %}
 
@@ -26,23 +26,22 @@ title: People
   {% endif %}
 
   <ul class="{{ ul_class }}">
-    {% for program in grouped %}
+    {% for member in sorted %}
 
     {% assign program_name = nil %}
-    {% if program.name == 'phd' %}
+    {% if member.program == 'phd' %}
     {% assign program_name = 'PhD student' %}
-    {% elsif program.name == 'ms/phd' %}
+    {% elsif member.program == 'ms/phd' %}
     {% assign program_name = 'MS/PhD student' %}
-    {% elsif program.name == 'ms' %}
+    {% elsif member.program == 'ms' %}
     {% assign program_name = 'MS student' %}
-    {% elsif program.name == 'bs/ms' %}
+    {% elsif member.program == 'bs/ms' %}
     {% assign program_name = 'BS/MS student' %}
-    {% elsif program.name == 'bs' %}
+    {% elsif member.program == 'bs' %}
     {% assign program_name = 'BS student' %}
     {% endif %}
 
-    {% for member in program.items %}
-    {% if job != 'alumni' %}
+    {% if member.job != 'alumni' %}
     <li class="members-info">
       <a class="flex" href="/authors/{{ member.name }}">
         {% if img_class == 'members-img' %}
@@ -79,7 +78,6 @@ title: People
       {{ member.name }}
     </li>
     {% endif %}
-    {% endfor %}
     {% endfor %}
   </ul>
   {% endfor %}

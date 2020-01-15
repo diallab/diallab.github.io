@@ -6,6 +6,7 @@ email: uoo723@g.skku.edu
 interests: NLP
 description: uoo723@g.skku.edu / NLP
 photo: https://scontent-gmp1-1.xx.fbcdn.net/v/t1.0-9/72435140_2501552029939860_8597078685981343744_n.jpg?_nc_cat=109&_nc_oc=AQmjIOxhC7mXlPAwLK_k6GCwV_IPfvbugtfOss2bNS1Xy-kMKnivPm7nCtlFH5mu_Y8&_nc_ht=scontent-gmp1-1.xx&oh=b46986c231324c15278c1948b19575ea&oe=5E284EB6
+order: 8
 ---
 
 <!-- Post name should be this form: name.md

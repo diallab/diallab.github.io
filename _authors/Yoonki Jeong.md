@@ -6,6 +6,7 @@ email: yoongi0428@skku.edu
 interests: Recommender System
 description: "yoongi0428@skku.edu / Recommender System"
 photo: https://avatars0.githubusercontent.com/u/25289309?s=400&u=d601c0ceaae072c664d6abcff3383f435de51c97&v=4
+order: 4
 ---
 
 <!-- Post name should be this form: name.md

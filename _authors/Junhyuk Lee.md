@@ -6,6 +6,7 @@ email: ljhjoon00@g.skku.edu
 interests:
 description: "ljhjoon00@g.skku.edu"
 photo: https://avatars3.githubusercontent.com/u/38907328?s=400&u=4e74737b0ffe7ae6e9c905786f07e6e5eb2deb4b&v=4
+order: 7
 ---
 
 <!-- Post name should be this form: name.md

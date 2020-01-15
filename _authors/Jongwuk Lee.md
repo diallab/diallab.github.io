@@ -7,6 +7,7 @@ office:
 phone:
 description: I am an assistant professor at Department of Software, Sungkyunkwan University (SKKU), Korea.
 photo: https://cs.skku.edu/rest/professor/file/photo/156
+order: 0
 ---
 
 ![Photo](https://cs.skku.edu/rest/professor/file/photo/156){: width="200", height="200"}

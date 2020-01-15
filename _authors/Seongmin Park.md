@@ -5,6 +5,7 @@ program: ms/phd
 email: psm1206@g.skku.edu
 interests: recommender systems
 photo: https://user-images.githubusercontent.com/48819697/71957102-293e7700-3230-11ea-9c32-52f6c356a740.jpg
+order: 11
 ---
 
 <!-- Post name should be this form: name.md

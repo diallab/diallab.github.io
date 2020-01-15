@@ -1,9 +1,9 @@
 ---
 title: Diversity Regularized Autoencoders for Text Generation
 layout: post
-description: 'Hyeseon Ko, Junhyuk Lee, Jinhong Kim, Jongwuk Lee, Hyunjung Shim<br>35th
+description: Hyeseon Ko, Junhyuk Lee, Jinhong Kim, Jongwuk Lee, Hyunjung Shim<br>35th
   ACM/SIGAPP Symposium on Applied Computing (SAC, to appear)<br>Brno, Czech Republic,
-  Mar-Apr 2020 (Acceptance Rate: 9.08% , 95/1046)'
+  Mar-Apr 2020
 date: '2020-04-01 14:26:59'
 categories:
 - publication

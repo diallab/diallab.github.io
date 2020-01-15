@@ -6,6 +6,7 @@ email: jwlee.icc@skku.edu
 interests: Recommendation systems, Machine Learning, Learning to rank
 description:
 photo: http://drive.google.com/uc?export=view&id=11lh5XV-H8Pv0_SQLaFPIDPwfiajWI5Tt
+order: 1
 ---
 
 ![Photo](http://drive.google.com/uc?export=view&id=11lh5XV-H8Pv0_SQLaFPIDPwfiajWI5Tt){: width="200" height="200"}
