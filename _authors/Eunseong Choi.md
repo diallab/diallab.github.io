@@ -43,7 +43,7 @@ I'm expecting to receive my B.S degree in department of architecture and Samsung
 
 
 ## Contact
-**Mail**: dmstjddkd@g.skku.edu <!-- Write your own email address -->
+**Mail**: eunseong@g.skku.edu <!-- Write your own email address -->
 <br>
 **Location**: Room 85453, Corporate Collaboration Center <!-- 85453 or your location address -->
 
