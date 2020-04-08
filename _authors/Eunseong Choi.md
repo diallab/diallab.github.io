@@ -4,7 +4,7 @@ layout: author
 name: Eunseong Choi
 job: graduate
 program: ms/phd
-email: dmstjddkd@g.skku.edu
+email: eunseong@g.skku.edu
 interests: Information Retrieval
 description: dmstjddkd@g.skku.edu / Information Retrieval
 photo: https://avatars2.githubusercontent.com/u/37571779?s=460&v=4
