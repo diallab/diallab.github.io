@@ -1,6 +1,6 @@
 ---
 name: "Hyeseon Ko"
-job: "graduate"
+job: alumni
 program: ms
 email: hyeseonko@skku.edu
 interests:
