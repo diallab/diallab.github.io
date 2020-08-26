@@ -1,12 +1,22 @@
 # diallab.github.io
 DIAL Lab Homepage
 
+
 ## 개인 페이지 및 세미나 업데이트 가이드
 
 ### 저장소 clone
 
 ```bash
 $ git clone https://github.com/diallab/diallab.github.io.git
+```
+
+### 로컬 개발 환경
+* [Ruby](https://www.ruby-lang.org/ko/) 설치
+```bash
+$ gem install bundler jekyll
+$ cd diallab.github.io
+$ bundle exec jekyll serve
+# http://localhost:4000 접속
 ```
 
 ### 업데이트 완료 후 commit & push
