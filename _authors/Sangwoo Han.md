@@ -5,7 +5,7 @@ program: ms
 email: uoo723@g.skku.edu
 interests: NLP
 description: uoo723@g.skku.edu / NLP
-photo: https://scontent-gmp1-1.xx.fbcdn.net/v/t1.0-9/72435140_2501552029939860_8597078685981343744_n.jpg?_nc_cat=109&_nc_oc=AQmjIOxhC7mXlPAwLK_k6GCwV_IPfvbugtfOss2bNS1Xy-kMKnivPm7nCtlFH5mu_Y8&_nc_ht=scontent-gmp1-1.xx&oh=b46986c231324c15278c1948b19575ea&oe=5E284EB6
+photo: https://scontent-ssn1-1.xx.fbcdn.net/v/t1.0-0/p526x296/72435140_2501552029939860_8597078685981343744_n.jpg?_nc_cat=109&_nc_sid=730e14&_nc_ohc=zSPmL53gDbAAX9VG7K5&_nc_ht=scontent-ssn1-1.xx&tp=6&oh=52e61a327c533a7fed9393eddad4b4aa&oe=5F6B8B98
 order: 8
 ---
 
@@ -21,7 +21,7 @@ order: 8
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
 
-![Photo](https://scontent-gmp1-1.xx.fbcdn.net/v/t1.0-9/72435140_2501552029939860_8597078685981343744_n.jpg?_nc_cat=109&_nc_oc=AQmjIOxhC7mXlPAwLK_k6GCwV_IPfvbugtfOss2bNS1Xy-kMKnivPm7nCtlFH5mu_Y8&_nc_ht=scontent-gmp1-1.xx&oh=b46986c231324c15278c1948b19575ea&oe=5E284EB6){: width="200" height="250"}
+![Photo](https://scontent-ssn1-1.xx.fbcdn.net/v/t1.0-0/p526x296/72435140_2501552029939860_8597078685981343744_n.jpg?_nc_cat=109&_nc_sid=730e14&_nc_ohc=zSPmL53gDbAAX9VG7K5&_nc_ht=scontent-ssn1-1.xx&tp=6&oh=52e61a327c533a7fed9393eddad4b4aa&oe=5F6B8B98){: width="200" height="250"}
 Graduate Student<br />
 Department of Artificial Intelligence, Sungkyunkwan University<br />
 Natural Language Processing & Understanding
