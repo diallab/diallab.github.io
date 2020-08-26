@@ -1,11 +1,11 @@
 ---
-name: 차봉건
+name: Bonggeon Cha
 job: undergraduate
 program: bs
 email: emawlrdl1023@gmail.com
 interests:
 description: emawlrdl1023@gmail.com / Noise Robust Learning
-photo: {"https://github.com/bonggeon/DeepLearning/blob/master/%EB%B4%89%EA%B1%B4.jpg?raw=true"}
+photo: "https://github.com/bonggeon/DeepLearning/blob/master/%EB%B4%89%EA%B1%B4.jpg?raw=true"
 order:
 ---
 
@@ -45,4 +45,3 @@ I am undergraduate student in the department of Software.
 
 <!-- If you have some personal websites, then write the url here. -->
 <!-- If you don't have them, then remove a line '[Persoal Website](--Fill--)' -->
-
