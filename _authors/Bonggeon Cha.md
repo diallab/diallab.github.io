@@ -21,7 +21,7 @@ order:
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
 
-![](https://github.com/bonggeon/DeepLearning/blob/master/%EB%B4%89%EA%B1%B4.jpg?raw=true){: width="200" height="250"}
+![Photo](https://github.com/bonggeon/DeepLearning/blob/master/%EB%B4%89%EA%B1%B4.jpg?raw=true){: width="200" height="250"}
 Undergraduate Student<br />
 Software<br />
 Noise Robust Learning
