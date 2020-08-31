@@ -1,11 +1,11 @@
 ---
-name: Bonggeon Cha
+name: Sunkyung Lee
 job: undergraduate
 program: bs
-email: emawlrdl1023@gmail.com
+email: sk1027@g.skku.edu
 interests:
-description: emawlrdl1023@gmail.com / Noise Robust Learning
-photo: "https://github.com/bonggeon/DeepLearning/blob/master/%EB%B4%89%EA%B1%B4.jpg?raw=true"
+description: sk1027@g.skku.edu
+photo: https://avatars2.githubusercontent.com/u/39164907?s=400&v=4
 order:
 ---
 
@@ -21,10 +21,10 @@ order:
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
 
-![Photo](https://github.com/bonggeon/DeepLearning/blob/master/%EB%B4%89%EA%B1%B4.jpg?raw=true){: width="200" height="250"}
+![Photo](https://avatars2.githubusercontent.com/u/39164907?s=400&v=4){: width="200" height="250"}
 Undergraduate Student<br />
-Software<br />
-Noise Robust Learning
+Department of Software, Sungkyunkwan University<br />
+Natural Language Processing, Recommender Systems
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->
 <!-- Fill the position, institution/department, interests
@@ -33,15 +33,15 @@ Noise Robust Learning
 <hr>
 
 ## Biography
-I am undergraduate student in the department of Software.
+I am undergraduate student in the department of Global Economics and the department of Software.
 
 ## Contact
-**Mail**: emawlrdl1023@gmail.com
+**Mail**: sk1027@g.skku.edu
 <br>
 **Location**: Room 85453, Corporate Collaboration Center
 
 ## More Information
-
+[Personal Website](https://github.com/skleee)
 
 <!-- If you have some personal websites, then write the url here. -->
 <!-- If you don't have them, then remove a line '[Persoal Website](--Fill--)' -->
