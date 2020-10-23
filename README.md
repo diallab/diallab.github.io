@@ -16,8 +16,11 @@ $ git clone https://github.com/diallab/diallab.github.io.git
 $ gem install bundler jekyll
 $ cd diallab.github.io
 $ bundle exec jekyll serve
-# http://localhost:4000 접속
+# http://localhost:4000/admin 접속
+# 좌측 Posts --> New Post 추가
 ```
+
+
 
 ### 업데이트 완료 후 commit & push
 
