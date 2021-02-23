@@ -1,12 +1,14 @@
 ---
+title: Sunkyung lee
+layout: author
 name: Sunkyung Lee
-job: undergraduate
-program: bs
+job: graduate
+program: ms
 email: sk1027@g.skku.edu
-interests:
+interests: null
 description: sk1027@g.skku.edu
 photo: https://avatars2.githubusercontent.com/u/39164907?s=400&v=4
-order:
+order: 100
 ---
 
 <!-- Post name should be this form: name.md

@@ -6,7 +6,7 @@ job: graduate
 program: ms/phd
 email: eunseong@g.skku.edu
 interests: Information Retrieval
-description: dmstjddkd@g.skku.edu / Information Retrieval
+description: eunseong@skku.edu / Information Retrieval
 photo: https://avatars2.githubusercontent.com/u/37571779?s=460&v=4
 order: 10
 ---
@@ -36,7 +36,7 @@ Graduate Student<br>Department of Artificial Intelligence, Sungkyunkwan Universi
 
 ## Biography
 
-I am a MS/PhD integrated student at Department of Artificial Intelligence, Sungkyunkwan University (SKKU), Korea. For now, I am working on KeyPhrase Extraction(KPE).
+I am a MS/PhD integrated student at Department of Artificial Intelligence, Sungkyunkwan University (SKKU), Korea. 
 I'm expecting to receive my B.S degree in department of architecture and Samsung Convergence Software Course(SCSC) as a second major, Sungkyunkwan University (SKKU), Korea.
 
  <!-- Write your own biography contents. -->

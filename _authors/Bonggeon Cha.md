@@ -1,12 +1,12 @@
 ---
 name: Bonggeon Cha
-job: undergraduate
-program: bs
+job: graduate
+program: ms
 email: emawlrdl1023@gmail.com
 interests:
 description: emawlrdl1023@gmail.com / Noise Robust Learning
 photo: "https://github.com/bonggeon/DeepLearning/blob/master/%EB%B4%89%EA%B1%B4.jpg?raw=true"
-order:
+order: 100
 ---
 
 <!-- Post name should be this form: name.md

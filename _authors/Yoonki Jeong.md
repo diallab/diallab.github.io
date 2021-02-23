@@ -1,6 +1,6 @@
 ---
 name: "Yoonki Jeong"
-job: "graduate"
+job: "alumni"
 program: ms
 email: yoongi0428@skku.edu
 interests: Recommender System

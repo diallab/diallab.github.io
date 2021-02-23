@@ -1,6 +1,6 @@
 ---
 name: Daejin Kim
-job: undergraduate
+job: alumni
 program: bs
 email: daejin@skku.edu
 interests:
