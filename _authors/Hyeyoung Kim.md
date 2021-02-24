@@ -5,7 +5,7 @@ program: bs
 email: khyaa3966@g.skku.edu
 interests:
 description: Natural Language Processing
-photo: (https://user-images.githubusercontent.com/67541842/108933149-ff435080-768d-11eb-87aa-fbb94f1b28bd.jpg)
+photo: https://user-images.githubusercontent.com/67541842/108933149-ff435080-768d-11eb-87aa-fbb94f1b28bd.jpg
 ---
 
 ![KakaoTalk_20210224_104710474](https://user-images.githubusercontent.com/67541842/108933149-ff435080-768d-11eb-87aa-fbb94f1b28bd.jpg)
