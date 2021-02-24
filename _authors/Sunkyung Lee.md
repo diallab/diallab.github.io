@@ -35,7 +35,7 @@ Natural Language Processing, Recommender Systems
 <hr>
 
 ## Biography
-I am a graduate student (M.S.) at Department of Articifical Intelligence, Sungkyunkwan University (SKKU), Korea.
+I am a graduate student (M.S.) at Department of Articifical Intelligence, Sungkyunkwan University (SKKU), Korea.<br>
 I received my B.S. degree in Global Economics and Software at SKKU, Korea in 2021.
 
 ## Contact
