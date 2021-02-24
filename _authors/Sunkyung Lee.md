@@ -23,7 +23,7 @@ order: 100
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
 
-![Photo](https://avatars2.githubusercontent.com/u/39164907?s=400&v=4){: width="200" height="250"}
+![Photo](https://avatars2.githubusercontent.com/u/39164907?s=400&v=4){: width="200" height="200"}
 Undergraduate Student<br />
 Department of Software, Sungkyunkwan University<br />
 Natural Language Processing, Recommender Systems
@@ -35,7 +35,8 @@ Natural Language Processing, Recommender Systems
 <hr>
 
 ## Biography
-I am undergraduate student in the department of Global Economics and the department of Software.
+I am a graduate student (M.S.) at Department of Articifical Intelligence, Sungkyunkwan University (SKKU), Korea.
+I received my B.S. degree in Global Economics and Software at SKKU, Korea in 2021.
 
 ## Contact
 **Mail**: sk1027@g.skku.edu
