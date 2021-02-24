@@ -24,8 +24,8 @@ order: 100
         Follow this format: example@skku.edu / Computer Science -->
 
 ![Photo](https://avatars2.githubusercontent.com/u/39164907?s=400&v=4){: width="200" height="200"}
-Undergraduate Student<br />
-Department of Software, Sungkyunkwan University<br />
+Graduate Student<br />
+Department of Articifical Intelligence, Sungkyunkwan University<br />
 Natural Language Processing, Recommender Systems
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->
