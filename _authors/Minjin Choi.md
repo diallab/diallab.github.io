@@ -1,7 +1,7 @@
 ---
 name: "Minjin Choi"
 job: "graduate"
-program: ms
+program: phd
 email: zxcvxd@skku.edu
 interests:
 description: "zxcvxd@skku.edu / Department of Computer Science & Engineering"
