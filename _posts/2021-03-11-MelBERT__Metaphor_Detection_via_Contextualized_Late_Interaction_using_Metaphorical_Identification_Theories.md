@@ -8,5 +8,5 @@ categories:
 - conference
 - conference_international
 description: 'Minjin Choi, Sunkyung Lee, Eunseong Choi, Heesoo Park, Junhyuk Lee, Dongwon Lee, Jongwuk Lee 
-  <br>Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL) <br> Mexico City, Mexico (Virtual Event), June 6–11, 2021'
+  <br>2021 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2021) <br> Mexico City, Mexico (Virtual Event), June 6–11, 2021'
 ---
