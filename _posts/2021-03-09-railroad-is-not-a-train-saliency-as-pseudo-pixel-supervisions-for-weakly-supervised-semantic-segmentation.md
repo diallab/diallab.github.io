@@ -8,5 +8,5 @@ categories:
 - conference
 - conference_international
 description: 'Seungho Lee*, Minhyun Lee*, Jongwuk Lee, Hyunjung Shim (* : equal contribution) 
-  <br>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) <br> Virtual, June 19–25, 2021'
+  <br>2021 IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2021) <br> Virtual, June 19–25, 2021'
 ---
