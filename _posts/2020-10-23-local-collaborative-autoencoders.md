@@ -13,5 +13,6 @@ description: 'Minjin Choi, Yoonki Jeong, Joonseok Lee, Jongwuk Lee<br>14th ACM I
   March 8-12, 2021 (Acceptance Rate: 18.6%, 112/603)'
 code: https://github.com/jin530/LOCA
 slide: https://www.slideshare.net/ssuser1f2162/local-collaborative-autoencoders-wsdm2021
+video: https://youtu.be/c-Jy2K27t0c
 ---
 
