@@ -1,5 +1,5 @@
 ---
-title: “IITP 인공지능 그랜드 챌린지 5차 1단계 대회”에서 입상
+title: “IITP 인공지능 그랜드 챌린지 5차 1단계 대회” 최종 선발
 layout: post
 date: '2021-07-18 16:48:25'
 categories:
