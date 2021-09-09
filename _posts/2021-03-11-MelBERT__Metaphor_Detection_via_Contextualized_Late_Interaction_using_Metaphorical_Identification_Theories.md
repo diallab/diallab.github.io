@@ -12,4 +12,5 @@ description: 'Minjin Choi, Sunkyung Lee, Eunseong Choi, Heesoo Park, Junhyuk Lee
 link: https://www.aclweb.org/anthology/2021.naacl-main.141/
 code: https://github.com/jin530/MelBERT
 slide: https://www.slideshare.net/SKLEE36/melbert-metaphor-detection-via-contextualized-late-interaction-using-metaphorical-identification-theories-naacl-2021
+video: https://youtu.be/o-t48l-m8Gs
 ---
