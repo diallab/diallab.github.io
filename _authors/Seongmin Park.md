@@ -38,7 +38,7 @@ I received my B.S. degree in Mechnical Engineering from Sungkyunkwan University 
 <!-- Write your own biography contents. -->
 
 ## Contact
-**Mail**: psmin206@gmail.com <!-- Write your own email address -->
+**Mail**: psm1206@g.skku.edu <!-- Write your own email address -->
 <br>
 **Location**: 85453 <!-- 85453 or your location address -->
 
