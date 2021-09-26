@@ -14,7 +14,7 @@
       url: /publication/publication_conferences.html
     - title: Journals
       url: /publication
-- title: Seminar
-  url: /seminar
-- title: Tags
-  url: /tags
+# - title: Seminar
+#   url: /seminar
+# - title: Tags
+#   url: /tags
