@@ -1,7 +1,7 @@
 ---
 title: "S-Walk: Accurate and Scalable Session-based Recommendation with Random Walks"
 layout: post
-date: '2021-01-01 16:18:19'
+date: '2022-02-01 16:18:19'
 categories:
 - publication
 - publication_international
