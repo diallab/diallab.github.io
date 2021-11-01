@@ -5,7 +5,7 @@ title: |-
 layout: post
 date: '2021-01-17 16:18:19'
 description: Minjin Choi, Jinhong Kim, Joonseok Lee, Hyunjung Shim, Jongwuk Lee<br>30th
-  The Web Conference (WWW)<br> Ljubljana, Slovenia (Virtual Event), April, 2021
+  The Web Conference (WWW)<br> Ljubljana, Slovenia (Virtual Event), April 19-23, 2021 (Acceptance Rate: 20.6%, 357/1736)'
 categories:
 - publication
 - publication_international
