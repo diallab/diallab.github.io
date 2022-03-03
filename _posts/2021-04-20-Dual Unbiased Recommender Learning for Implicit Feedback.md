@@ -9,4 +9,7 @@ categories:
 - conference_international
 description: 'Jae-woong Lee, Seongmin Park, Jongwuk Lee 
   <br>The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2021) <br> Online (Virtual Event), July 11-15, 2021'
+
+link: https://dl.acm.org/doi/10.1145/3404835.3463118
+video: https://dl.acm.org/doi/10.1145/3404835.3463118
 ---
