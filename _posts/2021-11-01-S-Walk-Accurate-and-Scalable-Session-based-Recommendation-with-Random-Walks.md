@@ -11,4 +11,6 @@ description: 'Minjin Choi, Jinhong Kim, Joonseok Lee, Hyunjung Shim, Jongwuk Lee
   Conference on Web Search and Data Mining (WSDM 2022)<br>Phoenix, Arizona, February 21-25, 2022 (Acceptance Rate: 20.2%, 159/786)'
 link: https://dl.acm.org/doi/abs/10.1145/3488560.3498464
 code: https://github.com/jin530/SWalk
+slide: https://drive.google.com/file/d/1qMBHALxZqH7b6g7kmlKdN6V21GeSrgDU/view
+video: https://dl.acm.org/doi/abs/10.1145/3488560.3498464
 ---
