@@ -5,11 +5,11 @@ program: bs
 email: jindog1210@g.skku.edu
 interests:
 description: Computer Science / Machine Learning
-photo: https://media.licdn.com/dms/image/C5103AQF5zGxtIcQBwg/profile-displayphoto-shrink_200_200/0?e=1574899200&v=beta&t=enFQiPZ24ahXFrq6zx-gZIoJ8nWl4_BlBXmrSLptTvg
+photo: https://avatars.githubusercontent.com/u/38307790?v=4
 order: 102
 ---
 
-![Photo](https://media.licdn.com/dms/image/C5103AQF5zGxtIcQBwg/profile-displayphoto-shrink_200_200/0?e=1574899200&v=beta&t=enFQiPZ24ahXFrq6zx-gZIoJ8nWl4_BlBXmrSLptTvg){: width="200" height="200"}
+![Photo](https://avatars.githubusercontent.com/u/38307790?v=4){: width="200" height="200"}
 Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Computer Science, Machine Learning
 
 <hr>
