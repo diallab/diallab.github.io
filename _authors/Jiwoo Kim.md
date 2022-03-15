@@ -1,6 +1,6 @@
 ---
 name: Jiwoo Kim
-job: undergraduate
+job: graduate
 program: bs
 email: jindog1210@g.skku.edu
 interests:
