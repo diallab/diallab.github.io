@@ -1,7 +1,7 @@
 ---
 title: 2022년 봄학기 입학 및 졸업
 layout: post
-date: '2020-03-15 15:27:18'
+date: '2022-03-15 15:27:18'
 categories:
 - news
 ---
