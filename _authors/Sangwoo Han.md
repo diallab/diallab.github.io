@@ -1,6 +1,6 @@
 ---
 name: Sangwoo Han
-job: graduate
+job: alumni
 program: ms
 email: uoo723@g.skku.edu
 interests: NLP
