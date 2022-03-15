@@ -1,6 +1,6 @@
 ---
 name: Hyeyoung Kim
-job: undergraduate
+job: graduate
 program: bs
 email: khyaa3966@g.skku.edu
 interests:
