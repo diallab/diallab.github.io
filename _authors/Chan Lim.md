@@ -1,6 +1,6 @@
 ---
 name: "Chan Lim"
-job: "graduate"
+job: "alumni"
 program: ms
 email: chan9538@g.skku.edu
 interests:
