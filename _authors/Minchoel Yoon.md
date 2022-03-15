@@ -4,11 +4,11 @@ job: undergraduate
 program: bs
 email: yoon56@g.skku.edu
 interests: 
-photo: https://github.com/MinCheol-Yoon/git-test/new/master
+photo: https://user-images.githubusercontent.com/67811654/158356631-9c6d311f-b465-4a7d-a4ba-9129c89eb35a.jpg
 order: 100
 ---
 
-![Photo](https://github.com/MinCheol-Yoon/git-test/new/master){: width="200" height="250"}
+![Photo](https://user-images.githubusercontent.com/67811654/158356631-9c6d311f-b465-4a7d-a4ba-9129c89eb35a.jpg){: width="200" height="250"}
 Undergraduate Student<br>Department of Computer Science, Sungkyunkwan University<br>
 
 <hr>
