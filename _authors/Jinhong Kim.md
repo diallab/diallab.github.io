@@ -1,6 +1,6 @@
 ---
 name: "Jinhong Kim"
-job: "graduate"
+job: "alumni"
 program: ms
 email: legend7811@skku.edu
 interests:
