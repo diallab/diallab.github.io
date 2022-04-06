@@ -6,6 +6,7 @@ email: jwlee.icc@skku.edu
 interests: Recommendation systems, Machine Learning, Learning to rank
 description:
 photo: http://drive.google.com/uc?export=view&id=11lh5XV-H8Pv0_SQLaFPIDPwfiajWI5Tt
+CV: https://drive.google.com/file/d/1NTgINuN_2gTaKOwt0AqzXExN-rjm3Jxo/view?usp=sharing
 order: 1
 ---
 
@@ -22,7 +23,7 @@ Jae-woong Lee received his M.S. degree in electrical and computer engineering fr
 <br />
 **Location**: 85453 <!-- 85453 or your location address -->
 <br />
-**CV**: code: https://drive.google.com/file/d/1NTgINuN_2gTaKOwt0AqzXExN-rjm3Jxo/view?usp=sharing
+**CV**: https://drive.google.com/file/d/1NTgINuN_2gTaKOwt0AqzXExN-rjm3Jxo/view?usp=sharing
 ---
 
 
