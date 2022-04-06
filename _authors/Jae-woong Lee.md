@@ -21,8 +21,10 @@ Jae-woong Lee received his M.S. degree in electrical and computer engineering fr
 **Mail**: jwlee.icc@skku.edu <!-- Write your own email address -->
 <br />
 **Location**: 85453 <!-- 85453 or your location address -->
+
+## More Information
+[CV](https://drive.google.com/file/d/1NTgINuN_2gTaKOwt0AqzXExN-rjm3Jxo/view?usp=sharing)
 <br />
-[**CV**](https://drive.google.com/file/d/1NTgINuN_2gTaKOwt0AqzXExN-rjm3Jxo/view?usp=sharing)
 ---
 
 
