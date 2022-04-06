@@ -9,7 +9,7 @@ photo: http://drive.google.com/uc?export=view&id=1aEjIP-gFAMaFp0W6VU_Ooj_sYCDo9F
 order: 1
 ---
 
-![Photo](http://drive.google.com/uc?export=view&id=11lh5XV-H8Pv0_SQLaFPIDPwfiajWI5Tt){: width="200" height="200"}
+![Photo](http://drive.google.com/uc?export=view&id=1aEjIP-gFAMaFp0W6VU_Ooj_sYCDo9FKa){: width="200" height="200"}
 Graduate Student<br>Department of Software, Sungkyunkwan University<br>Natural Language Processing
 
 <hr />
@@ -22,7 +22,7 @@ Jae-woong Lee received his M.S. degree in electrical and computer engineering fr
 <br />
 **Location**: 85453 <!-- 85453 or your location address -->
 <br />
-[[**CV**]](https://drive.google.com/file/d/1NTgINuN_2gTaKOwt0AqzXExN-rjm3Jxo/view?usp=sharing)
+[**CV**](https://drive.google.com/file/d/1NTgINuN_2gTaKOwt0AqzXExN-rjm3Jxo/view?usp=sharing)
 ---
 
 
