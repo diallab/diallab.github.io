@@ -15,7 +15,7 @@ Graduate Student<br>Department of Software, Sungkyunkwan University<br>Natural L
 <hr />
 
 ## Biography
-데이터 마이닝 연구실 이재웅 입니다. <!-- Write your own biography contents. -->
+Jae-woong Lee received his M.S. degree in electrical and computer engineering from Sungkyunkwan University, South Korea. He is currently a Ph.D. student at Sungkyunkwan University. His research interests include recommender systems, information retrieval, and machine learning. <!-- Write your own biography contents. -->
 
 ## Contact
 **Mail**: jwlee.icc@skku.edu <!-- Write your own email address -->
