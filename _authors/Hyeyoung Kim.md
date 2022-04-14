@@ -10,12 +10,14 @@ order: 101
 ---
 
 ![KakaoTalk_20210730_162739600](https://user-images.githubusercontent.com/67541842/159625446-be5ebcc8-0f18-404b-a145-2e6194608243.jpg){: width="200" height="200"}
-Undergraduate Student<br>Department of Statistics and Software, Sungkyunkwan University<br>
+Graduate Student<br>Department of Artificial Intelligence, Sungkyunkwan University<br>
+Recommender System, Natural Language Processing
 
 <hr>
 
 ## Biography
-I am undergraduate student in the department of Statistics and Software.
+I am a graduate student (M.S.) at Department of Artificial Intelligence, Sungkyunkwan University (SKKU), Korea.
+I received my B.S. degree in Statistics and Software at SKKU, Korea in 2022.
 
 ## Contact
 **Mail**:   khyaa3966@g.skku.edu<br>
