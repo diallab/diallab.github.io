@@ -1,7 +1,7 @@
 ---
 title: 이종욱 교수, 전자정보연구정보센터(EIRIC) “라이징스타” 선정
 layout: post
-date: '2021-12-30 16:48:25'
+date: '2022-04-14 16:48:25'
 categories:
 - news
 ---
