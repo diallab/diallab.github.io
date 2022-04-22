@@ -1,7 +1,7 @@
 ---
 title: "Logit Mixing Training for More Reliable and Accurate Prediction"
 layout: post
-date: '2022-06-01 14:44:00'
+date: '2022-07-01 14:44:00'
 categories:
 - publication
 - publication_international
