@@ -34,10 +34,10 @@ pdf: "--DIALLab_Intership.pdf--"
 
 궁금한 점은 이메일로 문의해 주시길 바라며, 관심이 있는 학생들은 아래 포스터를 참고하여 지원해 주시기 바랍니다.    
 
-
+<br/><br/>
 Our lab is currently recruiting summer 2022 interns.
 
 If you are interested in the internship, please refer to the following PDF file and email me with CV.    
-
+<br/><br/>
 
 [DIALLab_Intership.pdf](https://github.com/diallab/diallab.github.io/blob/1674c54a21fe3f2dd6b188d07a0e60925c5e2b06/images/Poster_SKKU-DIALLab%20(1).pdf)
