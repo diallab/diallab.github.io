@@ -1,9 +1,9 @@
 ---
-title: "--2022년 하계 여름 인턴 모집--"
+title: "2022년 하계 여름 인턴 모집"
 layout: post
 date: '2022-05-16 21:34:25'
 categories: ["news"]
-pdf: "--DIALLab_Intership.pdf--"
+pdf: "images/Poster_SKKU-DIALLab (1).pdf"
 ---
 
 <!-- Post name should be this form: today-title.md
@@ -27,6 +27,7 @@ pdf: "--DIALLab_Intership.pdf--"
 <!-- You also can use the image in your news article -->
 
 ## 2022년 하계 여름 인턴 모집
+<br/><br/>
 
 데이터 지능 및 학습 연구실에서 2022년 하계 여름 인턴을 모집합니다.
 
@@ -40,4 +41,3 @@ Our lab is currently recruiting summer 2022 interns.
 If you are interested in the internship, please refer to the following PDF file and email me with CV.    
 <br/><br/>
 
-[DIALLab_Intership.pdf](https://github.com/diallab/diallab.github.io/blob/1674c54a21fe3f2dd6b188d07a0e60925c5e2b06/images/Poster_SKKU-DIALLab%20(1).pdf)
