@@ -1,5 +1,5 @@
 ---
-title: "2022년 하계 여름 인턴 모집"
+title: "2022년 하계 여름 인턴 모집 (DIAL Lab Summer Internship)"
 layout: post
 date: '2022-05-16 21:34:25'
 categories: ["news"]
@@ -26,7 +26,6 @@ pdf: "[images/Poster_SKKU-DIALLab (1).pdf](https://diallab.github.io/research/)"
 <!-- Write the contents whatever you want Below is just an example -->
 <!-- You also can use the image in your news article -->
 
-## 2022년 하계 여름 인턴 모집
 <br/><br/>
 
 데이터 지능 및 학습 연구실에서 2022년 하계 여름 인턴을 모집합니다.
