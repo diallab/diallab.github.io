@@ -3,7 +3,6 @@ title: "2022년 하계 여름 인턴 모집 (DIAL Lab Summer Internship)"
 layout: post
 date: '2022-05-16 21:34:25'
 categories: ["news"]
-pdf: "[images/Poster_SKKU-DIALLab (1).pdf](https://diallab.github.io/research/)"
 ---
 
 <!-- Post name should be this form: today-title.md
@@ -32,11 +31,13 @@ pdf: "[images/Poster_SKKU-DIALLab (1).pdf](https://diallab.github.io/research/)"
 
 제 이메일(jongwuklee@g.skku.edu)로 지원 동기 및 성적 증명서를 간략히 작성 및 첨부하여 보내주시면 면담을 진행하도록 하겠습니다.
 
-궁금한 점은 이메일로 문의해 주시길 바라며, 관심이 있는 학생들은 아래 포스터를 참고하여 지원해 주시기 바랍니다.    
+궁금한 점은 이메일로 문의해 주시길 바라며, 관심이 있는 학생들은 아래 [포스터]를 참고하여 지원해 주시기 바랍니다.    
 
 <br/><br/>
 Our lab is currently recruiting summer 2022 interns.
 
-If you are interested in the internship, please refer to the following PDF file and email me with CV.    
+If you are interested in the internship, please refer to the following [PDF file] and email me with CV.    
 <br/><br/>
 
+[포스터]: https://diallab.github.io/research/
+[PDF file]: https://diallab.github.io/research/
