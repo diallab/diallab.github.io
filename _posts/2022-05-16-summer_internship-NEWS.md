@@ -3,7 +3,7 @@ title: "2022년 하계 여름 인턴 모집"
 layout: post
 date: '2022-05-16 21:34:25'
 categories: ["news"]
-pdf: "images/Poster_SKKU-DIALLab (1).pdf"
+pdf: "[images/Poster_SKKU-DIALLab (1).pdf](https://diallab.github.io/research/)"
 ---
 
 <!-- Post name should be this form: today-title.md
