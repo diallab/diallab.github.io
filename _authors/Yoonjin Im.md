@@ -7,7 +7,7 @@ program: ms
 email: skewondr@g.skku.edu
 interests: null
 description: skewondr@g.skku.edu
-photo: https://github.com/skewondr/DIALcontents/blob/main/%EC%9E%84%EC%9C%A4%EC%A7%84_%EA%B9%80%EC%9D%80%EB%B3%84%EC%82%AC%EC%A7%84%EA%B4%80.jpg?raw=true
+photo: https://github.com/skewondr/DIALcontents/blob/main/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%87%E1%85%A7%E1%86%AF_%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB.jpeg?raw=true
 order: 100
 ---
 
@@ -23,7 +23,7 @@ order: 100
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
 
-![Photo](https://github.com/skewondr/DIALcontents/blob/main/%EC%9E%84%EC%9C%A4%EC%A7%84_%EA%B9%80%EC%9D%80%EB%B3%84%EC%82%AC%EC%A7%84%EA%B4%80.jpg?raw=true){: width="200" height="250"}
+![Photo](https://github.com/skewondr/DIALcontents/blob/main/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%87%E1%85%A7%E1%86%AF_%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB.jpeg?raw=true){: width="200" height="250"}
 Undergraduate Student<br />
 Department of Software, Ajou University<br />
 Natural Language Processing, Knowledge Tracing, Recommender Systems
