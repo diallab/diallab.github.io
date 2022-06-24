@@ -6,7 +6,7 @@ email: kyeongjin.mun@gmail.com
 interests:
 description: "kyeongjin.mun@gmail.com"
 photo: https://avatars3.githubusercontent.com/u/28817812?s=400&v=4
-order: 9
+order: 100
 ---
 
 <!-- Post name should be this form: name.md
