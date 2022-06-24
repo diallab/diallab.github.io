@@ -1,6 +1,6 @@
 ---
 name: Namgu Kang
-job: undergraduate
+job: alumni
 program: bs
 email: skarn2158@g.skku.edu
 interests: Computer Science / Machine Learning
