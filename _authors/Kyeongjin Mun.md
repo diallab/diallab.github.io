@@ -1,6 +1,6 @@
 ---
 name: "Kyeongjin Mun"
-job: "alumni"
+job: "graduate"
 program: ms
 email: kyeongjin.mun@gmail.com
 interests:
