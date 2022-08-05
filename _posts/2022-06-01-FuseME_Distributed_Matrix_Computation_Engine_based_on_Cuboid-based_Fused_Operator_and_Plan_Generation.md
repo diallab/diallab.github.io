@@ -7,5 +7,6 @@ categories:
 - publication_international
 - conference
 - conference_international
-description: "Donghyoung Han,  Jongwuk Lee, Min-Soo Kim<br>ACM SIGMOD/PODS International Conference on Management on Data (SIGMOD)<br>Philadelphia, PA, USA, June 12-17, 2022 (To appear)"
+description: "Donghyoung Han,  Jongwuk Lee, Min-Soo Kim<br>ACM SIGMOD/PODS International Conference on Management on Data (SIGMOD)<br>Philadelphia, PA, USA, June 12-17, 2022"
+link: https://dl.acm.org/doi/abs/10.1145/3514221.3517895
 ---
