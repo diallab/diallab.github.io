@@ -13,7 +13,7 @@ order: 0
 ![Photo](https://cs.skku.edu/rest/professor/file/photo/156){: width="200", height="200"}
 Associate professor<br>Department of Software, Sungkyunkwan University
 <hr />
-I am primarily interested in (1) recommendation systems, (2) information retrieval, (3) natural language processing, and (4) machine learning. Specifically, my research aims at improving user personalization and experiences by developing core machine learning models and algorithms for Web applications, such as recommendation systems and search engines. We also develop more sophisticated machine learning models that effectively learn noisy and biased data. Over the past three years, I published several papers at top-tier international conferences (e.g., WWW, ICDM, SIGIR, CIKM, WSDM, NAACL, CVPR) in data mining, information retrieval, natural language processing, and machine learning research areas (Interview).
+I am primarily interested in (1) recommendation systems, (2) information retrieval, (3) natural language processing, and (4) machine learning. Specifically, my research aims at improving user personalization and experiences by developing core machine learning models and algorithms for Web applications, such as recommendation systems and search engines. We also develop more sophisticated machine learning models that effectively learn noisy and biased data. Over the past three years, I published several papers at top-tier international conferences (e.g., WWW, ICDM, SIGIR, CIKM, WSDM, NAACL, CVPR) in data mining, information retrieval, natural language processing, and machine learning research areas [(Interview)](https://www.eiric.or.kr/manpower/rising_view.php?Seq=41).
 
 <hr />
 
