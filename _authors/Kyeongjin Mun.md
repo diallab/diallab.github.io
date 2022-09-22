@@ -36,10 +36,7 @@ Recommender Systems, Natural Language Processing, Sabermetrics
 I'm a MS student at Department of Artificial Intelligence, Sungkyunkwan University (SKKU), Korea. <br>
 I have finished the project implementing playing bot of the StarCraft2, using a multi-agent reinforcement learning. <br>
 These days, I am interested in applying machine learning methods to baseball analysis.
-<<<<<<< HEAD
 <!--Also, I am interested in contextual bandit problem and RL-based language generation. -->
-=======
->>>>>>> c98e4082d36c61ccf06a0f2c0b2f66d25f4c1f53
 <!-- Write your own biography contents. -->
 
 ## Contact
