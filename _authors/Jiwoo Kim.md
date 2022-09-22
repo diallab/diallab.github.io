@@ -1,7 +1,7 @@
 ---
 name: Jiwoo Kim
 job: graduate
-program: bs
+program: ms
 email: jindog1210@g.skku.edu
 interests:
 description: Computer Science / Machine Learning

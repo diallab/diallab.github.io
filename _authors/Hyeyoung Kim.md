@@ -1,7 +1,7 @@
 ---
 name: Hyeyoung Kim
 job: graduate
-program: bs
+program: ms
 email: khyaa3966@g.skku.edu
 interests:
 description: Natural Language Processing
