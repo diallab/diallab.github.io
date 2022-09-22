@@ -37,7 +37,7 @@ Graduate Student<br>Department of Artificial Intelligence, Sungkyunkwan Universi
 ## Biography
 
 I am a MS/PhD integrated student at Department of Artificial Intelligence, Sungkyunkwan University (SKKU), Korea. 
-I'm expecting to receive my B.S degree in department of architecture and Samsung Convergence Software Course(SCSC) as a second major, Sungkyunkwan University (SKKU), Korea.
+I received my B.S degree in department of architecture and Samsung Convergence Software Course(SCSC) as a second major, Sungkyunkwan University (SKKU), Korea.
 
  <!-- Write your own biography contents. -->
 
