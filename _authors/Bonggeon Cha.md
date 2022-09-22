@@ -22,8 +22,8 @@ order: 100
         Follow this format: example@skku.edu / Computer Science -->
 
 ![Photo](https://github.com/bonggeon/DeepLearning/blob/master/%EB%B4%89%EA%B1%B4.jpg?raw=true){: width="200" height="250"}
-Undergraduate Student<br />
-Software<br />
+Graduate Student<br />
+Department of Articifical Intelligence, Sungkyunkwan University<br />
 Noise Robust Learning
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->
@@ -33,7 +33,8 @@ Noise Robust Learning
 <hr>
 
 ## Biography
-I am undergraduate student in the department of Software.
+I am a graduate student (M.S.) at Department of Articifical Intelligence, Sungkyunkwan University (SKKU), Korea.<br>
+I received my B.S. degree in the department of Software.
 
 ## Contact
 **Mail**: emawlrdl1023@gmail.com

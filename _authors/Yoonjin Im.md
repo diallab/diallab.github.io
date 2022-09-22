@@ -24,8 +24,8 @@ order: 100
         Follow this format: example@skku.edu / Computer Science -->
 
 ![Photo](https://github.com/skewondr/DIALcontents/blob/main/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%87%E1%85%A7%E1%86%AF_%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB.jpeg?raw=true){: width="200" height="250"}
-Undergraduate Student<br />
-Department of Software, Ajou University<br />
+Graduate Student<br />
+Department of Articifical Intelligence, Sungkyunkwan University<br />
 Natural Language Processing, Knowledge Tracing, Recommender Systems
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->
@@ -35,7 +35,7 @@ Natural Language Processing, Knowledge Tracing, Recommender Systems
 <hr>
 
 ## Biography
-I am undergraduate student in the department of Software.
+I am a graduate student in the department of Articifical Intelligence, Sungkyunkwan University (SKKU), Korea.
 
 ## Contact
 **Mail**: skewondr@g.skku.edu

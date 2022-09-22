@@ -1,12 +1,12 @@
 ---
 name: "Jaewan Moon"
 job: "graduate"
-program: ms
+program: phd
 email: jaewan7599@skku.edu
 interests:
 description: "jaewan7599@skku.edu / Software"
 photo: https://avatars3.githubusercontent.com/u/49435952?s=400&u=54375f630b087b043d34ef265478f975dfceb4df&v=4
-order: 100
+order: 50
 ---
 
 <!-- Post name should be this form: name.md
@@ -22,7 +22,7 @@ order: 100
         Follow this format: example@skku.edu / Computer Science -->
 
 ![Photo](https://avatars3.githubusercontent.com/u/49435952?s=400&u=54375f630b087b043d34ef265478f975dfceb4df&v=4){: width="200" height="200"}
-Undergraduate Student<br>Department of Software, Sungkyunkwan University<br>Recommender Systems
+Graduate Student<br>Department of Articifical Intelligence, Sungkyunkwan University<br>Recommender Systems
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->
 <!-- Fill the position, institution/department, interests

@@ -26,7 +26,7 @@ order: 100
 ![Photo](https://avatars2.githubusercontent.com/u/39164907?s=400&v=4){: width="200" height="200"}
 Graduate Student<br />
 Department of Articifical Intelligence, Sungkyunkwan University<br />
-Natural Language Processing, Recommender Systems
+Information Retrieval, Natural Language Processing, Recommender Systems
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->
 <!-- Fill the position, institution/department, interests
