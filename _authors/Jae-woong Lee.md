@@ -5,11 +5,11 @@ program: phd
 email: jwlee.icc@skku.edu
 interests: Recommendation systems, Machine Learning, Learning to rank
 description:
-photo: http://drive.google.com/uc?export=view&id=1aEjIP-gFAMaFp0W6VU_Ooj_sYCDo9FKa
+photo: ../assets/images/profile_Jae-woong Lee.jpg
 order: 1
 ---
 
-![Photo](http://drive.google.com/uc?export=view&id=1aEjIP-gFAMaFp0W6VU_Ooj_sYCDo9FKa){: width="200" height="250"}
+![Photo](../assets/images/profile_Jae-woong Lee.jpg){: width="200" height="250"}
 Graduate Student<br>Department of Software, Sungkyunkwan University<br>Recommender systems
 
 <hr />
