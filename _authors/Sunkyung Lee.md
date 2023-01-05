@@ -3,12 +3,12 @@ title: Sunkyung lee
 layout: author
 name: Sunkyung Lee
 job: graduate
-program: ms
+program: phd
 email: sk1027@g.skku.edu
 interests: null
 description: sk1027@g.skku.edu
 photo: https://avatars2.githubusercontent.com/u/39164907?s=400&v=4
-order: 100
+order: 51
 ---
 
 <!-- Post name should be this form: name.md
@@ -35,8 +35,8 @@ Information Retrieval, Natural Language Processing, Recommender Systems
 <hr>
 
 ## Biography
-I am a graduate student (M.S.) at Department of Articifical Intelligence, Sungkyunkwan University (SKKU), Korea.<br>
-I received my B.S. degree in Global Economics and Software at SKKU, Korea in 2021.
+I am a graduate student (Ph.D.) at Department of Artificial Intelligence, Sungkyunkwan University (SKKU), Korea.<br>
+I received my M.S. degree in Artificial Intelligence at SKKU, Korea, in 2023. Before that, I received my B.S. degree in Global Economics and Software at SKKU, Korea, in 2021.
 
 ## Contact
 **Mail**: sk1027@g.skku.edu

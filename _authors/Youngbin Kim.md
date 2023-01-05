@@ -1,14 +1,13 @@
 ---
 name: Youngbin Kim
-job: undergraduate
-program: bs
+job: graduate
+program: ms
 email: andyk3603@g.skku.edu
 interests: 
 photo: ../assets/images/profile_Youngbin_Kim.jpg
-order: 121
+order: 105
 ---
 <img src="../../assets/images/profile_Youngbin_Kim.jpg" width="200" height="250">
-<!-- ![Photo](){: width="200" height="250"} -->
 Undergraduate Student<br>Department of Library and Information Science, Sungkyunkwan University<br>
 
 <hr>

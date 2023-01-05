@@ -9,9 +9,7 @@ photo: ../assets/images/profile_Jae_woong_Lee.jpg
 order: 1
 ---
 
-<img src="../../assets/images/profile_Jae_woong_Lee.jpg" width="200" height="200">
-<!-- ![Photo](){: width="200" height="250"}
-Graduate Student<br>Department of Software, Sungkyunkwan University<br>Recommender systems
+<img src="../../assets/images/profile_Jae_woong_Lee.jpg" width="200" height="250">
 
 <hr />
 

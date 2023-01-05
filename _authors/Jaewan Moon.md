@@ -5,10 +5,9 @@ program: phd
 email: jaewan7599@skku.edu
 interests:
 description: "jaewan7599@skku.edu / Software"
-photo: https://avatars3.githubusercontent.com/u/49435952?s=400&u=54375f630b087b043d34ef265478f975dfceb4df&v=4
+photo: ../assets/images/profile_Jaewan_Moon.jpg
 order: 50
 ---
-
 <!-- Post name should be this form: name.md
         For example, Gildong Hong.md -->
 
@@ -20,8 +19,7 @@ order: 50
 <!-- For 'description' front matter, write down your email address and areas of interests.
         Email address is nessecary for graduate students.
         Follow this format: example@skku.edu / Computer Science -->
-
-![Photo](https://avatars3.githubusercontent.com/u/49435952?s=400&u=54375f630b087b043d34ef265478f975dfceb4df&v=4){: width="200" height="200"}
+<img src="../../assets/images/profile_Jaewan_Moon.jpg" width="200" height="250">
 Graduate Student<br>Department of Articifical Intelligence, Sungkyunkwan University<br>Recommender Systems
 
 <!-- If you have a photo, then write that url in (). Photo can be anything with 200x200 size. -->
@@ -31,7 +29,8 @@ Graduate Student<br>Department of Articifical Intelligence, Sungkyunkwan Univers
 <hr>
 
 ## Biography
-Hello, my name is Jaewan Moon.<!-- Write your own biography contents. -->
+I am a graduate student (Ph.D.) at the Department of Artificial Intelligence, Sungkyunkwan University (SKKU), Korea. I'm interested in recommender systems and machine learning.
+I received my B.S. and M.S. degrees in software and artificial intelligence at SKKU, Korea, in 2021 and 2022, respectively.<!-- Write your own biography contents. -->
 
 ## Contact
 **Mail**: jaewan7599@skku.edu <!-- Write your own email address -->
