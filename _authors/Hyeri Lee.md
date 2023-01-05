@@ -1,15 +1,14 @@
 ---
 name: Hyeri Lee
-job: graduate
+job: undergraduate
 program: 
 email: bluepig94@g.skku.edu
 interests: 
-photo: https:
-order: 100
+photo: ../assets/images/profile_Hyeri_Lee.jpg
+order: 128
 ---
 
-![Photo](https:){: width="200" height="250"}
-Graduate Student<br>Department of Computer Science, Sungkyunkwan University<br>
+<img src="../../assets/images/profile_Hyeri_Lee.jpg" width="200" height="250">
 
 <hr>
 
@@ -20,5 +19,4 @@ I majored and graduated from Department of Global Economics and Computer Science
 **Mail**: bluepig94@g.skku.edu<br>
 **Location**: Cooperate builiding 85453
 
-## More Information
 
