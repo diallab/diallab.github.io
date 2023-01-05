@@ -9,12 +9,12 @@ order: 106
 ---
 
 ![Photo](https://user-images.githubusercontent.com/67811654/158356631-9c6d311f-b465-4a7d-a4ba-9129c89eb35a.jpg){: width="200" height="250"}
-Undergraduate Student<br>Department of Computer Science, Sungkyunkwan University<br>
+Graduate student<br>Department of Articifical Intelligence, Sungkyunkwan University<br>
 
 <hr>
 
 ## Biography
-I am an undergraduate student at Department of Computer Science, Sungkyunkwan University (SKKU), Korea. 
+I am a graduate student (M.S.) at Department of Articifical Intelligence, Sungkyunkwan University (SKKU), Korea. I received my B.S. degree in Software and Statistics at SKKU, Korea, in 2023.
 
 ## Contact
 **Mail**: yoon56@g.skku.edu<br>
