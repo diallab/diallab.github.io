@@ -22,9 +22,7 @@ Jae-woong Lee received his M.S. degree in electrical and computer engineering fr
 **Location**: 85453 <!-- 85453 or your location address -->
 
 ## More Information
-[CV](https://drive.google.com/file/d/1NTgINuN_2gTaKOwt0AqzXExN-rjm3Jxo/view?usp=sharing)
-<br />
----
+[LinkedIn](https://www.linkedin.com/in/cs-jwlee/)
 
 
 <!-- If you have some personal websites, then write the url here. -->
