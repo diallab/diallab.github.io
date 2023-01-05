@@ -1,5 +1,5 @@
 ---
-title: LG유플러스 AI Ground 대회 최종 2위 수상
+title: 이재웅 박사과정, 김혜영 석사과정, 홍서윤 학사과정 LG유플러스 AI Ground 대회 최종 2위 수상
 layout: post
 date: '2022-12-26 14:17:00'
 categories:
