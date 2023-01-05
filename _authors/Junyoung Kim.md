@@ -8,13 +8,13 @@ photo: https://user-images.githubusercontent.com/67185391/163596387-d2cccc62-197
 order: 120
 ---
 
-![Photo](https://user-images.githubusercontent.com/67185391/163596387-d2cccc62-197d-40ea-899e-5b0ccaad7393.jpg){: width="250" height="250"}
+![Photo](https://user-images.githubusercontent.com/67185391/163596387-d2cccc62-197d-40ea-899e-5b0ccaad7393.jpg){: width="200" height="200"}
 Undergraduate Student<br>Department of Education, Sungkyunkwan University<br>
 
 <hr>
 
 ## Biography
-I am an undergraduate student at Department of Computer Science, Sungkyunkwan University (SKKU), Korea. 
+I am an undergraduate student at Department of Education, Sungkyunkwan University (SKKU), Korea. 
 
 ## Contact
 **Mail**: junyoung44@g.skku.edu<br>

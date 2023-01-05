@@ -6,7 +6,7 @@ email: kyeongjin.mun@gmail.com
 interests: Recommender System, Baseball Statistics and Analysis
 description: "kyeongjin.mun@gmail.com"
 photo: https://avatars3.githubusercontent.com/u/28817812?s=400&v=4
-order: 100
+order: 54
 ---
 
 <!-- Post name should be this form: name.md

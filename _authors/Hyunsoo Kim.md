@@ -9,7 +9,6 @@ order: 122
 ---
 
 <img src="../../assets/images/profile_Hyunsoo_Kim.jpg" width="200" height="200">
-<!-- ![Photo](){: width="200" height="250"} -->
 Undergraduate Student<br>Department of Electronic and Electrical Engineering, Sungkyunkwan University<br>
 
 <hr>

@@ -5,15 +5,16 @@ program: ms
 email: andyk3603@g.skku.edu
 interests: 
 photo: ../assets/images/profile_Youngbin_Kim.jpg
-order: 105
+order: 107
 ---
 <img src="../../assets/images/profile_Youngbin_Kim.jpg" width="200" height="250">
-Undergraduate Student<br>Department of Library and Information Science, Sungkyunkwan University<br>
+Graduate Student<br>Department of Library and Information Science, Sungkyunkwan University<br>
 
 <hr>
 
 ## Biography
-I am an undergraduate student at Department of Library and Information Science, Sungkyunkwan University (SKKU), Korea. 
+I am a graduate student at Department of Artificial Intelligence, Sungkyunkwan University (SKKU), Korea.
+I received my B.S. degree in Library and Information Science at SKKU, Korea in 2023.
 
 ## Contact
 **Mail**: andyk3603@g.skku.edu<br>
