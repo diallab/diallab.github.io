@@ -81,7 +81,7 @@ permalink: /publication/publication_conferences.html
       <div>No publication found</div>
       {% endif %}
     </div>
-
+    <br>
     <h2 class="section">Domestic Conferences</h2>
     {% if site.categories.conference_domestic %}
     {% assign grouped = site.categories.conference_domestic | sort: "date"
@@ -110,6 +110,11 @@ permalink: /publication/publication_conferences.html
             {% if post.domestic_award %}
             <span class="publication-list-post-link">
               <b>(우수논문상)</b>
+            </span>
+            {% endif %}
+            {% if post.domestic_presentation_award %}
+            <span class="publication-list-post-link">
+              <b>(우수발표논문상)</b>
             </span>
             {% endif %}
             {% if post.link %}
