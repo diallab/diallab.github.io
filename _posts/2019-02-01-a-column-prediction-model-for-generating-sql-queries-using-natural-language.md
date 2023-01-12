@@ -11,5 +11,6 @@ description: |-
   김동민, 정윤기, 이종욱<br />
   한국정보과학회 학술발표논문집 Vol.2018 No.6 [2018]: 158-160, Jun 2018
 link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07502939
+domestic_award: True
 ---
 

@@ -107,6 +107,11 @@ permalink: /publication/publication_conferences.html
         <li class="publication-list-post-content">
           <div class="publication-list-post-content-title">
             {{ post.title }}
+            {% if post.domestic_award %}
+            <span class="publication-list-post-link">
+              <b>(우수논문상)</b>
+            </span>
+            {% endif %}
             {% if post.link %}
             <span class="publication-list-post-link">
               [<a href="{{ post.link }}" target="_blank">link</a>]
