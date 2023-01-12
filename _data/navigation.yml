@@ -1,5 +1,7 @@
 - title: People
   url: /people
+- title: News
+  url: /news
 - title: Research
   url: /research
   sublinks:
