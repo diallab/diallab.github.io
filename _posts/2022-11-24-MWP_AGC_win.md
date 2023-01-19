@@ -21,3 +21,4 @@ categories:
 
 결선 대회 우승팀에게는 과기정통부 장관상이 수여되었습니다.
 
+참고 기사: [https://www.aitimes.kr/news/articleView.html?idxno=26612](https://www.aitimes.kr/news/articleView.html?idxno=26612) 
