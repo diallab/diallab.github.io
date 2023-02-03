@@ -1,11 +1,11 @@
 ---
 name: Seoyun Hong
-job: undergraduate
+job: alumni
 program: bs
 email: thinkhong9@g.skku.edu
 interests: 
 photo: ../assets/images/profile_Seoyun_Hong.png
-order: 124
+order: 111
 ---
 
 <img src="../../assets/images/profile_Seoyun_Hong.png" width="200" height="250">
